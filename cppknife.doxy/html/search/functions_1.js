@@ -20,7 +20,7 @@ var searchData=
   ['addspecialtokenregex_1844',['addSpecialTokenRegex',['../classcppknife_1_1_parser.html#ad47dea5dc94c58c28c60bd88c2f89e5c',1,'cppknife::Parser']]],
   ['addstandardappenders_1845',['addStandardAppenders',['../classcppknife_1_1_logger.html#ad41a509fce6f1e474310bcf40d7a1c37',1,'cppknife::Logger']]],
   ['addsubparser_1846',['addSubParser',['../classcppknife_1_1_argument_parser.html#aba5afa329565eab68fab02074d1ade8e',1,'cppknife::ArgumentParser']]],
-  ['addtask_1847',['addTask',['../class_scheduler.html#a8ed5a966dcb9808c24e84428bc488ba4',1,'Scheduler']]],
+  ['addtask_1847',['addTask',['../classcppknife_1_1_scheduler.html#a8ed5a966dcb9808c24e84428bc488ba4',1,'cppknife::Scheduler']]],
   ['addtraverseroptions_1848',['addTraverserOptions',['../namespacecppknife.html#a9dbd47f1c13836d3ef46373567b90171',1,'cppknife']]],
   ['addvalue_1849',['addValue',['../classcppknife_1_1_argument.html#a1505dad69784a41303c19f44c6d3cb90',1,'cppknife::Argument']]],
   ['alldbs_1850',['allDbs',['../classcppknife_1_1_my_sql.html#ad86ca5578dc6e2c7edf9ab337e549cbf',1,'cppknife::MySql::allDbs()'],['../classcppknife_1_1_postgres.html#a70dbed75a10722267468870396f3f303',1,'cppknife::Postgres::allDbs()'],['../classcppknife_1_1_sql_driver.html#a38a0497cbcee2cf50627de98f4d89f00',1,'cppknife::SqlDriver::allDbs()']]],
