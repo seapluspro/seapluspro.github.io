@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['_5feast_131',['_east',['../classcppknife_1_1_east_north_coordinates.html#a1e14b47ab91e40e935abcd99a5cdccb0',1,'cppknife::EastNorthCoordinates']]],
+  ['_5fepsg_132',['_epsg',['../classcppknife_1_1_gps_translator.html#a6223860554edfb751ae646a3999a83ae',1,'cppknife::GpsTranslator']]],
+  ['_5fesri_133',['_esri',['../classcppknife_1_1_gps_translator.html#aecbcfd1470d7cf9ef458db286923f81a',1,'cppknife::GpsTranslator']]],
+  ['_5fgps_134',['_gps',['../classcppknife_1_1_gps_translator.html#ad3c6cee107d123a6cf4c52549b721bd0',1,'cppknife::GpsTranslator']]],
+  ['_5fheight_135',['_height',['../classcppknife_1_1_rectangle.html#a02b679f3195383c3e06f8b2a1ef0ad4c',1,'cppknife::Rectangle']]],
+  ['_5flatitude_136',['_latitude',['../classcppknife_1_1_gps_coordinates.html#a420d46f9b343b3b8cb6e1e079abcf788',1,'cppknife::GpsCoordinates']]],
+  ['_5flogger_137',['_logger',['../classcppknife_1_1_gps_translator.html#a9c636f431fefddeb42c5b63ec3f884d5',1,'cppknife::GpsTranslator']]],
+  ['_5flongitude_138',['_longitude',['../classcppknife_1_1_gps_coordinates.html#a49480479e2eeda041608d49254fbc948',1,'cppknife::GpsCoordinates']]],
+  ['_5fmessage_139',['_message',['../classcppknife_1_1_geo_exception.html#a4b0c5d42737faf2fd59094350cc43e4b',1,'cppknife::GeoException']]],
+  ['_5fnextid_140',['_nextId',['../classcppknife_1_1_shape.html#a27cd303c3611fb01ecc8fa4ca26a77bb',1,'cppknife::Shape']]],
+  ['_5fnorth_141',['_north',['../classcppknife_1_1_east_north_coordinates.html#a0cc4894a2dc4a7b22caca7f09280c67b',1,'cppknife::EastNorthCoordinates']]],
+  ['_5fother_142',['_other',['../classcppknife_1_1_gps_translator.html#a1afcefa71ff2b3e834b302326cd1b2a7',1,'cppknife::GpsTranslator']]],
+  ['_5fpoint_143',['_point',['../classcppknife_1_1_rectangle.html#a41994c6906319ddd0b7b324687fc6451',1,'cppknife::Rectangle']]],
+  ['_5fprecision_144',['_precision',['../classcppknife_1_1_poly_geo_configuration.html#a84d59b1d52876c87e0c46dc170438b56',1,'cppknife::PolyGeoConfiguration']]],
+  ['_5fshapeid_145',['_shapeId',['../classcppknife_1_1_shape.html#aac93469ce91cff671d6fc90221f7964f',1,'cppknife::Shape']]],
+  ['_5fshapetype_146',['_shapeType',['../classcppknife_1_1_shape.html#a291d956478a1529caa2b58f7d9195123',1,'cppknife::Shape']]],
+  ['_5ftolerancefactor_147',['_toleranceFactor',['../classcppknife_1_1_poly_geo_configuration.html#a402c79f473f4e98eae7cf406914de3c1',1,'cppknife::PolyGeoConfiguration']]],
+  ['_5ftransformfromgps_148',['_transformFromGps',['../classcppknife_1_1_gps_translator.html#ae66325930a848090a03780642f3d4b12',1,'cppknife::GpsTranslator']]],
+  ['_5ftransformtogps_149',['_transformToGps',['../classcppknife_1_1_gps_translator.html#ad7d3ee80b048a126e1a22d93fa0600a1',1,'cppknife::GpsTranslator']]],
+  ['_5fwidth_150',['_width',['../classcppknife_1_1_rectangle.html#a32ba74d7ccb2a2859e3ce2af4f9fe609',1,'cppknife::Rectangle']]],
+  ['_5fx_151',['_x',['../classcppknife_1_1_point2_d.html#a651904bdcca9b025475b761ee3415de2',1,'cppknife::Point2D']]],
+  ['_5fy_152',['_y',['../classcppknife_1_1_point2_d.html#ad65178c4b1b53764b98a4d8953c93961',1,'cppknife::Point2D']]]
+];

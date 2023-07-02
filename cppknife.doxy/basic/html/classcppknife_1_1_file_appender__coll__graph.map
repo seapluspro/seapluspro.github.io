@@ -1,0 +1,5 @@
+<map id="cppknife::FileAppender" name="cppknife::FileAppender">
+<area shape="rect" id="node1" title="That appender writes to files." alt="" coords="17,155,188,181"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_stream_appender.html" title="That appender writes to streams: stdout/stderr or files." alt="" coords="5,80,200,107"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_appender.html" title="Abstract class defining a logging output handler." alt="" coords="29,5,177,32"/>
+</map>

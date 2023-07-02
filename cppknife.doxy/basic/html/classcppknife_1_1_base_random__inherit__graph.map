@@ -1,0 +1,4 @@
+<map id="cppknife::BaseRandom" name="cppknife::BaseRandom">
+<area shape="rect" id="node1" title="An abstract class for creating pseudo random numbers." alt="" coords="17,5,189,32"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_portable_random.html" title="A pseudo random generator which algorithm can be simply ported to other programming languages." alt="" coords="5,80,200,107"/>
+</map>

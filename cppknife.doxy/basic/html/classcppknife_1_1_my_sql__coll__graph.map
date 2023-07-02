@@ -1,0 +1,6 @@
+<map id="cppknife::MySql" name="cppknife::MySql">
+<area shape="rect" id="node1" title="Implementation of the interface SqlDriver for MySql and Mariadb." alt="" coords="15,273,142,300"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_sql_driver.html" title="Defines an abstract class for database handling." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node4" href="$classcppknife_1_1_result.html" title="Stores the result of a database query." alt="" coords="95,95,222,121"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_meta_result.html" title="Stores the meta data of a result set of a database query." alt="" coords="95,184,255,211"/>
+</map>
