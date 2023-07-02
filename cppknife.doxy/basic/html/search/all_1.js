@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['alldbs_32',['allDbs',['../classcppknife_1_1_my_sql.html#ad86ca5578dc6e2c7edf9ab337e549cbf',1,'cppknife::MySql::allDbs()'],['../classcppknife_1_1_postgres.html#a70dbed75a10722267468870396f3f303',1,'cppknife::Postgres::allDbs()'],['../classcppknife_1_1_sql_driver.html#a38a0497cbcee2cf50627de98f4d89f00',1,'cppknife::SqlDriver::allDbs()']]],
-  ['alltables_33',['allTables',['../classcppknife_1_1_my_sql.html#a67bcff9236463575c496ebe3238d9e8d',1,'cppknife::MySql::allTables()'],['../classcppknife_1_1_postgres.html#a303f2d3f76f7c4c97b4b1ed4be5a1aa7',1,'cppknife::Postgres::allTables()'],['../classcppknife_1_1_sql_driver.html#a20b8d8d1b7793f4955468632349c98e5',1,'cppknife::SqlDriver::allTables()']]],
-  ['asint_34',['asInt',['../classcppknife_1_1_row_result.html#a51d6ed388e6ea56e7cfd3932db6a0550',1,'cppknife::RowResult::asInt(int index) const'],['../classcppknife_1_1_row_result.html#aef720b67e5d09db8d057128cb9b936ab',1,'cppknife::RowResult::asInt(const char *column) const']]],
-  ['asstring_35',['asString',['../classcppknife_1_1_row_result.html#a5ad8733c6983dc79487d1327b3720c9a',1,'cppknife::RowResult::asString(int index) const'],['../classcppknife_1_1_row_result.html#a58d403c9e9936ac8646d3b01cb1d1a5f',1,'cppknife::RowResult::asString(const char *column) const']]]
+  ['accept_48',['accept',['../classcppknife_1_1_appender.html#a9c1e9e34a133081ef9de6691d47a8bc6',1,'cppknife::Appender']]],
+  ['addappender_49',['addAppender',['../classcppknife_1_1_logger.html#aab60b743f649613137bbac26cfe0f712',1,'cppknife::Logger']]],
+  ['addstandardappenders_50',['addStandardAppenders',['../classcppknife_1_1_logger.html#ad41a509fce6f1e474310bcf40d7a1c37',1,'cppknife::Logger']]],
+  ['appendcstring_51',['appendCString',['../namespacecppknife.html#a21b17081f5e47ccef6baeaf69b595236',1,'cppknife']]],
+  ['appenddouble_52',['appendDouble',['../namespacecppknife.html#add24eb4cce1854cfbcf8380b924cf3d0',1,'cppknife']]],
+  ['appender_53',['Appender',['../classcppknife_1_1_appender.html#acaac053a0daf73956f2cc2a85db5bc5f',1,'cppknife::Appender::Appender(const char *name)'],['../classcppknife_1_1_appender.html#a1d8cf284d0c0888b41fe11e709986a53',1,'cppknife::Appender::Appender(const Appender &amp;other)'],['../classcppknife_1_1_appender.html',1,'cppknife::Appender']]],
+  ['appendint_54',['appendInt',['../namespacecppknife.html#af3f11989973d2441f994a7e5cc2ffec1',1,'cppknife']]],
+  ['appendstring_55',['appendString',['../namespacecppknife.html#ac8b1748cbf77d892e3e17daa9373edeb',1,'cppknife']]],
+  ['asstring_56',['asString',['../classcppknife_1_1_base_random.html#ae530196ea3111bd0ba6d0ee606e5b6c7',1,'cppknife::BaseRandom::asString()'],['../classcppknife_1_1_char_random.html#a50ee2be5607a168c20edf2c9488d6b1b',1,'cppknife::CharRandom::asString()'],['../classcppknife_1_1_portable_random.html#a01f4db86eadfebadd077086f1cd2f22b',1,'cppknife::PortableRandom::asString()']]],
+  ['at_57',['at',['../classcppknife_1_1_memory_appender.html#ab74830a1bd33bfe3229eb3176a9a3881',1,'cppknife::MemoryAppender']]]
 ];

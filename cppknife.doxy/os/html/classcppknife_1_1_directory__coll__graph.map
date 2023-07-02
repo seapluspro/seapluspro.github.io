@@ -1,4 +1,4 @@
 <map id="cppknife::Directory" name="cppknife::Directory">
-<area shape="rect" id="node1" title=" " alt="" coords="29,80,176,107"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_file_system_entity.html" title=" " alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node1" title="Manages a directory." alt="" coords="29,80,176,107"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_file_system_entity.html" title="Manages a file system entry, the base class of files, directories and symbolic links." alt="" coords="5,5,200,32"/>
 </map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CppKnife-Db: cppknife Namespace Reference</title>
+<title>CppKnife-Basic: cppknife Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CppKnife-Db
+   <div id="projectname">CppKnife-Basic
    </div>
   </td>
  </tr>
@@ -63,7 +63,10 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">cppknife Namespace Reference</div>  </div>
 </div><!--header-->
@@ -71,79 +74,2398 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_table_meta_mysql.html">TableMetaMysql</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_base_random.html">BaseRandom</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An abstract class for creating pseudo random numbers.  <a href="classcppknife_1_1_base_random.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_my_sql.html">MySql</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the interface <em><a class="el" href="classcppknife_1_1_sql_driver.html" title="Defines an abstract class for database handling.">SqlDriver</a></em> for <a class="el" href="classcppknife_1_1_my_sql.html" title="Implementation of the interface SqlDriver for MySql and Mariadb.">MySql</a> and Mariadb.  <a href="classcppknife_1_1_my_sql.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_char_random.html">CharRandom</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements an abstract class for creating pseudo random texts.  <a href="classcppknife_1_1_char_random.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_postgres.html">Postgres</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the interface <em><a class="el" href="classcppknife_1_1_sql_driver.html" title="Defines an abstract class for database handling.">SqlDriver</a></em> for <a class="el" href="classcppknife_1_1_postgres.html" title="Implementation of the interface SqlDriver for Postgres.">Postgres</a>.  <a href="classcppknife_1_1_postgres.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_internal_error.html">InternalError</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A general exception.  <a href="classcppknife_1_1_internal_error.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_column_meta.html">ColumnMeta</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_appender.html">Appender</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class defining a logging output handler.  <a href="classcppknife_1_1_appender.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_table_meta.html">TableMeta</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements a base class that store the meta data of a database table.  <a href="classcppknife_1_1_table_meta.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_memory_appender.html">MemoryAppender</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">That appender stores the messages/errors.  <a href="classcppknife_1_1_memory_appender.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_table_summary.html">TableSummary</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores statistic data.  <a href="classcppknife_1_1_table_summary.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_stream_appender.html">StreamAppender</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">That appender writes to streams: stdout/stderr or files.  <a href="classcppknife_1_1_stream_appender.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_meta_result.html">MetaResult</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the meta data of a result set of a database query.  <a href="classcppknife_1_1_meta_result.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_file_appender.html">FileAppender</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">That appender writes to files.  <a href="classcppknife_1_1_file_appender.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_row_result.html">RowResult</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores one row of a database query.  <a href="classcppknife_1_1_row_result.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_logger.html">Logger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class allows the logging of messages.  <a href="classcppknife_1_1_logger.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_result.html">Result</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the result of a database query.  <a href="classcppknife_1_1_result.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_logger_owner.html">LoggerOwner</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_login_data.html">LoginData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the login data.  <a href="classcppknife_1_1_login_data.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_portable_random.html">PortableRandom</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pseudo random generator which algorithm can be simply ported to other programming languages.  <a href="classcppknife_1_1_portable_random.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_sql_driver.html">SqlDriver</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines an abstract class for database handling.  <a href="classcppknife_1_1_sql_driver.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcppknife_1_1_string_comparism.html">StringComparism</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helper class for maps with <em>const char*</em> keys.  <a href="structcppknife_1_1_string_comparism.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a6c6ee6c175a8b6a4e8a1d4b7ff25f378"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a6c6ee6c175a8b6a4e8a1d4b7ff25f378">seed_t</a></td></tr>
+<tr class="separator:a6c6ee6c175a8b6a4e8a1d4b7ff25f378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9c2b46b096ff2b635d94e804a8043d"><td class="memItemLeft" align="right" valign="top">typedef int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a1b9c2b46b096ff2b635d94e804a8043d">seed50_t</a></td></tr>
+<tr class="separator:a1b9c2b46b096ff2b635d94e804a8043d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aa5eca4359d076add16a8102dbbc90079"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079">ColumnType</a> { <br />
-&#160;&#160;<a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a66f76f14b1b15e67736f27b1794a1518">COLTYPE_UNDEF</a>
-, <a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a63db01dd23cd67f4e0275bd946726978">COLTYPE_INT</a>
-, <a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a002731316dc4e35fae2af24aaee6199c">COLTYPE_FLOAT</a>
-, <a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079aec8058d643b547756a19d94296709e62">COLTYPE_VARCHAR</a>
+<tr class="memitem:aaae8c92d231fe64cb9c5c2db1d610eff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610eff">CharClass</a> { <br />
+&#160;&#160;<a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effa827e551ca4cd6d30f06b5cecf331c5eb">CC_UNDEF</a>
+, <a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effa4698b8193d90ab00511e517213477d1c">CC_DECIMAL</a>
+, <a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effa12fbd4e98c4b27d4a72c0e9a1e09d77d">CC_ALPHA</a>
+, <a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effadeaabbc48c92db5a9fbf544d54423974">CC_ALPHA_LOWERCASE</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079aba44ee5b553f45fbe53a7c6a453dc690">COLTYPE_CHAR</a>
-, <a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a45ec383f007ddcb59ca9b0ed58ed9660">COLTYPE_TEXT</a>
-, <a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079ae0f9cb0ce76dcf9f939bc30adf368ad6">COLTYPE_TIMESTAMP</a>
-, <a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a992f4a67d939f86bc0a71eba38be3e6c">COLTYPE_DATE</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a9e58802afafdb332b07b71af5b978aa4">COLTYPE_TIME</a>
+&#160;&#160;<a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effa05b2c992094e09bd7c38b2d5279ddb79">CC_ALPHA_UPPERCASE</a>
+, <a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effacac94158b6bbe5dde319ce6017eebb2e">CC_WORD</a>
+, <a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effacd220ce102f902377a6c2e7b53559490">CC_WORD_FIRST</a>
+, <a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effadf52d3a389ffda59036e95c6771a1df1">CC_ASCII95</a>
 <br />
  }</td></tr>
-<tr class="separator:aa5eca4359d076add16a8102dbbc90079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aaae8c92d231fe64cb9c5c2db1d610eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73d23e73fb47fe4a8caf3fdfbfe0aca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0aca">LogLevel</a> { <br />
+&#160;&#160;<a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaaac4a7bb828f174b8da2111cb11fa70c8">LV_UNDEF_LEVEL</a>
+, <a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaaa1459cc042c1fa58778ae5ba5cbf4c5b">LV_FATAL</a>
+, <a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaafcaeb2696c06b6746d1736bf25bea610">LV_ERROR</a>
+, <a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaa5c9fe1552dffd143faebf19550bf5794">LV_WARNING</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaa08c44b52b701e6ba691604d6af4b0a44">LV_INFO</a>
+, <a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaa783ad3e21e0845de0c2b81c49a4f2ef8">LV_SUMMARY</a>
+, <a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaa078364714b29c3780b220cdbe79316b1">LV_DETAIL</a>
+, <a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaa54efab52576393a6f09a4e62c3d82045">LV_FINE</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaaf91f6faec62cfa55a74f94ede6ce71f2">LV_FINEST</a>
+, <a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaabaf4a4c7b54f14296daeb254bb331a58">LV_DEBUG</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:aa73d23e73fb47fe4a8caf3fdfbfe0aca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the granularity of the logged messages.  <a href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0aca">More...</a><br /></td></tr>
+<tr class="separator:aa73d23e73fb47fe4a8caf3fdfbfe0aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a27738c515fffabf282c4ada958bf86eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcppknife_1_1_logger.html">Logger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a27738c515fffabf282c4ada958bf86eb">buildMemoryLogger</a> (size_t maxLines, <a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0aca">LogLevel</a> level, bool isGlobalLogger)</td></tr>
+<tr class="separator:a27738c515fffabf282c4ada958bf86eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89bd5191e5678b4860e828f81dac304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcppknife_1_1_logger.html">Logger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aa89bd5191e5678b4860e828f81dac304">globalLogger</a> ()</td></tr>
+<tr class="separator:aa89bd5191e5678b4860e828f81dac304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b17081f5e47ccef6baeaf69b595236"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a21b17081f5e47ccef6baeaf69b595236">appendCString</a> (char *buffer, size_t &amp;bufferLength, size_t bufferSize, const char *tail, int tailLength)</td></tr>
+<tr class="separator:a21b17081f5e47ccef6baeaf69b595236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add24eb4cce1854cfbcf8380b924cf3d0"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#add24eb4cce1854cfbcf8380b924cf3d0">appendDouble</a> (std::string &amp;string, double data, const char *format)</td></tr>
+<tr class="separator:add24eb4cce1854cfbcf8380b924cf3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3f11989973d2441f994a7e5cc2ffec1"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#af3f11989973d2441f994a7e5cc2ffec1">appendInt</a> (std::string &amp;string, int data, const char *format)</td></tr>
+<tr class="separator:af3f11989973d2441f994a7e5cc2ffec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b1748cbf77d892e3e17daa9373edeb"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ac8b1748cbf77d892e3e17daa9373edeb">appendString</a> (std::string &amp;string, const char *source1, const char *source2)</td></tr>
+<tr class="separator:ac8b1748cbf77d892e3e17daa9373edeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91cb1f8eb4a1663117036f67a204b0f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a91cb1f8eb4a1663117036f67a204b0f6">charToNibble</a> (char cc)</td></tr>
+<tr class="separator:a91cb1f8eb4a1663117036f67a204b0f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4cf7e08b4eb0b8cd57673114cc05f4e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ad4cf7e08b4eb0b8cd57673114cc05f4e">copyCString</a> (const char *source, int sourceLength)</td></tr>
+<tr class="separator:ad4cf7e08b4eb0b8cd57673114cc05f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5417871a2792b029654cad7e103f63e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aa5417871a2792b029654cad7e103f63e">copyNCString</a> (char *target, size_t targetSize, const char *source, int sourceLength)</td></tr>
+<tr class="separator:aa5417871a2792b029654cad7e103f63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744d82a8a70129db29765abd9a96318c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a744d82a8a70129db29765abd9a96318c">countCharInCString</a> (const char *source, char toSearch)</td></tr>
+<tr class="separator:a744d82a8a70129db29765abd9a96318c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d1d0b1600a164384e2843398cc7766"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a48d1d0b1600a164384e2843398cc7766">countCString</a> (const char *source, int sourceLength, const char *subString, int subStringLength)</td></tr>
+<tr class="separator:a48d1d0b1600a164384e2843398cc7766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b7cde0467f96c50d5a821235c5f9c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a69b7cde0467f96c50d5a821235c5f9c6">endsWith</a> (const char *source, int sourceLength, const char *tail, int tailLength, bool ignoreCase)</td></tr>
+<tr class="separator:a69b7cde0467f96c50d5a821235c5f9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a987107d81a48289b3c31ee055b5feab4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a987107d81a48289b3c31ee055b5feab4">formatCString</a> (const char *fmt,...)</td></tr>
+<tr class="separator:a987107d81a48289b3c31ee055b5feab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8b701adc2788dce7c2bc98c00155142"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#af8b701adc2788dce7c2bc98c00155142">formatOnBuffer</a> (char *buffer, size_t bufferSize, const char *fmt,...)</td></tr>
+<tr class="separator:af8b701adc2788dce7c2bc98c00155142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51527173b488affd9231b87c20b96822"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a51527173b488affd9231b87c20b96822">globToRegularExpression</a> (const char *globPattern, int length)</td></tr>
+<tr class="separator:a51527173b488affd9231b87c20b96822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d8eb2c32170e4a8b4aa86e9649f4e4a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a7d8eb2c32170e4a8b4aa86e9649f4e4a">indexOf</a> (const char *source, int sourceLength, const char *part, int lengthPart, int start, bool ignoreCase)</td></tr>
+<tr class="separator:a7d8eb2c32170e4a8b4aa86e9649f4e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b6826179c14bdd38a18d283a4667b22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a4b6826179c14bdd38a18d283a4667b22">indexOf</a> (const std::vector&lt; std::string &gt; &amp;list, const char *element, int elementLength, bool isSorted)</td></tr>
+<tr class="separator:a4b6826179c14bdd38a18d283a4667b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70540b1b26c84e0d00f184187949e228"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a70540b1b26c84e0d00f184187949e228">isBool</a> (const char *source, int sourceLength, bool *value, std::string *error)</td></tr>
+<tr class="separator:a70540b1b26c84e0d00f184187949e228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a594d39134262d28ecaa562295e2a669f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a594d39134262d28ecaa562295e2a669f">isSize</a> (const char *source, int sourceLength, int64_t *value, std::string *error, bool mayBeNegative)</td></tr>
+<tr class="separator:a594d39134262d28ecaa562295e2a669f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c00a73f652c1a22f52ca330e2b0c8a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a6c00a73f652c1a22f52ca330e2b0c8a6">isFloat</a> (const char *source, int sourceLength, double *value, std::string *error)</td></tr>
+<tr class="separator:a6c00a73f652c1a22f52ca330e2b0c8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f57297614fa67f0cf0473c8a8be0b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a80f57297614fa67f0cf0473c8a8be0b5">isInt</a> (const char *source, int sourceLength, int *value, std::string *error)</td></tr>
+<tr class="separator:a80f57297614fa67f0cf0473c8a8be0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81c2f155a46225dc2d91b3b6ac9945e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a81c2f155a46225dc2d91b3b6ac9945e3">isNat</a> (const char *source, int sourceLength, size_t *value, std::string *error)</td></tr>
+<tr class="separator:a81c2f155a46225dc2d91b3b6ac9945e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0a10ad8e69214d77b99dbc1766cf0a0"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ab0a10ad8e69214d77b99dbc1766cf0a0">joinCStrings</a> (char *buffer, size_t bufferSize, const char *string1, const char *string2, const char *string3, const char *string4)</td></tr>
+<tr class="separator:ab0a10ad8e69214d77b99dbc1766cf0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7d0ac6edc16f9e4d4466ee4b7bc823"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ade7d0ac6edc16f9e4d4466ee4b7bc823">joinVector</a> (const std::vector&lt; std::string &gt; &amp;array, const char *separator)</td></tr>
+<tr class="separator:ade7d0ac6edc16f9e4d4466ee4b7bc823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526bbd66e50ad1a1d49e80efec55d4ff"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a526bbd66e50ad1a1d49e80efec55d4ff">replaceString</a> (std::string &amp;string, const std::string &amp;what, const std::string &amp;to, int count)</td></tr>
+<tr class="separator:a526bbd66e50ad1a1d49e80efec55d4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedfb59d5b1a56f2c91e95bac3505697d"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aedfb59d5b1a56f2c91e95bac3505697d">setString</a> (std::string &amp;string, const char *source, int sourceLength)</td></tr>
+<tr class="separator:aedfb59d5b1a56f2c91e95bac3505697d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59f7fa5605bbbe38e215d2da18e2bd6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ab59f7fa5605bbbe38e215d2da18e2bd6">splitCString</a> (const char *text, const char *delimiter, int maxCount)</td></tr>
+<tr class="separator:ab59f7fa5605bbbe38e215d2da18e2bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb6b7d3ff8a00ad296b7e611317dc393"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aeb6b7d3ff8a00ad296b7e611317dc393">splitString</a> (const std::string &amp;text, const std::regex &amp;delimiter)</td></tr>
+<tr class="separator:aeb6b7d3ff8a00ad296b7e611317dc393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab64ac27f9ec10789dcdba448fe73cfa2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ab64ac27f9ec10789dcdba448fe73cfa2">startsWith</a> (const char *source, int sourceLength, const char *head, int headLength, bool ignoreCase)</td></tr>
+<tr class="separator:ab64ac27f9ec10789dcdba448fe73cfa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4aa3d2d46cf3a758425c9d48d3ad1ce"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#af4aa3d2d46cf3a758425c9d48d3ad1ce">stringInplace</a> (const std::string &amp;source, char *(*function)(char *))</td></tr>
+<tr class="separator:af4aa3d2d46cf3a758425c9d48d3ad1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80602d20f3349b0294b6c1ed96119ef6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a80602d20f3349b0294b6c1ed96119ef6">stringToRegularExpression</a> (const char *pattern, ssize_t length)</td></tr>
+<tr class="separator:a80602d20f3349b0294b6c1ed96119ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaea45491fccbdf51d3ce0f8cae4f1eeb"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aaea45491fccbdf51d3ce0f8cae4f1eeb">strlower</a> (char *buffer)</td></tr>
+<tr class="separator:aaea45491fccbdf51d3ce0f8cae4f1eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5441a3d5c5442fd3d5a8502678264a12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a5441a3d5c5442fd3d5a8502678264a12">strnicmp</a> (const char *text1, const char *text2, size_t n)</td></tr>
+<tr class="separator:a5441a3d5c5442fd3d5a8502678264a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b99375f89bfb8d15ba9fde9d691bb64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a0b99375f89bfb8d15ba9fde9d691bb64">stricmp</a> (const char *text1, const char *text2)</td></tr>
+<tr class="separator:a0b99375f89bfb8d15ba9fde9d691bb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90d248da096d32cfbebe3546cfd1f660"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a90d248da096d32cfbebe3546cfd1f660">strupper</a> (char *buffer)</td></tr>
+<tr class="separator:a90d248da096d32cfbebe3546cfd1f660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ae47f952a25a7a0e27e6226f23771f9"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a7ae47f952a25a7a0e27e6226f23771f9">sumOfLength</a> (const char *string1, const char *string2, const char *string3, const char *string4)</td></tr>
+<tr class="separator:a7ae47f952a25a7a0e27e6226f23771f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ccb03e6950129df555a1d5bead1ade6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a0ccb03e6950129df555a1d5bead1ade6">sumOfVectorLengths</a> (const std::vector&lt; std::string &gt; &amp;list)</td></tr>
+<tr class="separator:a0ccb03e6950129df555a1d5bead1ade6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210679902b09fc37f3ef12b6d0e9b00a"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a210679902b09fc37f3ef12b6d0e9b00a">trimString</a> (std::string &amp;string, bool top, bool end, const char *chars)</td></tr>
+<tr class="separator:a210679902b09fc37f3ef12b6d0e9b00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cdd638859e977f91c480a01f85b6e55"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a3cdd638859e977f91c480a01f85b6e55">toLower</a> (const std::string &amp;source)</td></tr>
+<tr class="separator:a3cdd638859e977f91c480a01f85b6e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a567b6438fb4208552dbdc68f01ca1e52"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a567b6438fb4208552dbdc68f01ca1e52">toUpper</a> (const std::string &amp;source)</td></tr>
+<tr class="separator:a567b6438fb4208552dbdc68f01ca1e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea3025737af8089f990d1869445f3f8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a0ea3025737af8089f990d1869445f3f8">truncateCString</a> (const char *text, size_t length)</td></tr>
+<tr class="separator:a0ea3025737af8089f990d1869445f3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7ea926b16c715241facd2d013e1a69"><td class="memTemplParams" colspan="2">template&lt;typename K , typename V &gt; </td></tr>
+<tr class="memitem:a4e7ea926b16c715241facd2d013e1a69"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; K &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a4e7ea926b16c715241facd2d013e1a69">keysOfMap</a> (std::map&lt; K, V &gt; map)</td></tr>
+<tr class="separator:a4e7ea926b16c715241facd2d013e1a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaff8fc3d7d401f5a9cc3fe039574736"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#acaff8fc3d7d401f5a9cc3fe039574736">strlwr</a> (char *string)</td></tr>
+<tr class="separator:acaff8fc3d7d401f5a9cc3fe039574736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac314c23aecf0405a7bdccfc2cc1683ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ac314c23aecf0405a7bdccfc2cc1683ab">strupr</a> (char *string)</td></tr>
+<tr class="separator:ac314c23aecf0405a7bdccfc2cc1683ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296c6f362e94056e72e47ffa6f9e5614"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a296c6f362e94056e72e47ffa6f9e5614">nowAsDouble</a> ()</td></tr>
+<tr class="separator:a296c6f362e94056e72e47ffa6f9e5614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a944b10c5fcc29cb4f977d87b696d4cc8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a944b10c5fcc29cb4f977d87b696d4cc8">formatDate</a> (bool sortable=true, const char *separator=&quot;.&quot;)</td></tr>
+<tr class="memdesc:a944b10c5fcc29cb4f977d87b696d4cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines some functions for date/time handling.  <a href="namespacecppknife.html#a944b10c5fcc29cb4f977d87b696d4cc8">More...</a><br /></td></tr>
+<tr class="separator:a944b10c5fcc29cb4f977d87b696d4cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf94c1f9d0aa35504f1859577c3ec00f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#abf94c1f9d0aa35504f1859577c3ec00f">formatDate</a> (std::time_t time, bool sortable, const char *separator)</td></tr>
+<tr class="separator:abf94c1f9d0aa35504f1859577c3ec00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee4e8e137bfad720db2b6a00563175c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#abee4e8e137bfad720db2b6a00563175c">formatDateTime</a> (bool sortable, const char *separator, bool withSeconds, const char *separatorDate, const char *separatorTime)</td></tr>
+<tr class="separator:abee4e8e137bfad720db2b6a00563175c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f0473080a63f5cb949a7bb98fefd95e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a6f0473080a63f5cb949a7bb98fefd95e">formatDateTime</a> (std::time_t time, bool sortable, const char *separator, bool withSeconds, const char *separatorDate, const char *separatorTime)</td></tr>
+<tr class="separator:a6f0473080a63f5cb949a7bb98fefd95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcca62eaf463d3dd16db25840a7b146f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#afcca62eaf463d3dd16db25840a7b146f">formatTime</a> (bool withSeconds, const char *separator)</td></tr>
+<tr class="separator:afcca62eaf463d3dd16db25840a7b146f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4deedca9434d24388c6fa0a395c077f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ab4deedca9434d24388c6fa0a395c077f">formatTime</a> (std::time_t time, bool withSeconds, const char *separator)</td></tr>
+<tr class="separator:ab4deedca9434d24388c6fa0a395c077f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c574035712ed7c6840ddc736a9ecd0d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a3c574035712ed7c6840ddc736a9ecd0d">timeDifferenceToString</a> (double diffTime, const char *format)</td></tr>
+<tr class="separator:a3c574035712ed7c6840ddc736a9ecd0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af449e662e9631b29d81ebf203980bff5"><td class="memItemLeft" align="right" valign="top">const std::regex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#af449e662e9631b29d81ebf203980bff5">stringToolRegexWhitespaces</a> = std::regex(&quot;[\\s]+&quot;)</td></tr>
+<tr class="memdesc:af449e662e9631b29d81ebf203980bff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines some functions for string handling: C-strings and <em>std::string&lt;em&gt; items. </em> <a href="namespacecppknife.html#af449e662e9631b29d81ebf203980bff5">More...</a><br /></td></tr>
+<tr class="separator:af449e662e9631b29d81ebf203980bff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c277fbbba90bd12620d49f6c3b45bd"><td class="memItemLeft" align="right" valign="top">const std::regex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a88c277fbbba90bd12620d49f6c3b45bd">stringToolRegexIdentifier</a> = std::regex(&quot;[_A-Za-z]\\w*&quot;)</td></tr>
+<tr class="separator:a88c277fbbba90bd12620d49f6c3b45bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a3b729fd3c11e27d47e4103c21bc169"><td class="memItemLeft" align="right" valign="top">const std::regex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a2a3b729fd3c11e27d47e4103c21bc169">stringToolRegexWord</a></td></tr>
+<tr class="separator:a2a3b729fd3c11e27d47e4103c21bc169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aa5eca4359d076add16a8102dbbc90079"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5eca4359d076add16a8102dbbc90079">&#9670;&nbsp;</a></span>ColumnType</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a1b9c2b46b096ff2b635d94e804a8043d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9c2b46b096ff2b635d94e804a8043d">&#9670;&nbsp;</a></span>seed50_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079">cppknife::ColumnType</a></td>
+          <td class="memname">typedef int64_t <a class="el" href="namespacecppknife.html#a1b9c2b46b096ff2b635d94e804a8043d">cppknife::seed50_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c6ee6c175a8b6a4e8a1d4b7ff25f378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c6ee6c175a8b6a4e8a1d4b7ff25f378">&#9670;&nbsp;</a></span>seed_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="namespacecppknife.html#a6c6ee6c175a8b6a4e8a1d4b7ff25f378">cppknife::seed_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="aaae8c92d231fe64cb9c5c2db1d610eff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae8c92d231fe64cb9c5c2db1d610eff">&#9670;&nbsp;</a></span>CharClass</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610eff">cppknife::CharClass</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa5eca4359d076add16a8102dbbc90079a66f76f14b1b15e67736f27b1794a1518"></a>COLTYPE_UNDEF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5eca4359d076add16a8102dbbc90079a63db01dd23cd67f4e0275bd946726978"></a>COLTYPE_INT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5eca4359d076add16a8102dbbc90079a002731316dc4e35fae2af24aaee6199c"></a>COLTYPE_FLOAT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5eca4359d076add16a8102dbbc90079aec8058d643b547756a19d94296709e62"></a>COLTYPE_VARCHAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5eca4359d076add16a8102dbbc90079aba44ee5b553f45fbe53a7c6a453dc690"></a>COLTYPE_CHAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5eca4359d076add16a8102dbbc90079a45ec383f007ddcb59ca9b0ed58ed9660"></a>COLTYPE_TEXT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5eca4359d076add16a8102dbbc90079ae0f9cb0ce76dcf9f939bc30adf368ad6"></a>COLTYPE_TIMESTAMP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5eca4359d076add16a8102dbbc90079a992f4a67d939f86bc0a71eba38be3e6c"></a>COLTYPE_DATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa5eca4359d076add16a8102dbbc90079a9e58802afafdb332b07b71af5b978aa4"></a>COLTYPE_TIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaae8c92d231fe64cb9c5c2db1d610effa827e551ca4cd6d30f06b5cecf331c5eb"></a>CC_UNDEF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaae8c92d231fe64cb9c5c2db1d610effa4698b8193d90ab00511e517213477d1c"></a>CC_DECIMAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaae8c92d231fe64cb9c5c2db1d610effa12fbd4e98c4b27d4a72c0e9a1e09d77d"></a>CC_ALPHA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaae8c92d231fe64cb9c5c2db1d610effadeaabbc48c92db5a9fbf544d54423974"></a>CC_ALPHA_LOWERCASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaae8c92d231fe64cb9c5c2db1d610effa05b2c992094e09bd7c38b2d5279ddb79"></a>CC_ALPHA_UPPERCASE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaae8c92d231fe64cb9c5c2db1d610effacac94158b6bbe5dde319ce6017eebb2e"></a>CC_WORD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaae8c92d231fe64cb9c5c2db1d610effacd220ce102f902377a6c2e7b53559490"></a>CC_WORD_FIRST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaae8c92d231fe64cb9c5c2db1d610effadf52d3a389ffda59036e95c6771a1df1"></a>CC_ASCII95&#160;</td><td class="fielddoc"></td></tr>
 </table>
+
+</div>
+</div>
+<a id="aa73d23e73fb47fe4a8caf3fdfbfe0aca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa73d23e73fb47fe4a8caf3fdfbfe0aca">&#9670;&nbsp;</a></span>LogLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0aca">cppknife::LogLevel</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines the granularity of the logged messages. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaaac4a7bb828f174b8da2111cb11fa70c8"></a>LV_UNDEF_LEVEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaaa1459cc042c1fa58778ae5ba5cbf4c5b"></a>LV_FATAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaafcaeb2696c06b6746d1736bf25bea610"></a>LV_ERROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaa5c9fe1552dffd143faebf19550bf5794"></a>LV_WARNING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaa08c44b52b701e6ba691604d6af4b0a44"></a>LV_INFO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaa783ad3e21e0845de0c2b81c49a4f2ef8"></a>LV_SUMMARY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaa078364714b29c3780b220cdbe79316b1"></a>LV_DETAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaa54efab52576393a6f09a4e62c3d82045"></a>LV_FINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaaf91f6faec62cfa55a74f94ede6ce71f2"></a>LV_FINEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa73d23e73fb47fe4a8caf3fdfbfe0acaabaf4a4c7b54f14296daeb254bb331a58"></a>LV_DEBUG&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a21b17081f5e47ccef6baeaf69b595236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21b17081f5e47ccef6baeaf69b595236">&#9670;&nbsp;</a></span>appendCString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char * cppknife::appendCString </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>bufferLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>tail</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tailLength</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Appends a string at the end of a char buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">buffer</td><td>The buffer to append. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">bufferLength</td><td>The occupied space in the buffer. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">bufferSize</td><td>The capacity of the buffer. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">tail</td><td>The string to append. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">tailLength</td><td>&lt; 0: <em>strlen(tail)</em> is used. Otherwise: the length of the tail. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>buffer</em> (for chaining). </dd></dl>
+
+</div>
+</div>
+<a id="add24eb4cce1854cfbcf8380b924cf3d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add24eb4cce1854cfbcf8380b924cf3d0">&#9670;&nbsp;</a></span>appendDouble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string &amp; cppknife::appendDouble </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>format</em> = <code>&quot;%f&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Appends an integer to a string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">string</td><td>The string to extend. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">data</td><td>The double to append. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">format</td><td>The format of the integer, </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd>sprintf(). </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The <em>string</em>: for chaining. </dd></dl>
+
+</div>
+</div>
+<a id="af3f11989973d2441f994a7e5cc2ffec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3f11989973d2441f994a7e5cc2ffec1">&#9670;&nbsp;</a></span>appendInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string &amp; cppknife::appendInt </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>format</em> = <code>&quot;%d&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Appends an integer to a string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">string</td><td>The string to extend. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">data</td><td>The integer to append. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">format</td><td>The format of the integer, </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd>sprintf(). </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The <em>string</em>: for chaining. </dd></dl>
+
+</div>
+</div>
+<a id="ac8b1748cbf77d892e3e17daa9373edeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b1748cbf77d892e3e17daa9373edeb">&#9670;&nbsp;</a></span>appendString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string &amp; cppknife::appendString </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source2</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Appends one or two C strings to a std:string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">string</td><td>That string will be expanded. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">source1</td><td>The first C string to append. May be <em>nullptr</em>. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">source2</td><td>The second C string to append. May be <em>nullptr</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <em>string</em>: for chaining. </dd></dl>
+
+</div>
+</div>
+<a id="a27738c515fffabf282c4ada958bf86eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27738c515fffabf282c4ada958bf86eb">&#9670;&nbsp;</a></span>buildMemoryLogger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcppknife_1_1_logger.html">Logger</a> * cppknife::buildMemoryLogger </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxLines</em> = <code>100</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0aca">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em> = <code><a class="el" href="namespacecppknife.html#aa73d23e73fb47fe4a8caf3fdfbfe0acaa08c44b52b701e6ba691604d6af4b0a44">LV_INFO</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isGlobalLogger</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a logger storing the messages in a line list. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxLines</td><td>If more lines are logged, the oldest lines will be thrown away. </td></tr>
+    <tr><td class="paramname">level</td><td>Only messages with this or a higher level will be stored. </td></tr>
+    <tr><td class="paramname">isGlobalLogger</td><td><em>true</em>: the logger becomes the global logger. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A logger. Note: that object must be deleted after life. </dd></dl>
+
+</div>
+</div>
+<a id="a91cb1f8eb4a1663117036f67a204b0f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91cb1f8eb4a1663117036f67a204b0f6">&#9670;&nbsp;</a></span>charToNibble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::charToNibble </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>hexDigit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the value of a hex digit. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hexDigit</td><td>A hex digit. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1: <em>hexDigit</em> is not a hexadecimal digit. Otherwise: the value: 0..15 </dd></dl>
+
+</div>
+</div>
+<a id="ad4cf7e08b4eb0b8cd57673114cc05f4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4cf7e08b4eb0b8cd57673114cc05f4e">&#9670;&nbsp;</a></span>copyCString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * cppknife::copyCString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Duplicates a string.</p>
+<p>Note: the result must be freed with delete[] after life time. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The string to copy. If <em>nullptr</em> an empty string will be copied. </td></tr>
+    <tr><td class="paramname">sourceLength</td><td>The length of the source in characters. If -1 the length will be determined by <em>strlen()</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A copy of the <em>source</em>. </dd></dl>
+
+</div>
+</div>
+<a id="aa5417871a2792b029654cad7e103f63e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5417871a2792b029654cad7e103f63e">&#9670;&nbsp;</a></span>copyNCString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * cppknife::copyNCString </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>targetSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Copies a string limited by length n into a target. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">target</td><td>The target buffer. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">targetSize</td><td>The size of <em>target</em>. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">source</td><td>The string to copy. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">sourceLength</td><td>&lt; 0: <em>strlen(source)</em> is used. Otherwise: the length of <em>source</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a744d82a8a70129db29765abd9a96318c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744d82a8a70129db29765abd9a96318c">&#9670;&nbsp;</a></span>countCharInCString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t cppknife::countCharInCString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>toSearch</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Counts the occurrences of the character <em>toSearch</em> in <em>source</em>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>In that string will be searched. </td></tr>
+    <tr><td class="paramname">toSearch</td><td>The character to search. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the count of <em>toSearch</em> in <em>source</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a48d1d0b1600a164384e2843398cc7766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d1d0b1600a164384e2843398cc7766">&#9670;&nbsp;</a></span>countCString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t cppknife::countCString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>subString</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>subStringLength</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Counts the occurrences of <em>subString</em> in <em>source</em>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>In that string will be searched. </td></tr>
+    <tr><td class="paramname">sourceLength</td><td>-1: <em>strlen(source)</em> will be used. Otherwise: The size of <em>source</em>. </td></tr>
+    <tr><td class="paramname">subString</td><td>That string will searched in <em>source</em>. </td></tr>
+    <tr><td class="paramname">subStringLength</td><td>-1: <em>strlen(subString)</em> will be used. Otherwise: The size of <em>subString</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a69b7cde0467f96c50d5a821235c5f9c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b7cde0467f96c50d5a821235c5f9c6">&#9670;&nbsp;</a></span>endsWith()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::endsWith </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>tail</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tailLength</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignoreCase</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a given string is the end of a given text. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The string to inspect </td></tr>
+    <tr><td class="paramname">sourceLength</td><td>-1 or the length of source to inspect. </td></tr>
+    <tr><td class="paramname">tail</td><td>That string should be the end of <em>source</em>. </td></tr>
+    <tr><td class="paramname">tailLength</td><td>Only that amount of <em>tail</em> will be inspected.<br  />
+ If &lt; 0 the string length of tail is taken. </td></tr>
+    <tr><td class="paramname">ignoreCase</td><td>true: the case of <em>source</em> and <em>tail</em> will be ignored. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true: <em>source</em> ends with <em>end</em> . </dd></dl>
+
+</div>
+</div>
+<a id="a987107d81a48289b3c31ee055b5feab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a987107d81a48289b3c31ee055b5feab4">&#9670;&nbsp;</a></span>formatCString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::formatCString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Formats a string into a <em>std::string</em>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td>The format with placeholders like in <em>sprintf()</em>. </td></tr>
+    <tr><td class="paramname">...</td><td>The variable amount of arguments (like in <em>sprintf()</em>). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a944b10c5fcc29cb4f977d87b696d4cc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a944b10c5fcc29cb4f977d87b696d4cc8">&#9670;&nbsp;</a></span>formatDate() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::formatDate </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sortable</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separator</em> = <code>&quot;.&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines some functions for date/time handling. </p>
+<p>Returns the current date as a date string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sortable</td><td><em>true</em>: the result is sortable: year first. </td></tr>
+    <tr><td class="paramname">separator</td><td>The separator between the year, month and day. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The formated date. </dd></dl>
+
+</div>
+</div>
+<a id="abf94c1f9d0aa35504f1859577c3ec00f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf94c1f9d0aa35504f1859577c3ec00f">&#9670;&nbsp;</a></span>formatDate() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::formatDate </td>
+          <td>(</td>
+          <td class="paramtype">std::time_t&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sortable</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separator</em> = <code>&quot;.&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the given timestamp as a date string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>The timestamp (seconds since epoch) to convert, e.g. <em>std::time()</em> </td></tr>
+    <tr><td class="paramname">sortable</td><td><em>true</em>: the result is sortable: year first. </td></tr>
+    <tr><td class="paramname">separator</td><td>The separator between the year, month and day. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The formated date. </dd></dl>
+
+</div>
+</div>
+<a id="abee4e8e137bfad720db2b6a00563175c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abee4e8e137bfad720db2b6a00563175c">&#9670;&nbsp;</a></span>formatDateTime() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::formatDateTime </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sortable</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separator</em> = <code>&quot;&#160;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withSeconds</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separatorDate</em> = <code>&quot;.&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separatorTime</em> = <code>&quot;:&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the current time as a date/time string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sortable</td><td><em>true</em>: the result is sortable: year first. </td></tr>
+    <tr><td class="paramname">separator</td><td>The separator between the date and time. </td></tr>
+    <tr><td class="paramname">withSeconds</td><td><em>true</em>: the time will have seconds. </td></tr>
+    <tr><td class="paramname">separatorDate</td><td>The separator used for the date. </td></tr>
+    <tr><td class="paramname">separatorTime</td><td>The separator used for the time. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The formated date. </dd></dl>
+
+</div>
+</div>
+<a id="a6f0473080a63f5cb949a7bb98fefd95e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f0473080a63f5cb949a7bb98fefd95e">&#9670;&nbsp;</a></span>formatDateTime() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::formatDateTime </td>
+          <td>(</td>
+          <td class="paramtype">std::time_t&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sortable</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separator</em> = <code>&quot;&#160;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withSeconds</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separatorDate</em> = <code>&quot;.&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separatorTime</em> = <code>&quot;:&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the given timestamp as a date string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>The timestamp (seconds since epoch) to convert, e.g. <em>std::time()</em> </td></tr>
+    <tr><td class="paramname">sortable</td><td><em>true</em>: the result is sortable: year first. </td></tr>
+    <tr><td class="paramname">separator</td><td>The separator between the date and time. </td></tr>
+    <tr><td class="paramname">withSeconds</td><td><em>true</em>: the time will have seconds. </td></tr>
+    <tr><td class="paramname">separatorDate</td><td>The separator used for the date. </td></tr>
+    <tr><td class="paramname">separatorTime</td><td>The separator used for the time. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The formated date. </dd></dl>
+
+</div>
+</div>
+<a id="af8b701adc2788dce7c2bc98c00155142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8b701adc2788dce7c2bc98c00155142">&#9670;&nbsp;</a></span>formatOnBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * cppknife::formatOnBuffer </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Formats a string into a <em>std::string</em>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>The formatted string will be composed in that buffer. </td></tr>
+    <tr><td class="paramname">bufferSize</td><td>The size of the <em>buffer</em>. </td></tr>
+    <tr><td class="paramname">format</td><td>The format with placeholders like in <em>sprintf()</em>. </td></tr>
+    <tr><td class="paramname">...</td><td>The variable amount of arguments (like in <em>sprintf()</em>). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afcca62eaf463d3dd16db25840a7b146f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcca62eaf463d3dd16db25840a7b146f">&#9670;&nbsp;</a></span>formatTime() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::formatTime </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withSeconds</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separator</em> = <code>&quot;:&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the given timestamp as a time string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">withSeconds</td><td><em>true</em>: the result contains the seconds. </td></tr>
+    <tr><td class="paramname">separator</td><td>The separator between hours, minutes and seconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The formated time. </dd></dl>
+
+</div>
+</div>
+<a id="ab4deedca9434d24388c6fa0a395c077f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4deedca9434d24388c6fa0a395c077f">&#9670;&nbsp;</a></span>formatTime() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::formatTime </td>
+          <td>(</td>
+          <td class="paramtype">std::time_t&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withSeconds</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separator</em> = <code>&quot;:&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the current time as a time string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>The timestamp (seconds since epoch) to convert, e.g. <em>std::time()</em> </td></tr>
+    <tr><td class="paramname">withSeconds</td><td><em>true</em>: the result contains the seconds. </td></tr>
+    <tr><td class="paramname">separator</td><td>The separator between hours, minutes and seconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The formated time. </dd></dl>
+
+</div>
+</div>
+<a id="aa89bd5191e5678b4860e828f81dac304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa89bd5191e5678b4860e828f81dac304">&#9670;&nbsp;</a></span>globalLogger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcppknife_1_1_logger.html">Logger</a>* cppknife::globalLogger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the global logger.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">the</td><td>global logger </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a51527173b488affd9231b87c20b96822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51527173b488affd9231b87c20b96822">&#9670;&nbsp;</a></span>globToRegularExpression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::globToRegularExpression </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>globPattern</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a glob pattern into a regular expression. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">globPattern</td><td>The pattern to convert. </td></tr>
+    <tr><td class="paramname">length</td><td>The length of <em>globPattern</em> or <em>-1</em> (c-string). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The regular expression that is equivalent to <em>globPattern</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a7d8eb2c32170e4a8b4aa86e9649f4e4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d8eb2c32170e4a8b4aa86e9649f4e4a">&#9670;&nbsp;</a></span>indexOf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::indexOf </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lengthPart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>start</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignoreCase</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds the position of a <em>part</em> in a <em>source</em> starting at a <em>position</em>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The string to inspect. </td></tr>
+    <tr><td class="paramname">sourceLength</td><td>-1 or that length of <em>source</em> should be inspected. </td></tr>
+    <tr><td class="paramname">part</td><td>The string to search. </td></tr>
+    <tr><td class="paramname">lengthPart</td><td>-1 or the length of <em>part</em>. </td></tr>
+    <tr><td class="paramname">start</td><td>The first index of <em>source</em> to inspect. </td></tr>
+    <tr><td class="paramname">ignoreCase</td><td>true: the case of <em>source</em> and <em>part</em> will be ignored. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1: not found. Otherwise: the index in <em>source</em> where <em>part</em> is found. </dd></dl>
+
+</div>
+</div>
+<a id="a4b6826179c14bdd38a18d283a4667b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b6826179c14bdd38a18d283a4667b22">&#9670;&nbsp;</a></span>indexOf() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::indexOf </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>elementLength</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isSorted</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the first index of a given element in a given list. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">list</td><td>The list to inspect. </td></tr>
+    <tr><td class="paramname">element</td><td>The element to search. </td></tr>
+    <tr><td class="paramname">elementLength</td><td>The lenght of <em>element</em> or <em>-1</em> (<em>strlen(element)</em>). </td></tr>
+    <tr><td class="paramname">isSorted</td><td><em>true</em>: the list is sorted. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>-1</em>: not found. Otherwise: the index of the <em>element</em> in the <em>list</em>. </dd></dl>
+
+</div>
+</div>
+<a id="a70540b1b26c84e0d00f184187949e228"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70540b1b26c84e0d00f184187949e228">&#9670;&nbsp;</a></span>isBool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::isBool </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c00a73f652c1a22f52ca330e2b0c8a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c00a73f652c1a22f52ca330e2b0c8a6">&#9670;&nbsp;</a></span>isFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::isFloat </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80f57297614fa67f0cf0473c8a8be0b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80f57297614fa67f0cf0473c8a8be0b5">&#9670;&nbsp;</a></span>isInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::isInt </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81c2f155a46225dc2d91b3b6ac9945e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81c2f155a46225dc2d91b3b6ac9945e3">&#9670;&nbsp;</a></span>isNat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::isNat </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a594d39134262d28ecaa562295e2a669f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a594d39134262d28ecaa562295e2a669f">&#9670;&nbsp;</a></span>isSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::isSize </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>error</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mayBeNegative</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0a10ad8e69214d77b99dbc1766cf0a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a10ad8e69214d77b99dbc1766cf0a0">&#9670;&nbsp;</a></span>joinCStrings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char * cppknife::joinCStrings </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>string1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>string2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>string3</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>string4</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Concatenate until 4 C strings in a buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>The concatenation will be copied here. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">bufferSize</td><td>The size of <em>buffer</em>. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">string1</td><td>The first string to append. May be <em>nullptr</em>. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">string2</td><td>The second string to append. May be <em>nullptr</em>. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">string3</td><td>The third string to append. May be <em>nullptr</em>. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">string4</td><td>The forth string to append. May be <em>nullptr</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ade7d0ac6edc16f9e4d4466ee4b7bc823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade7d0ac6edc16f9e4d4466ee4b7bc823">&#9670;&nbsp;</a></span>joinVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::joinVector </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>array</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separator</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Concatenates the entries of a string list into a string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">array</td><td>The string list. </td></tr>
+    <tr><td class="paramname">separator</td><td><em>nullptr</em> or the string between the entries. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the concatenation of the string entries separated by a given separator. </dd></dl>
+
+</div>
+</div>
+<a id="a4e7ea926b16c715241facd2d013e1a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e7ea926b16c715241facd2d013e1a69">&#9670;&nbsp;</a></span>keysOfMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K , typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;K&gt; cppknife::keysOfMap </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; K, V &gt;&#160;</td>
+          <td class="paramname"><em>map</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the keys of a map. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">map</td><td>the map to inspect </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: the keys of the map </dd></dl>
+
+</div>
+</div>
+<a id="a296c6f362e94056e72e47ffa6f9e5614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a296c6f362e94056e72e47ffa6f9e5614">&#9670;&nbsp;</a></span>nowAsDouble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double cppknife::nowAsDouble </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the seconds (as double) since epoch. </p>
+
+</div>
+</div>
+<a id="a526bbd66e50ad1a1d49e80efec55d4ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a526bbd66e50ad1a1d49e80efec55d4ff">&#9670;&nbsp;</a></span>replaceString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string &amp; cppknife::replaceString </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>what</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>to</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Replaces a substring in a given string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">string</td><td>The string to change. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">what</td><td>The substring that will be replaced. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">to</td><td>The replacement </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">count</td><td>The number of replacements. If &lt; 0: replace all. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aedfb59d5b1a56f2c91e95bac3505697d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedfb59d5b1a56f2c91e95bac3505697d">&#9670;&nbsp;</a></span>setString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; cppknife::setString </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the content of a string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">string</td><td>The string to set. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">source</td><td>The new content. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">sourceLength</td><td>-1: <em>strlen(source)</em> will be used. <br  />
+ Otherwise: the length of <em>source</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab59f7fa5605bbbe38e215d2da18e2bd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab59f7fa5605bbbe38e215d2da18e2bd6">&#9670;&nbsp;</a></span>splitCString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; cppknife::splitCString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>separator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxCount</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Splits a string into a vector of strings by a given separator. </p>
+
+</div>
+</div>
+<a id="aeb6b7d3ff8a00ad296b7e611317dc393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6b7d3ff8a00ad296b7e611317dc393">&#9670;&nbsp;</a></span>splitString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; cppknife::splitString </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::regex &amp;&#160;</td>
+          <td class="paramname"><em>separator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Splits a string into parts with a given separator (regular expression). </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>The text to split. </td></tr>
+    <tr><td class="paramname">separator</td><td>The regular expression describing the separator. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A vector with the text split by the <em>separator</em>. </dd></dl>
+
+</div>
+</div>
+<a id="ab64ac27f9ec10789dcdba448fe73cfa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab64ac27f9ec10789dcdba448fe73cfa2">&#9670;&nbsp;</a></span>startsWith()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::startsWith </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>head</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxLength</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignoreCase</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a given string is the start of a given text. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The string to inspect </td></tr>
+    <tr><td class="paramname">sourceLength</td><td>-1 or the length of source to inspect. </td></tr>
+    <tr><td class="paramname">head</td><td>That string should be the head of <em>source</em>. </td></tr>
+    <tr><td class="paramname">maxLength</td><td>Only that amount of <em>head</em> will be inspected.<br  />
+ If &lt; 0 the string length of tail is taken. </td></tr>
+    <tr><td class="paramname">ignoreCase</td><td>true: the case of <em>source</em> and <em>head</em> will be ignored. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true: <em>source</em> starts with <em>head</em> . </dd></dl>
+
+</div>
+</div>
+<a id="a0b99375f89bfb8d15ba9fde9d691bb64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b99375f89bfb8d15ba9fde9d691bb64">&#9670;&nbsp;</a></span>stricmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::stricmp </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares two strings ignoring case. </p>
+
+</div>
+</div>
+<a id="af4aa3d2d46cf3a758425c9d48d3ad1ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4aa3d2d46cf3a758425c9d48d3ad1ce">&#9670;&nbsp;</a></span>stringInplace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::stringInplace </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *(*)(char *)&#160;</td>
+          <td class="paramname"><em>function</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80602d20f3349b0294b6c1ed96119ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80602d20f3349b0294b6c1ed96119ef6">&#9670;&nbsp;</a></span>stringToRegularExpression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::stringToRegularExpression </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>pattern</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ssize_t&#160;</td>
+          <td class="paramname"><em>length</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Transform a string into a regular expression: All meta characters will be escaped. Example: "delimiter: '*'" is transformed to "delimiter: '\\*'" </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pattern</td><td>The string to process. </td></tr>
+    <tr><td class="paramname">length</td><td><em>-1</em> or the length of <em>pattern</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A copy of <em>pattern</em> with escaped meta characters. </dd></dl>
+
+</div>
+</div>
+<a id="aaea45491fccbdf51d3ce0f8cae4f1eeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaea45491fccbdf51d3ce0f8cae4f1eeb">&#9670;&nbsp;</a></span>strlower()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* cppknife::strlower </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acaff8fc3d7d401f5a9cc3fe039574736"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaff8fc3d7d401f5a9cc3fe039574736">&#9670;&nbsp;</a></span>strlwr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cppknife::strlwr </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Converts a C string to lower case (ASCII only) in place. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">string</td><td>The string to convert. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5441a3d5c5442fd3d5a8502678264a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5441a3d5c5442fd3d5a8502678264a12">&#9670;&nbsp;</a></span>strnicmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::strnicmp </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares two strings with a given max length and ignoring case. </p>
+
+</div>
+</div>
+<a id="a90d248da096d32cfbebe3546cfd1f660"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90d248da096d32cfbebe3546cfd1f660">&#9670;&nbsp;</a></span>strupper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* cppknife::strupper </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac314c23aecf0405a7bdccfc2cc1683ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac314c23aecf0405a7bdccfc2cc1683ab">&#9670;&nbsp;</a></span>strupr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cppknife::strupr </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Converts a C string to upper case (ASCII only) in place. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">string</td><td>The string to convert. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7ae47f952a25a7a0e27e6226f23771f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ae47f952a25a7a0e27e6226f23771f9">&#9670;&nbsp;</a></span>sumOfLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t cppknife::sumOfLength </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>string1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>string2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>string3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>string4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ccb03e6950129df555a1d5bead1ade6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ccb03e6950129df555a1d5bead1ade6">&#9670;&nbsp;</a></span>sumOfVectorLengths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t cppknife::sumOfVectorLengths </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>list</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the sum of the string lengths of a string list. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">list</td><td>The list of strings. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the sum of the string lengths of the items. </dd></dl>
+
+</div>
+</div>
+<a id="a3c574035712ed7c6840ddc736a9ecd0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c574035712ed7c6840ddc736a9ecd0d">&#9670;&nbsp;</a></span>timeDifferenceToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::timeDifferenceToString </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>diffTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>format</em> = <code>&quot;%d:%h:%m:%s.%3&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Formats a time difference. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">diffTime</td><td>The time difference in seconds as double. </td></tr>
+    <tr><td class="paramname">format</td><td>The format with that placeholders: d(ays), h(ours), m(inutes), s(econds) %3 (milliseconds) %6 (microseconds). Example: "%d:%h:%m:%s.%3" </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3cdd638859e977f91c480a01f85b6e55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cdd638859e977f91c480a01f85b6e55">&#9670;&nbsp;</a></span>toLower()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::toLower </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a string to lower case. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>This string will be converted. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The source with upper case content. </dd></dl>
+
+</div>
+</div>
+<a id="a567b6438fb4208552dbdc68f01ca1e52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a567b6438fb4208552dbdc68f01ca1e52">&#9670;&nbsp;</a></span>toUpper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::toUpper </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts a string to upper case. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>This string will be converted. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The source with upper case content. </dd></dl>
+
+</div>
+</div>
+<a id="a210679902b09fc37f3ef12b6d0e9b00a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a210679902b09fc37f3ef12b6d0e9b00a">&#9670;&nbsp;</a></span>trimString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string &amp; cppknife::trimString </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>top</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>end</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>chars</em> = <code>&quot;&#160;\t\n\r\v&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes specified characters from the top and/or the end of a string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">string</td><td>The string to modify. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">top</td><td><em>true</em>The <em>chars</em> will removed from the top. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">end</td><td><em>true</em>The <em>chars</em> will removed from the end. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">chars</td><td>The characters that will be removed. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>string</em> (for chaining). </dd></dl>
+
+</div>
+</div>
+<a id="a0ea3025737af8089f990d1869445f3f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ea3025737af8089f990d1869445f3f8">&#9670;&nbsp;</a></span>truncateCString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::truncateCString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Truncates a string to a given length. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>The string to inspect. </td></tr>
+    <tr><td class="paramname">length</td><td>The maximal length of the result. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The truncated text. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a88c277fbbba90bd12620d49f6c3b45bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c277fbbba90bd12620d49f6c3b45bd">&#9670;&nbsp;</a></span>stringToolRegexIdentifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::regex cppknife::stringToolRegexIdentifier = std::regex(&quot;[_A-Za-z]\\w*&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af449e662e9631b29d81ebf203980bff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af449e662e9631b29d81ebf203980bff5">&#9670;&nbsp;</a></span>stringToolRegexWhitespaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::regex cppknife::stringToolRegexWhitespaces = std::regex(&quot;[\\s]+&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines some functions for string handling: C-strings and <em>std::string&lt;em&gt; items. </em></p>
+
+</div>
+</div>
+<a id="a2a3b729fd3c11e27d47e4103c21bc169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a3b729fd3c11e27d47e4103c21bc169">&#9670;&nbsp;</a></span>stringToolRegexWord</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::regex cppknife::stringToolRegexWord</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

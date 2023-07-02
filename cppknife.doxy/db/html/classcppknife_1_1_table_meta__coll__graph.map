@@ -1,0 +1,4 @@
+<map id="cppknife::TableMeta" name="cppknife::TableMeta">
+<area shape="rect" id="node1" title="A base class storing the meta data of a database table." alt="" coords="5,95,159,121"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_sql_driver.html" title="Defines an interface (abstract class) for database handling. That allows to write programs that can c..." alt="" coords="9,5,155,32"/>
+</map>

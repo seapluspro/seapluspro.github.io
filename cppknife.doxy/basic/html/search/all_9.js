@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['postgres_68',['Postgres',['../classcppknife_1_1_postgres.html',1,'cppknife::Postgres'],['../classcppknife_1_1_postgres.html#a5587f3aa9502abd48e430f49c8b4a3ee',1,'cppknife::Postgres::Postgres()']]],
-  ['postgres_2ecpp_69',['Postgres.cpp',['../_postgres_8cpp.html',1,'']]],
-  ['postgres_2ehpp_70',['Postgres.hpp',['../_postgres_8hpp.html',1,'']]]
+  ['joincstrings_112',['joinCStrings',['../namespacecppknife.html#ab0a10ad8e69214d77b99dbc1766cf0a0',1,'cppknife']]],
+  ['joinvector_113',['joinVector',['../namespacecppknife.html#ade7d0ac6edc16f9e4d4466ee4b7bc823',1,'cppknife']]]
 ];

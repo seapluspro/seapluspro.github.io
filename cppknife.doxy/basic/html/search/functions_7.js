@@ -1,5 +1,12 @@
 var searchData=
 [
-  ['metaresult_129',['MetaResult',['../classcppknife_1_1_meta_result.html#a868cef2f1e114dda6040610364e13ae6',1,'cppknife::MetaResult']]],
-  ['mysql_130',['MySql',['../classcppknife_1_1_my_sql.html#a9cd165068c2b5379a76a4e1773c0ab03',1,'cppknife::MySql']]]
+  ['indexof_278',['indexOf',['../namespacecppknife.html#a7d8eb2c32170e4a8b4aa86e9649f4e4a',1,'cppknife::indexOf(const char *source, int sourceLength, const char *part, int lengthPart, int start, bool ignoreCase)'],['../namespacecppknife.html#a4b6826179c14bdd38a18d283a4667b22',1,'cppknife::indexOf(const std::vector&lt; std::string &gt; &amp;list, const char *element, int elementLength, bool isSorted)']]],
+  ['initialize_279',['initialize',['../classcppknife_1_1_char_random.html#a6ce1fddac738f30d3fb19ccdf6ee2bd5',1,'cppknife::CharRandom']]],
+  ['instance_280',['instance',['../classcppknife_1_1_base_random.html#a112160c7aa762a756c6e240b2a735b95',1,'cppknife::BaseRandom::instance()'],['../classcppknife_1_1_portable_random.html#adb7b4047bc4828378ecd226d0a9674f8',1,'cppknife::PortableRandom::instance()']]],
+  ['internalerror_281',['InternalError',['../classcppknife_1_1_internal_error.html#abf6d097826e7ea2ab9b9e47a3b00091b',1,'cppknife::InternalError::InternalError(const char *message, const char *arg1=nullptr, int arg2=0x80000000)'],['../classcppknife_1_1_internal_error.html#a3889c4d2a0fe644efb210b1d0e16f22f',1,'cppknife::InternalError::InternalError(const std::string &amp;message)'],['../classcppknife_1_1_internal_error.html#a7c95c1c9a64286afca9360bb3b057361',1,'cppknife::InternalError::InternalError(const InternalError &amp;other)']]],
+  ['isbool_282',['isBool',['../namespacecppknife.html#a70540b1b26c84e0d00f184187949e228',1,'cppknife']]],
+  ['isfloat_283',['isFloat',['../namespacecppknife.html#a6c00a73f652c1a22f52ca330e2b0c8a6',1,'cppknife']]],
+  ['isint_284',['isInt',['../namespacecppknife.html#a80f57297614fa67f0cf0473c8a8be0b5',1,'cppknife']]],
+  ['isnat_285',['isNat',['../namespacecppknife.html#a81c2f155a46225dc2d91b3b6ac9945e3',1,'cppknife']]],
+  ['issize_286',['isSize',['../namespacecppknife.html#a594d39134262d28ecaa562295e2a669f',1,'cppknife']]]
 ];

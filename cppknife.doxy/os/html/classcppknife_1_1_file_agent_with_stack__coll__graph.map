@@ -1,9 +1,9 @@
 <map id="cppknife::FileAgentWithStack" name="cppknife::FileAgentWithStack">
-<area shape="rect" id="node1" title=" " alt="" coords="509,107,721,133"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_file_agent.html" title=" " alt="" coords="217,5,363,32"/>
-<area shape="rect" id="node3" href="$classcppknife_1_1_dir_tree_statistic.html" title=" " alt="" coords="197,56,383,83"/>
-<area shape="rect" id="node4" href="$classcppknife_1_1_trace_unit.html" title=" " alt="" coords="216,107,364,133"/>
-<area shape="rect" id="node5" href="$classcppknife_1_1_dir_entry_filter.html" title=" " alt="" coords="205,157,375,184"/>
-<area shape="rect" id="node6" href="$classcppknife_1_1_fs_entry_with_stack.html" title=" " alt="" coords="189,208,391,235"/>
-<area shape="rect" id="node7" href="$classcppknife_1_1_fs_entry.html" title=" " alt="" coords="5,208,140,235"/>
+<area shape="rect" id="node1" title="Implements a FileAgent for &quot;struct stat&quot; based filesystems." alt="" coords="509,107,721,133"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_file_agent.html" title="An interface (abstract class) for fetching files from a file tree." alt="" coords="217,5,363,32"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_dir_tree_statistic.html" title="Stores statistic data of a directory tree." alt="" coords="197,56,383,83"/>
+<area shape="rect" id="node4" href="$classcppknife_1_1_trace_unit.html" title="Manages trigger points. A trigger point is reached if a given amount of time or a given count of file..." alt="" coords="216,107,364,133"/>
+<area shape="rect" id="node5" href="$classcppknife_1_1_dir_entry_filter.html" title="Offers file filtering." alt="" coords="205,157,375,184"/>
+<area shape="rect" id="node6" href="$classcppknife_1_1_fs_entry_with_stack.html" title="An implementation using the portable struct stat." alt="" coords="189,208,391,235"/>
+<area shape="rect" id="node7" href="$classcppknife_1_1_fs_entry.html" title="A portable interface to a file system entry like file, directory, symbol link... Offers only the prop..." alt="" coords="5,208,140,235"/>
 </map>

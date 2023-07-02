@@ -1,4 +1,4 @@
 <map id="cppknife::SimpleMatcher" name="cppknife::SimpleMatcher">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,189,107"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_matcher.html" title=" " alt="" coords="28,5,167,32"/>
+<area shape="rect" id="node1" title="An implementation of Matcher for glob matching (used in shells)." alt="" coords="5,80,189,107"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_matcher.html" title="An interface (abstract class) for text searching with wildcards." alt="" coords="28,5,167,32"/>
 </map>

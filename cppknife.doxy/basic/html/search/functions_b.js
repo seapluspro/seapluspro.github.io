@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['sqldriver_136',['SqlDriver',['../classcppknife_1_1_sql_driver.html#acf7e16b76f9f70e549dfdc2be33bde34',1,'cppknife::SqlDriver']]],
-  ['storedb_137',['storeDb',['../classcppknife_1_1_my_sql.html#a2ab0ac86b681777b428147da06d5f373',1,'cppknife::MySql::storeDb()'],['../classcppknife_1_1_postgres.html#add1063914c603cb5cd43a482dd125c0f',1,'cppknife::Postgres::storeDb()'],['../classcppknife_1_1_sql_driver.html#a387747eefdbf1a04fb9547bbae48b691',1,'cppknife::SqlDriver::storeDb()']]],
-  ['summaryof_138',['summaryOf',['../classcppknife_1_1_my_sql.html#afc1fa4fd60fc9c49ff9ce64bd53d085d',1,'cppknife::MySql::summaryOf()'],['../classcppknife_1_1_postgres.html#aff85f5650d869a9969a055c3dadf6d5a',1,'cppknife::Postgres::summaryOf()'],['../classcppknife_1_1_sql_driver.html#acc7a4ed68895a440cd0f6c99b44af9f6',1,'cppknife::SqlDriver::summaryOf()']]]
+  ['max_295',['max',['../basic_8hpp.html#af082905f7eac6d03e92015146bbc1925',1,'basic.hpp']]],
+  ['memoryappender_296',['MemoryAppender',['../classcppknife_1_1_memory_appender.html#a0e6dab15b4afbc85a1fc866285121502',1,'cppknife::MemoryAppender::MemoryAppender(size_t maxLines=1000)'],['../classcppknife_1_1_memory_appender.html#a1768b5eca763a7f02dca066fd9886027',1,'cppknife::MemoryAppender::MemoryAppender(const MemoryAppender &amp;other)']]],
+  ['message_297',['message',['../classcppknife_1_1_internal_error.html#a7bdbb58c72848dcb262f680c46700e6e',1,'cppknife::InternalError']]],
+  ['min_298',['min',['../basic_8hpp.html#abd8bbcfabb3ddef2ccaafb9928a37b95',1,'basic.hpp']]]
 ];

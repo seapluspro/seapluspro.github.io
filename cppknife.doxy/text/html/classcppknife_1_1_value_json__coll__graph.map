@@ -1,4 +1,4 @@
 <map id="cppknife::ValueJson" name="cppknife::ValueJson">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,156,107"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_node_json.html" title=" " alt="" coords="7,5,154,32"/>
+<area shape="rect" id="node1" title="Stores a value in the Json data tree." alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_node_json.html" title="The base class for an node in the Json data tree." alt="" coords="7,5,154,32"/>
 </map>

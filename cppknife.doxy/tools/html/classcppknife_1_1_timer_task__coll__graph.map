@@ -1,0 +1,5 @@
+<map id="cppknife::TimerTask" name="cppknife::TimerTask">
+<area shape="rect" id="node1" title="Stores a combination of a point in time and the task to do at that time." alt="" coords="95,95,247,121"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_scheduler.html" title=" " alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_task_handler.html" title="Defines an interface (abstract class) to different task handlers." alt="" coords="180,5,347,32"/>
+</map>

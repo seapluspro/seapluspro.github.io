@@ -9,4 +9,5 @@
 - [Scope __geo__](https://seapluspro.github.io/cppknife.doxy/geo/html/index.html) (geometry and geography)
 - [Scope __os__](https://seapluspro.github.io/cppknife.doxy/os/html/index.html) (operating system: files, processes...)
 - [Scope __text__](https://seapluspro.github.io/cppknife.doxy/text/html/index.html) (text searching/manipulation)
+- [Scope __tools__](https://seapluspro.github.io/cppknife.doxy/tools/html/index.html) (applications, common things for applications)
 

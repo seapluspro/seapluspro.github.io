@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['postgres_95',['Postgres',['../classcppknife_1_1_postgres.html',1,'cppknife']]]
+  ['fileappender_216',['FileAppender',['../classcppknife_1_1_file_appender.html',1,'cppknife']]]
 ];

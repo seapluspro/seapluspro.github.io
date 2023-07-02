@@ -1,4 +1,4 @@
 <map id="cppknife::Script" name="cppknife::Script">
-<area shape="rect" id="node1" title=" " alt="" coords="12,80,135,107"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_line_list.html" title=" " alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node1" title="Represents a single script." alt="" coords="12,80,135,107"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_line_list.html" title="Manages a list of lines called &quot;buffer&quot;." alt="" coords="5,5,141,32"/>
 </map>

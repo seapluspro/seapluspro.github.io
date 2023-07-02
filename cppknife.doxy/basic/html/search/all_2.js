@@ -1,20 +1,8 @@
 var searchData=
 [
-  ['clear_36',['clear',['../classcppknife_1_1_table_meta.html#a7a87912699b0ba8ff8f8ccbfbc5de9a7',1,'cppknife::TableMeta::clear()'],['../classcppknife_1_1_table_summary.html#a52ae84180286d53294fc95ce42d2aa26',1,'cppknife::TableSummary::clear()'],['../classcppknife_1_1_result.html#aed7ff20fd36f1e7965fce589f8281894',1,'cppknife::Result::clear()']]],
-  ['close_37',['close',['../classcppknife_1_1_my_sql.html#a21e8da8c8e824e02115ceeb6b8477e6f',1,'cppknife::MySql::close()'],['../classcppknife_1_1_postgres.html#a260564a505646e2b8a05cfb58760b31a',1,'cppknife::Postgres::close()']]],
-  ['colcount_38',['colCount',['../classcppknife_1_1_result.html#a5262f314eef0085d114cb70d00e56204',1,'cppknife::Result']]],
-  ['coltype_5fchar_39',['COLTYPE_CHAR',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079aba44ee5b553f45fbe53a7c6a453dc690',1,'cppknife']]],
-  ['coltype_5fdate_40',['COLTYPE_DATE',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a992f4a67d939f86bc0a71eba38be3e6c',1,'cppknife']]],
-  ['coltype_5ffloat_41',['COLTYPE_FLOAT',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a002731316dc4e35fae2af24aaee6199c',1,'cppknife']]],
-  ['coltype_5fint_42',['COLTYPE_INT',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a63db01dd23cd67f4e0275bd946726978',1,'cppknife']]],
-  ['coltype_5ftext_43',['COLTYPE_TEXT',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a45ec383f007ddcb59ca9b0ed58ed9660',1,'cppknife']]],
-  ['coltype_5ftime_44',['COLTYPE_TIME',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a9e58802afafdb332b07b71af5b978aa4',1,'cppknife']]],
-  ['coltype_5ftimestamp_45',['COLTYPE_TIMESTAMP',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079ae0f9cb0ce76dcf9f939bc30adf368ad6',1,'cppknife']]],
-  ['coltype_5fundef_46',['COLTYPE_UNDEF',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a66f76f14b1b15e67736f27b1794a1518',1,'cppknife']]],
-  ['coltype_5fvarchar_47',['COLTYPE_VARCHAR',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079aec8058d643b547756a19d94296709e62',1,'cppknife']]],
-  ['columnmeta_48',['ColumnMeta',['../classcppknife_1_1_column_meta.html',1,'cppknife']]],
-  ['columntype_49',['ColumnType',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079',1,'cppknife']]],
-  ['connect_50',['connect',['../classcppknife_1_1_postgres.html#a1f4498a1713c8984328d10387936c4e0',1,'cppknife::Postgres::connect()'],['../classcppknife_1_1_my_sql.html#af52a1f4a5acc16fb1d3357201a8328df',1,'cppknife::MySql::connect()']]],
-  ['cppknife_51',['cppknife',['../namespacecppknife.html',1,'']]],
-  ['createdbanduser_52',['createDbAndUser',['../classcppknife_1_1_sql_driver.html#a3becc3fc7624d078cd0715c8bb2ff611',1,'cppknife::SqlDriver::createDbAndUser()'],['../classcppknife_1_1_postgres.html#ab19127d1f2ad5a5d74d00468831d7228',1,'cppknife::Postgres::createDbAndUser()'],['../classcppknife_1_1_my_sql.html#a3a4df3988c5eeae00ce22836d0f4fe71',1,'cppknife::MySql::createDbAndUser()']]]
+  ['baserandom_58',['BaseRandom',['../classcppknife_1_1_base_random.html#ab2a9bd82e5157f7b21a678d0d6b68c85',1,'cppknife::BaseRandom::BaseRandom()'],['../classcppknife_1_1_base_random.html#ac8391f0e15c4815098af7e2e54fa624a',1,'cppknife::BaseRandom::BaseRandom(const BaseRandom &amp;other)'],['../classcppknife_1_1_base_random.html',1,'cppknife::BaseRandom']]],
+  ['baserandom_2ecpp_59',['BaseRandom.cpp',['../_base_random_8cpp.html',1,'']]],
+  ['baserandom_2ehpp_60',['BaseRandom.hpp',['../_base_random_8hpp.html',1,'']]],
+  ['basic_2ehpp_61',['basic.hpp',['../basic_8hpp.html',1,'']]],
+  ['buildmemorylogger_62',['buildMemoryLogger',['../namespacecppknife.html#a27738c515fffabf282c4ada958bf86eb',1,'cppknife']]]
 ];

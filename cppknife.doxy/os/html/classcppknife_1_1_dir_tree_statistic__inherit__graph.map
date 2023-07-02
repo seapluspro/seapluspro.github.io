@@ -1,4 +1,4 @@
 <map id="cppknife::DirTreeStatistic" name="cppknife::DirTreeStatistic">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,191,32"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_traverser.html" title=" " alt="" coords="25,80,171,107"/>
+<area shape="rect" id="node1" title="Stores statistic data of a directory tree." alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_traverser.html" title="Allows to traverse a directory tree file by file with many filter options." alt="" coords="25,80,171,107"/>
 </map>

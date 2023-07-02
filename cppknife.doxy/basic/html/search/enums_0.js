@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['columntype_182',['ColumnType',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079',1,'cppknife']]]
+  ['charclass_413',['CharClass',['../namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610eff',1,'cppknife']]]
 ];

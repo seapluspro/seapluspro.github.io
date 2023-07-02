@@ -1,12 +1,11 @@
 var searchData=
 [
-  ['coltype_5fchar_183',['COLTYPE_CHAR',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079aba44ee5b553f45fbe53a7c6a453dc690',1,'cppknife']]],
-  ['coltype_5fdate_184',['COLTYPE_DATE',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a992f4a67d939f86bc0a71eba38be3e6c',1,'cppknife']]],
-  ['coltype_5ffloat_185',['COLTYPE_FLOAT',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a002731316dc4e35fae2af24aaee6199c',1,'cppknife']]],
-  ['coltype_5fint_186',['COLTYPE_INT',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a63db01dd23cd67f4e0275bd946726978',1,'cppknife']]],
-  ['coltype_5ftext_187',['COLTYPE_TEXT',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a45ec383f007ddcb59ca9b0ed58ed9660',1,'cppknife']]],
-  ['coltype_5ftime_188',['COLTYPE_TIME',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a9e58802afafdb332b07b71af5b978aa4',1,'cppknife']]],
-  ['coltype_5ftimestamp_189',['COLTYPE_TIMESTAMP',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079ae0f9cb0ce76dcf9f939bc30adf368ad6',1,'cppknife']]],
-  ['coltype_5fundef_190',['COLTYPE_UNDEF',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079a66f76f14b1b15e67736f27b1794a1518',1,'cppknife']]],
-  ['coltype_5fvarchar_191',['COLTYPE_VARCHAR',['../namespacecppknife.html#aa5eca4359d076add16a8102dbbc90079aec8058d643b547756a19d94296709e62',1,'cppknife']]]
+  ['cc_5falpha_415',['CC_ALPHA',['../namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effa12fbd4e98c4b27d4a72c0e9a1e09d77d',1,'cppknife']]],
+  ['cc_5falpha_5flowercase_416',['CC_ALPHA_LOWERCASE',['../namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effadeaabbc48c92db5a9fbf544d54423974',1,'cppknife']]],
+  ['cc_5falpha_5fuppercase_417',['CC_ALPHA_UPPERCASE',['../namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effa05b2c992094e09bd7c38b2d5279ddb79',1,'cppknife']]],
+  ['cc_5fascii95_418',['CC_ASCII95',['../namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effadf52d3a389ffda59036e95c6771a1df1',1,'cppknife']]],
+  ['cc_5fdecimal_419',['CC_DECIMAL',['../namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effa4698b8193d90ab00511e517213477d1c',1,'cppknife']]],
+  ['cc_5fundef_420',['CC_UNDEF',['../namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effa827e551ca4cd6d30f06b5cecf331c5eb',1,'cppknife']]],
+  ['cc_5fword_421',['CC_WORD',['../namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effacac94158b6bbe5dde319ce6017eebb2e',1,'cppknife']]],
+  ['cc_5fword_5ffirst_422',['CC_WORD_FIRST',['../namespacecppknife.html#aaae8c92d231fe64cb9c5c2db1d610effacd220ce102f902377a6c2e7b53559490',1,'cppknife']]]
 ];

@@ -1,0 +1,6 @@
+<map id="cppknife::RowResult" name="cppknife::RowResult">
+<area shape="rect" id="node1" title="Stores one row of a database query." alt="" coords="5,184,160,211"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_result.html" title="Stores the result of a database query." alt="" coords="117,95,243,121"/>
+<area shape="rect" id="node4" href="$classcppknife_1_1_meta_result.html" title="Stores the meta data of a result set of a database query." alt="" coords="184,184,344,211"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_sql_driver.html" title="Defines an interface (abstract class) for database handling. That allows to write programs that can c..." alt="" coords="107,5,253,32"/>
+</map>

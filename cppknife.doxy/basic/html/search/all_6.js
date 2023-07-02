@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['indexof_58',['indexOf',['../classcppknife_1_1_meta_result.html#ae5390948c40be89cf4cfaaf76b457821',1,'cppknife::MetaResult::indexOf()'],['../classcppknife_1_1_result.html#a9061ebb6e875d29aff4032c2b5b48edc',1,'cppknife::Result::indexOf()']]],
-  ['initialize_59',['initialize',['../classcppknife_1_1_table_meta_mysql.html#aef9d76b862f20d304169ca6ba1978bb7',1,'cppknife::TableMetaMysql::initialize()'],['../classcppknife_1_1_table_meta.html#a7f3e59caae5b4224632c8be8d38a502c',1,'cppknife::TableMeta::initialize()']]]
+  ['globallogger_98',['globalLogger',['../classcppknife_1_1_logger.html#a0e7d9a29a3ba26d6254b960e6a3c83e5',1,'cppknife::Logger::globalLogger()'],['../namespacecppknife.html#aa89bd5191e5678b4860e828f81dac304',1,'cppknife::globalLogger()']]],
+  ['globtoregularexpression_99',['globToRegularExpression',['../namespacecppknife.html#a51527173b488affd9231b87c20b96822',1,'cppknife']]]
 ];

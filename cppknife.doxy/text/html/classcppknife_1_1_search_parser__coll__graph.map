@@ -1,6 +1,6 @@
 <map id="cppknife::SearchParser" name="cppknife::SearchParser">
-<area shape="rect" id="node1" title=" " alt="" coords="75,185,246,212"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_parser.html" title=" " alt="" coords="97,109,224,136"/>
-<area shape="rect" id="node3" href="$classcppknife_1_1_input_data.html" title=" " alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node4" href="$classcppknife_1_1_token.html" title=" " alt="" coords="181,5,303,32"/>
+<area shape="rect" id="node1" title="Extends the Parser for processing the Search Engine Script Language." alt="" coords="75,185,246,212"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_parser.html" title="Separates a text into syntactical elements (&quot;tokens&quot;)." alt="" coords="97,109,224,136"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_input_data.html" title="Stores the input data to parse." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node4" href="$classcppknife_1_1_token.html" title="Stores an syntactical item of the language like a string, an id or a number." alt="" coords="181,5,303,32"/>
 </map>

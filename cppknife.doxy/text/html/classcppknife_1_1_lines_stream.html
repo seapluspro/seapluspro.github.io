@@ -73,15 +73,18 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Defines an interface (abstract class) delivering lines without holding all lines in a list.  
+ <a href="classcppknife_1_1_lines_stream.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_lines_stream_8hpp_source.html">LinesStream.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for cppknife::LinesStream:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcppknife_1_1_lines_stream__inherit__graph.png" border="0" usemap="#acppknife_1_1_lines_stream_inherit__map" alt="Inheritance graph"/></div>
 <map name="acppknife_1_1_lines_stream_inherit__map" id="acppknife_1_1_lines_stream_inherit__map">
-<area shape="rect" title=" " alt="" coords="127,5,294,32"/>
-<area shape="rect" href="classcppknife_1_1_file_lines_stream.html" title=" " alt="" coords="5,80,195,107"/>
-<area shape="rect" href="classcppknife_1_1_string_lines_stream.html" title=" " alt="" coords="219,80,424,107"/>
+<area shape="rect" title="Defines an interface (abstract class) delivering lines without holding all lines in a list." alt="" coords="127,5,294,32"/>
+<area shape="rect" href="classcppknife_1_1_file_lines_stream.html" title="The implementation of LinesStream for a text file." alt="" coords="5,80,195,107"/>
+<area shape="rect" href="classcppknife_1_1_string_lines_stream.html" title="The implementation of LinesStream for a complete text." alt="" coords="219,80,424,107"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -97,7 +100,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1affaca83a412bb2ea5b7262d9496a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An abstract class which delivers a text in pieces, for example line by line. It is warrented that a line is always complete when it is delivered. </p>
+<div class="textblock"><p>Defines an interface (abstract class) delivering lines without holding all lines in a list. </p>
+<p>It automatically fetches the next line if needed. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae0c8eef06c4398a2668674d390f6165f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0c8eef06c4398a2668674d390f6165f">&#9670;&nbsp;</a></span>~LinesStream()</h2>

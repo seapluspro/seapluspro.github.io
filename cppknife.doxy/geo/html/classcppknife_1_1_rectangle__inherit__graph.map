@@ -1,4 +1,4 @@
 <map id="cppknife::Rectangle" name="cppknife::Rectangle">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,156,107"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_shape.html" title=" " alt="" coords="17,5,144,32"/>
+<area shape="rect" id="node1" title="Stores a vertical/horizontal rectangle." alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_shape.html" title="Abstract base class of a drawable object." alt="" coords="17,5,144,32"/>
 </map>

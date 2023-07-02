@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['postgres_131',['Postgres',['../classcppknife_1_1_postgres.html#a5587f3aa9502abd48e430f49c8b4a3ee',1,'cppknife::Postgres']]]
+  ['joincstrings_287',['joinCStrings',['../namespacecppknife.html#ab0a10ad8e69214d77b99dbc1766cf0a0',1,'cppknife']]],
+  ['joinvector_288',['joinVector',['../namespacecppknife.html#ade7d0ac6edc16f9e4d4466ee4b7bc823',1,'cppknife']]]
 ];

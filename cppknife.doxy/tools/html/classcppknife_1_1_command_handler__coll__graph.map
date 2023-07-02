@@ -1,0 +1,4 @@
+<map id="cppknife::CommandHandler" name="cppknife::CommandHandler">
+<area shape="rect" id="node1" title="A base class for handlers implementing a sub command." alt="" coords="5,97,209,124"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_argument_parser.html" title="Manages the parsing of the program arguments." alt="" coords="12,7,203,33"/>
+</map>

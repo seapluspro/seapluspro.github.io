@@ -1,4 +1,4 @@
 <map id="cppknife::FileAgentWithStack" name="cppknife::FileAgentWithStack">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,217,107"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_file_agent.html" title=" " alt="" coords="38,5,185,32"/>
+<area shape="rect" id="node1" title="Implements a FileAgent for &quot;struct stat&quot; based filesystems." alt="" coords="5,80,217,107"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_file_agent.html" title="An interface (abstract class) for fetching files from a file tree." alt="" coords="38,5,185,32"/>
 </map>

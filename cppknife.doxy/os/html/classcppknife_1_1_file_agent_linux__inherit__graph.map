@@ -1,4 +1,4 @@
 <map id="cppknife::FileAgentLinux" name="cppknife::FileAgentLinux">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,187,107"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_file_agent.html" title=" " alt="" coords="23,5,169,32"/>
+<area shape="rect" id="node1" title="The Linux implementation of FileAgent." alt="" coords="5,80,187,107"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_file_agent.html" title="An interface (abstract class) for fetching files from a file tree." alt="" coords="23,5,169,32"/>
 </map>

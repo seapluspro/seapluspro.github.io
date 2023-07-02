@@ -1,4 +1,4 @@
 <map id="cppknife::FsEntryLinux" name="cppknife::FsEntryLinux">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,176,107"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_fs_entry.html" title=" " alt="" coords="23,5,158,32"/>
+<area shape="rect" id="node1" title="The Linux implementation of FsEntry." alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_fs_entry.html" title="A portable interface to a file system entry like file, directory, symbol link... Offers only the prop..." alt="" coords="23,5,158,32"/>
 </map>

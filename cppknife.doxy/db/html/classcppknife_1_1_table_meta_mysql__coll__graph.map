@@ -1,0 +1,5 @@
+<map id="cppknife::TableMetaMysql" name="cppknife::TableMetaMysql">
+<area shape="rect" id="node1" title="Stores the meta data of a database table." alt="" coords="5,171,197,197"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_table_meta.html" title="A base class storing the meta data of a database table." alt="" coords="25,95,178,121"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_sql_driver.html" title="Defines an interface (abstract class) for database handling. That allows to write programs that can c..." alt="" coords="28,5,175,32"/>
+</map>

@@ -74,6 +74,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Manages a very efficient way of memory storage for a certain situation: Freeing a memory is done at the end and at once, not for each item itself.  
+ <a href="classcppknife_1_1_string_list.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_string_list_8hpp_source.html">StringList.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -123,7 +126,11 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a592f55e1074d0f7aa1d87344a417fc78"><td class="memItemLeft" align="right" valign="top">ByteStorage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_string_list.html#a592f55e1074d0f7aa1d87344a417fc78">_storage</a></td></tr>
 <tr class="separator:a592f55e1074d0f7aa1d87344a417fc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manages a very efficient way of memory storage for a certain situation: Freeing a memory is done at the end and at once, not for each item itself. </p>
+<p>Manages a very efficient way of memory storage for a certain situation: Freeing a memory is done at the end and at once, not for each item itself.</p>
+<p>The memory is reserved in clusters of a given size. A new memory request is served by that cluster unless the size of the cluster does not reach. In this case a new cluster is reserved. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4b1579d67c168fa258d7f84ee52db1c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b1579d67c168fa258d7f84ee52db1c7">&#9670;&nbsp;</a></span>StringList() <span class="overload">[1/2]</span></h2>
 

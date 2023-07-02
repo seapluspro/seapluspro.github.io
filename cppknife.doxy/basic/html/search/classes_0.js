@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['columnmeta_91',['ColumnMeta',['../classcppknife_1_1_column_meta.html',1,'cppknife']]]
+  ['appender_213',['Appender',['../classcppknife_1_1_appender.html',1,'cppknife']]]
 ];

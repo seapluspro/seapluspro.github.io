@@ -1,5 +1,5 @@
 <map id="cppknife::Rectangle" name="cppknife::Rectangle">
-<area shape="rect" id="node1" title=" " alt="" coords="5,171,156,197"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_shape.html" title=" " alt="" coords="12,5,139,32"/>
-<area shape="rect" id="node3" href="$classcppknife_1_1_point2_d.html" title=" " alt="" coords="97,81,235,108"/>
+<area shape="rect" id="node1" title="Stores a vertical/horizontal rectangle." alt="" coords="5,171,156,197"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_shape.html" title="Abstract base class of a drawable object." alt="" coords="12,5,139,32"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_point2_d.html" title="Manages a two dimensional point." alt="" coords="97,81,235,108"/>
 </map>

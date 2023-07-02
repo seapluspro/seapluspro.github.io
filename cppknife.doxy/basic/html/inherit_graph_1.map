@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcppknife_1_1_login_data.html" title="Stores the login data." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node1" href="$classcppknife_1_1_base_random.html" title="An abstract class for creating pseudo random numbers." alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_portable_random.html" title="A pseudo random generator which algorithm can be simply ported to other programming languages." alt="" coords="225,5,420,32"/>
 </map>

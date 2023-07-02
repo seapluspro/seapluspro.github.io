@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcppknife_1_1_real_kiss_random.html" title=" " alt="" coords="5,5,201,32"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_kiss_random.html" title="Implements the KISS algorithm for generating pseudo random number." alt="" coords="249,5,416,32"/>
+<area shape="rect" id="node1" href="$classcppknife_1_1_real_kiss_random.html" title="Offers a random generator based on the KISS algorithm with unpredictable values." alt="" coords="5,5,201,32"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_kiss_random.html" title="Implements the KISS algorithm for pseudo random numbers." alt="" coords="249,5,416,32"/>
 </map>

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classcppknife_1_1_sql_driver.html" title="Defines an interface (abstract class) for database handling. That allows to write programs that can c..." alt="" coords="5,31,152,57"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_my_sql.html" title="Implementation of the interface SqlDriver for MySql and Mariadb." alt="" coords="208,5,335,32"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_postgres.html" title="Implementation of the interface SqlDriver for Postgres." alt="" coords="200,56,343,83"/>
+</map>
