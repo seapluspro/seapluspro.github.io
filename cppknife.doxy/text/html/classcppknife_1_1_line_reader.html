@@ -75,7 +75,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Manages a line reader with unlimited line size.  
+<p>Manages a line reader with unlimited line size and binary file detection.  
  <a href="classcppknife_1_1_line_reader.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_line_reader_8hpp_source.html">LineReader.hpp</a>&gt;</code></p>
@@ -84,7 +84,7 @@ Inheritance diagram for cppknife::LineReader:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcppknife_1_1_line_reader__inherit__graph.png" border="0" usemap="#acppknife_1_1_line_reader_inherit__map" alt="Inheritance graph"/></div>
 <map name="acppknife_1_1_line_reader_inherit__map" id="acppknife_1_1_line_reader_inherit__map">
-<area shape="rect" title="Manages a line reader with unlimited line size." alt="" coords="84,5,243,32"/>
+<area shape="rect" title="Manages a line reader with unlimited line size and binary file detection." alt="" coords="84,5,243,32"/>
 <area shape="rect" href="classcppknife_1_1_csv_file.html" title="Manages a Comma Separated File (CSV)." alt="" coords="5,80,137,107"/>
 <area shape="rect" href="classcppknife_1_1_file_lines_stream.html" title="The implementation of LinesStream for a text file." alt="" coords="162,80,351,107"/>
 </map>
@@ -112,6 +112,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a61db52cfa468e6430a5fd6a30efe34b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b67cd9fbe33141ce027741919d6241c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a7b67cd9fbe33141ce027741919d6241c">readBlock</a> ()</td></tr>
 <tr class="separator:a7b67cd9fbe33141ce027741919d6241c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99c5fd918eb0cbabf2bd0b40b6bdd8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#ad99c5fd918eb0cbabf2bd0b40b6bdd8b">reset</a> ()</td></tr>
+<tr class="separator:ad99c5fd918eb0cbabf2bd0b40b6bdd8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25e466e9cc6b6f0dadc1953ae779b9b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a25e466e9cc6b6f0dadc1953ae779b9b6">setBufferSize</a> (size_t value)</td></tr>
 <tr class="separator:a25e466e9cc6b6f0dadc1953ae779b9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00066c2add8e644a8c624d7f67d81e9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a00066c2add8e644a8c624d7f67d81e9c">setRemoveNewline</a> (bool value)</td></tr>
@@ -143,7 +145,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a3d9075b7a9a6f30178be5367c2cab53b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a3d9075b7a9a6f30178be5367c2cab53b">_blockSize</a></td></tr>
 <tr class="separator:a3d9075b7a9a6f30178be5367c2cab53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ece0ccb254274dcaaa8dbd2119fbc94"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a7ece0ccb254274dcaaa8dbd2119fbc94">_nextBlock</a></td></tr>
-<tr class="memdesc:a7ece0ccb254274dcaaa8dbd2119fbc94"><td class="mdescLeft">&#160;</td><td class="mdescRight">A data block containing the start of the next data.  <a href="classcppknife_1_1_line_reader.html#a7ece0ccb254274dcaaa8dbd2119fbc94">More...</a><br /></td></tr>
+<tr class="memdesc:a7ece0ccb254274dcaaa8dbd2119fbc94"><td class="mdescLeft">&#160;</td><td class="mdescRight">A data block containing the start of the next line.  <a href="classcppknife_1_1_line_reader.html#a7ece0ccb254274dcaaa8dbd2119fbc94">More...</a><br /></td></tr>
 <tr class="separator:a7ece0ccb254274dcaaa8dbd2119fbc94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a796d42a4a0ab4e964aec1d5b1eaf2992"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a796d42a4a0ab4e964aec1d5b1eaf2992">_cursorNextBlock</a></td></tr>
 <tr class="memdesc:a796d42a4a0ab4e964aec1d5b1eaf2992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Points on the start of the next line inside <em>_nextBlock</em>.  <a href="classcppknife_1_1_line_reader.html#a796d42a4a0ab4e964aec1d5b1eaf2992">More...</a><br /></td></tr>
@@ -153,8 +155,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ade7f2ceb14bc3cc9bacc1a5693a20065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Manages a line reader with unlimited line size. </p>
-<p>Manages a line reader with unlimited line size. Note: fgets() operates with a limited line size. </p>
+<div class="textblock"><p>Manages a line reader with unlimited line size and binary file detection. </p>
+<p>Note: fgets() operates with a limited line size. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a644ddda5de60d72535fc5063cb62712b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a644ddda5de60d72535fc5063cb62712b">&#9670;&nbsp;</a></span>LineReader()</h2>
@@ -386,6 +388,24 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Puts the next line into <em>_currentLine</em>. </p>
+
+</div>
+</div>
+<a id="ad99c5fd918eb0cbabf2bd0b40b6bdd8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad99c5fd918eb0cbabf2bd0b40b6bdd8b">&#9670;&nbsp;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cppknife::LineReader::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Change the state to start from file begin again. </p>
 
 </div>
 </div>
@@ -684,7 +704,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>A data block containing the start of the next data. </p>
+<p>A data block containing the start of the next line. </p>
 
 </div>
 </div>

@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcppknife_1_1_line_reader.html" title="Manages a line reader with unlimited line size." alt="" coords="9,19,168,45"/>
+<area shape="rect" id="node1" href="$classcppknife_1_1_line_reader.html" title="Manages a line reader with unlimited line size and binary file detection." alt="" coords="9,19,168,45"/>
 <area shape="rect" id="node2" href="$classcppknife_1_1_csv_file.html" title="Manages a Comma Separated File (CSV)." alt="" coords="257,5,389,32"/>
 <area shape="rect" id="node3" href="$classcppknife_1_1_file_lines_stream.html" title="The implementation of LinesStream for a text file." alt="" coords="228,56,417,83"/>
 <area shape="rect" id="node4" href="$classcppknife_1_1_lines_stream.html" title="Defines an interface (abstract class) delivering lines without holding all lines in a list." alt="" coords="5,81,172,108"/>

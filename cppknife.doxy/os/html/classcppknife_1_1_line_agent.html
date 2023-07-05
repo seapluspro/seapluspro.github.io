@@ -90,6 +90,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac3ad633c6a9c63a682d4c3d46f37ea7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4abe094537da081524cd60eb76c6725c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_agent.html#a4abe094537da081524cd60eb76c6725c">hasBinaryData</a> () const</td></tr>
 <tr class="separator:a4abe094537da081524cd60eb76c6725c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a08cb63f7a2185d320a045f44d04d55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_agent.html#a7a08cb63f7a2185d320a045f44d04d55">estimateLineCount</a> ()</td></tr>
+<tr class="separator:a7a08cb63f7a2185d320a045f44d04d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bfeecec877aaba7f32c5f30452ce4ff"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_agent.html#a4bfeecec877aaba7f32c5f30452ce4ff">nextLine</a> (size_t &amp;length)</td></tr>
 <tr class="separator:a4bfeecec877aaba7f32c5f30452ce4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe506339a57ace4ab76575e293409670"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_agent.html#afe506339a57ace4ab76575e293409670">openFile</a> (const char *filename)</td></tr>
@@ -200,6 +202,25 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Tests whether the end of file has been reached: No more data available. </p>
+
+</div>
+</div>
+<a id="a7a08cb63f7a2185d320a045f44d04d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a08cb63f7a2185d320a045f44d04d55">&#9670;&nbsp;</a></span>estimateLineCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::LineAgent::estimateLineCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Estimates the count of lines of the file.</p>
+<p>Count the newlines in the buffer and make a linear approximation with the file size. </p><dl class="section return"><dt>Returns</dt><dd><em>-1</em>Error. Otherwise: The estimation of the count of lines in the file. </dd></dl>
 
 </div>
 </div>

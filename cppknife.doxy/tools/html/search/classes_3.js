@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['extrema_259',['Extrema',['../classcppknife_1_1_extrema.html',1,'cppknife']]]
+  ['extrema_261',['Extrema',['../classcppknife_1_1_extrema.html',1,'cppknife']]]
 ];

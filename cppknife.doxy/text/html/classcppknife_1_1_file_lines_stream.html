@@ -85,7 +85,7 @@ Inheritance diagram for cppknife::FileLinesStream:</div>
 <map name="acppknife_1_1_file_lines_stream_inherit__map" id="acppknife_1_1_file_lines_stream_inherit__map">
 <area shape="rect" title="The implementation of LinesStream for a text file." alt="" coords="87,80,277,107"/>
 <area shape="rect" href="classcppknife_1_1_lines_stream.html" title="Defines an interface (abstract class) delivering lines without holding all lines in a list." alt="" coords="5,5,172,32"/>
-<area shape="rect" href="classcppknife_1_1_line_reader.html" title="Manages a line reader with unlimited line size." alt="" coords="196,5,355,32"/>
+<area shape="rect" href="classcppknife_1_1_line_reader.html" title="Manages a line reader with unlimited line size and binary file detection." alt="" coords="196,5,355,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -95,7 +95,7 @@ Collaboration diagram for cppknife::FileLinesStream:</div>
 <map name="acppknife_1_1_file_lines_stream_coll__map" id="acppknife_1_1_file_lines_stream_coll__map">
 <area shape="rect" title="The implementation of LinesStream for a text file." alt="" coords="87,80,277,107"/>
 <area shape="rect" href="classcppknife_1_1_lines_stream.html" title="Defines an interface (abstract class) delivering lines without holding all lines in a list." alt="" coords="5,5,172,32"/>
-<area shape="rect" href="classcppknife_1_1_line_reader.html" title="Manages a line reader with unlimited line size." alt="" coords="196,5,355,32"/>
+<area shape="rect" href="classcppknife_1_1_line_reader.html" title="Manages a line reader with unlimited line size and binary file detection." alt="" coords="196,5,355,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -111,6 +111,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a24cad359cf0e6596d36ad4a43255f4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49e79bd96e5dee5230b7be8002b8fbca"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_file_lines_stream.html#a49e79bd96e5dee5230b7be8002b8fbca">name</a> () const</td></tr>
 <tr class="separator:a49e79bd96e5dee5230b7be8002b8fbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb795e460304114db50d9a017f05740"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_file_lines_stream.html#abfb795e460304114db50d9a017f05740">reset</a> ()</td></tr>
+<tr class="separator:abfb795e460304114db50d9a017f05740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcppknife_1_1_lines_stream"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcppknife_1_1_lines_stream')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcppknife_1_1_lines_stream.html">cppknife::LinesStream</a></td></tr>
 <tr class="memitem:ae0c8eef06c4398a2668674d390f6165f inherit pub_methods_classcppknife_1_1_lines_stream"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_lines_stream.html#ae0c8eef06c4398a2668674d390f6165f">~LinesStream</a> ()</td></tr>
 <tr class="separator:ae0c8eef06c4398a2668674d390f6165f inherit pub_methods_classcppknife_1_1_lines_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +137,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a61db52cfa468e6430a5fd6a30efe34b9 inherit pub_methods_classcppknife_1_1_line_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b67cd9fbe33141ce027741919d6241c inherit pub_methods_classcppknife_1_1_line_reader"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a7b67cd9fbe33141ce027741919d6241c">readBlock</a> ()</td></tr>
 <tr class="separator:a7b67cd9fbe33141ce027741919d6241c inherit pub_methods_classcppknife_1_1_line_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99c5fd918eb0cbabf2bd0b40b6bdd8b inherit pub_methods_classcppknife_1_1_line_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#ad99c5fd918eb0cbabf2bd0b40b6bdd8b">reset</a> ()</td></tr>
+<tr class="separator:ad99c5fd918eb0cbabf2bd0b40b6bdd8b inherit pub_methods_classcppknife_1_1_line_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25e466e9cc6b6f0dadc1953ae779b9b6 inherit pub_methods_classcppknife_1_1_line_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a25e466e9cc6b6f0dadc1953ae779b9b6">setBufferSize</a> (size_t value)</td></tr>
 <tr class="separator:a25e466e9cc6b6f0dadc1953ae779b9b6 inherit pub_methods_classcppknife_1_1_line_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00066c2add8e644a8c624d7f67d81e9c inherit pub_methods_classcppknife_1_1_line_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a00066c2add8e644a8c624d7f67d81e9c">setRemoveNewline</a> (bool value)</td></tr>
@@ -164,7 +168,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a3d9075b7a9a6f30178be5367c2cab53b inherit pro_attribs_classcppknife_1_1_line_reader"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a3d9075b7a9a6f30178be5367c2cab53b">_blockSize</a></td></tr>
 <tr class="separator:a3d9075b7a9a6f30178be5367c2cab53b inherit pro_attribs_classcppknife_1_1_line_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ece0ccb254274dcaaa8dbd2119fbc94 inherit pro_attribs_classcppknife_1_1_line_reader"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a7ece0ccb254274dcaaa8dbd2119fbc94">_nextBlock</a></td></tr>
-<tr class="memdesc:a7ece0ccb254274dcaaa8dbd2119fbc94 inherit pro_attribs_classcppknife_1_1_line_reader"><td class="mdescLeft">&#160;</td><td class="mdescRight">A data block containing the start of the next data.  <a href="classcppknife_1_1_line_reader.html#a7ece0ccb254274dcaaa8dbd2119fbc94">More...</a><br /></td></tr>
+<tr class="memdesc:a7ece0ccb254274dcaaa8dbd2119fbc94 inherit pro_attribs_classcppknife_1_1_line_reader"><td class="mdescLeft">&#160;</td><td class="mdescRight">A data block containing the start of the next line.  <a href="classcppknife_1_1_line_reader.html#a7ece0ccb254274dcaaa8dbd2119fbc94">More...</a><br /></td></tr>
 <tr class="separator:a7ece0ccb254274dcaaa8dbd2119fbc94 inherit pro_attribs_classcppknife_1_1_line_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a796d42a4a0ab4e964aec1d5b1eaf2992 inherit pro_attribs_classcppknife_1_1_line_reader"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a796d42a4a0ab4e964aec1d5b1eaf2992">_cursorNextBlock</a></td></tr>
 <tr class="memdesc:a796d42a4a0ab4e964aec1d5b1eaf2992 inherit pro_attribs_classcppknife_1_1_line_reader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Points on the start of the next line inside <em>_nextBlock</em>.  <a href="classcppknife_1_1_line_reader.html#a796d42a4a0ab4e964aec1d5b1eaf2992">More...</a><br /></td></tr>
@@ -335,6 +339,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classcppknife_1_1_lines_stream.html#a1affaca83a412bb2ea5b7262d9496a80">cppknife::LinesStream</a>.</p>
+
+</div>
+</div>
+<a id="abfb795e460304114db50d9a017f05740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb795e460304114db50d9a017f05740">&#9670;&nbsp;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cppknife::FileLinesStream::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets state like the state after opening. </p>
 
 </div>
 </div>

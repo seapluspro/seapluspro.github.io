@@ -1,0 +1,5 @@
+<map id="cppknife::ReplaceCommandHandler" name="cppknife::ReplaceCommandHandler">
+<area shape="rect" id="node1" title=" " alt="" coords="5,173,211,215"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_command_handler.html" title="A base class for handlers implementing a sub command." alt="" coords="6,97,210,124"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_argument_parser.html" title="Manages the parsing of the program arguments." alt="" coords="13,7,203,33"/>
+</map>

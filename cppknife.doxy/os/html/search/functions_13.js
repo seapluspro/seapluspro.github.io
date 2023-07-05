@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['writebinary_404',['writeBinary',['../namespacecppknife.html#aaad0931f6006e056f7c4b211e2c1d465',1,'cppknife']]],
-  ['writetext_405',['writeText',['../namespacecppknife.html#ad797831cf604a0d8ce973cb25a8500a5',1,'cppknife']]]
+  ['writebinary_406',['writeBinary',['../namespacecppknife.html#aaad0931f6006e056f7c4b211e2c1d465',1,'cppknife']]],
+  ['writetext_407',['writeText',['../namespacecppknife.html#ad797831cf604a0d8ce973cb25a8500a5',1,'cppknife']]]
 ];
