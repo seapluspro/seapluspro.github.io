@@ -98,6 +98,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aece3db128cc223fcb6136401330ac1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1affaca83a412bb2ea5b7262d9496a80"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_lines_stream.html#a1affaca83a412bb2ea5b7262d9496a80">name</a> () const</td></tr>
 <tr class="separator:a1affaca83a412bb2ea5b7262d9496a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaffa1c63577ebc8073614f5cdd8f8172"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_lines_stream.html#aaffa1c63577ebc8073614f5cdd8f8172">reset</a> ()=0</td></tr>
+<tr class="separator:aaffa1c63577ebc8073614f5cdd8f8172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines an interface (abstract class) delivering lines without holding all lines in a list. </p>
@@ -214,8 +216,37 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns the name of the stream. </p><dl class="section return"><dt>Returns</dt><dd>The name. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classcppknife_1_1_file_lines_stream.html#a49e79bd96e5dee5230b7be8002b8fbca">cppknife::FileLinesStream</a>.</p>
+
+</div>
+</div>
+<a id="aaffa1c63577ebc8073614f5cdd8f8172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaffa1c63577ebc8073614f5cdd8f8172">&#9670;&nbsp;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void cppknife::LinesStream::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Change the state to start from the begin again. </p>
+
+<p>Implemented in <a class="el" href="classcppknife_1_1_file_lines_stream.html#abfb795e460304114db50d9a017f05740">cppknife::FileLinesStream</a>, and <a class="el" href="classcppknife_1_1_string_lines_stream.html#ae12dda0723c241ddf71e2136b2d8ae53">cppknife::StringLinesStream</a>.</p>
 
 </div>
 </div>

@@ -162,8 +162,14 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment"> LineList &amp;_parent;
-</pre><p> bool _isRegExpr; bool _ignoreCase; / for simple strings: if <em>true</em> there are two meta characters: '^': begin of line '$': end of line bool _knowsMetaCharacters; / for simple strings only: the pattern must lay at the begin of the line. bool _beginOfLine; / for simple strings only: the pattern must lay at the end of the line. bool _endOfLine; std::regex *_regExpr; std::string _pattern; </p>
+<p>Constructor. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pattern</td><td>The pattern to search as string. </td></tr>
+    <tr><td class="paramname">isRegExpr</td><td><em>true</em>: the pattern is a regular expression. <em>false</em>: the pattern is a simple string. </td></tr>
+    <tr><td class="paramname">flags</td><td>A string with flags: 'i': ignore case 'M': known meta character (for simple strings) 'B': search backwards 'L': search in one line only </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -410,7 +416,7 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">pattern</td><td>The pattern to search. </td></tr>
     <tr><td class="paramname">isRegExpr</td><td><em>true</em>: the pattern is a regular expression. </td></tr>
-    <tr><td class="paramname">flags</td><td>A string with flags: 'i': ignore case 'M': known meta character (for simple strings) </td></tr>
+    <tr><td class="paramname">flags</td><td>A string with flags: 'i': ignore case 'M': known meta character (for simple strings) 'B': search backwards 'L': search in one line only </td></tr>
   </table>
   </dd>
 </dl>
