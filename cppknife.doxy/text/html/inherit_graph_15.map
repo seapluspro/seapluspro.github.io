@@ -1,4 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcppknife_1_1_matcher.html" title="An interface (abstract class) for text searching with wildcards." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_simple_matcher.html" title="An implementation of Matcher for glob matching (used in shells)." alt="" coords="192,5,376,32"/>
+<area shape="rect" id="node1" href="$classcppknife_1_1_node_json.html" title="The base class for an node in the Json data tree." alt="" coords="5,56,152,83"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_array_json.html" title="Stores an array in the Json data tree." alt="" coords="201,5,349,32"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_map_json.html" title="Stores a map in the Json data tree." alt="" coords="205,56,346,83"/>
+<area shape="rect" id="node4" href="$classcppknife_1_1_value_json.html" title="Stores a value in the Json data tree." alt="" coords="200,107,351,133"/>
 </map>

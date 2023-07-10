@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['appender_209',['Appender',['../classcppknife_1_1_appender.html',1,'cppknife']]]
+  ['appender_0',['Appender',['../classcppknife_1_1_appender.html',1,'cppknife']]]
 ];

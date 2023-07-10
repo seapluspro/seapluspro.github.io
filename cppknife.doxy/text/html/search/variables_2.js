@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['end_5fof_5ffile_1099',['END_OF_FILE',['../classcppknife_1_1_line_list.html#a652d5cce674392f58448041d1276b649',1,'cppknife::LineList']]],
-  ['end_5fof_5fline_1100',['END_OF_LINE',['../classcppknife_1_1_line_list.html#a6870a8053014b243e864130036456135',1,'cppknife::LineList']]]
+  ['end_5fof_5ffile_0',['END_OF_FILE',['../classcppknife_1_1_line_list.html#a652d5cce674392f58448041d1276b649',1,'cppknife::LineList']]],
+  ['end_5fof_5fline_1',['END_OF_LINE',['../classcppknife_1_1_line_list.html#a6870a8053014b243e864130036456135',1,'cppknife::LineList']]]
 ];

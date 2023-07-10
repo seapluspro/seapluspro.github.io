@@ -1,10 +1,10 @@
 <map id="cppknife::FunctionEngine" name="cppknife::FunctionEngine">
 <area shape="rect" id="node1" title="Parses the functions of the Search Engine Script Language." alt="" coords="295,304,481,331"/>
-<area shape="rect" id="node6" href="$classcppknife_1_1_script.html" title="Represents a single script." alt="" coords="189,393,312,420"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_search_engine.html" title="Executes scripts written in a special Search Engine Script Language." alt="" coords="289,483,463,509"/>
-<area shape="rect" id="node3" href="$classcppknife_1_1_line_buffer.html" title="Represents a buffer in the search engine." alt="" coords="111,572,265,599"/>
-<area shape="rect" id="node4" href="$classcppknife_1_1_line_list.html" title="Manages a list of lines called &quot;buffer&quot;." alt="" coords="27,304,163,331"/>
-<area shape="rect" id="node5" href="$classcppknife_1_1_buffer_position.html" title="Stores a position in a buffer." alt="" coords="5,185,184,212"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_script.html" title="Represents a single script." alt="" coords="187,393,309,420"/>
+<area shape="rect" id="node5" href="$classcppknife_1_1_search_engine.html" title="Executes scripts written in a special Search Engine Script Language." alt="" coords="286,483,461,509"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_line_list.html" title="Manages a list of lines called &quot;buffer&quot;." alt="" coords="27,304,163,331"/>
+<area shape="rect" id="node6" href="$classcppknife_1_1_line_buffer.html" title="Represents a buffer in the search engine." alt="" coords="131,572,285,599"/>
+<area shape="rect" id="node4" href="$classcppknife_1_1_buffer_position.html" title="Stores a position in a buffer." alt="" coords="5,185,184,212"/>
 <area shape="rect" id="node7" href="$classcppknife_1_1_search_parser.html" title="Extends the Parser for processing the Search Engine Script Language." alt="" coords="259,185,429,212"/>
 <area shape="rect" id="node8" href="$classcppknife_1_1_parser.html" title="Separates a text into syntactical elements (&quot;tokens&quot;)." alt="" coords="281,109,407,136"/>
 <area shape="rect" id="node9" href="$classcppknife_1_1_input_data.html" title="Stores the input data to parse." alt="" coords="189,5,339,32"/>

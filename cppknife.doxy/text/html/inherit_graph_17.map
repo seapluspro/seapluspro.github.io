@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcppknife_1_1_parameter_info.html" title="Stores a parameter element in the Search Engine Script Language: it is expressed as &lt;name&gt;=&lt;value&gt;." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node1" href="$classcppknife_1_1_parser.html" title="Separates a text into syntactical elements (&quot;tokens&quot;)." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_search_parser.html" title="Extends the Parser for processing the Search Engine Script Language." alt="" coords="180,5,351,32"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcppknife_1_1_timer_task.html" title="Stores a combination of a point in time and the task to do at that time." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node1" href="$classcppknife_1_1_task_handler.html" title="Defines an interface (abstract class) to different task handlers." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_user_check.html" title="Observes the logins of the host. Under construction." alt="" coords="220,5,376,32"/>
 </map>

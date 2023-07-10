@@ -4,9 +4,9 @@
 <area shape="rect" id="node5" href="$classcppknife_1_1_script.html" title="Represents a single script." alt="" coords="258,496,381,523"/>
 <area shape="rect" id="node2" href="$classcppknife_1_1_line_list.html" title="Manages a list of lines called &quot;buffer&quot;." alt="" coords="321,124,457,151"/>
 <area shape="rect" id="node3" href="$classcppknife_1_1_buffer_position.html" title="Stores a position in a buffer." alt="" coords="299,5,478,32"/>
-<area shape="rect" id="node6" href="$classcppknife_1_1_function_engine.html" title="Parses the functions of the Search Engine Script Language." alt="" coords="305,407,491,433"/>
-<area shape="rect" id="node7" href="$classcppknife_1_1_search_parser.html" title="Extends the Parser for processing the Search Engine Script Language." alt="" coords="566,317,737,344"/>
-<area shape="rect" id="node8" href="$classcppknife_1_1_parser.html" title="Separates a text into syntactical elements (&quot;tokens&quot;)." alt="" coords="588,228,715,255"/>
-<area shape="rect" id="node9" href="$classcppknife_1_1_input_data.html" title="Stores the input data to parse." alt="" coords="536,124,687,151"/>
-<area shape="rect" id="node10" href="$classcppknife_1_1_token.html" title="Stores an syntactical item of the language like a string, an id or a number." alt="" coords="711,124,834,151"/>
+<area shape="rect" id="node10" href="$classcppknife_1_1_function_engine.html" title="Parses the functions of the Search Engine Script Language." alt="" coords="305,407,491,433"/>
+<area shape="rect" id="node6" href="$classcppknife_1_1_search_parser.html" title="Extends the Parser for processing the Search Engine Script Language." alt="" coords="566,317,737,344"/>
+<area shape="rect" id="node7" href="$classcppknife_1_1_parser.html" title="Separates a text into syntactical elements (&quot;tokens&quot;)." alt="" coords="588,228,715,255"/>
+<area shape="rect" id="node8" href="$classcppknife_1_1_input_data.html" title="Stores the input data to parse." alt="" coords="536,124,687,151"/>
+<area shape="rect" id="node9" href="$classcppknife_1_1_token.html" title="Stores an syntactical item of the language like a string, an id or a number." alt="" coords="711,124,834,151"/>
 </map>
