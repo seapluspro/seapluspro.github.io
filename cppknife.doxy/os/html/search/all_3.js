@@ -5,8 +5,10 @@ var searchData=
   ['childproc_2',['childProc',['../classcppknife_1_1_process.html#acdfe081c43b825eebeb750c5ead23bdb',1,'cppknife::Process']]],
   ['clear_3',['clear',['../structcppknife_1_1_path_info.html#a335bdb168651b03713acc95a512aafa0',1,'cppknife::PathInfo::clear()'],['../classcppknife_1_1_dir_tree_statistic.html#a0c9f6c516e3ec60970b318d25e01a613',1,'cppknife::DirTreeStatistic::clear()']]],
   ['clearstatus_4',['clearStatus',['../classcppknife_1_1_file_system_entity.html#acaa192333f56163f1a0c008af0d505e9',1,'cppknife::FileSystemEntity']]],
-  ['copyfile_5',['copyFile',['../namespacecppknife.html#a0cd7dae6a0d5474df372dfe9abfe652e',1,'cppknife']]],
-  ['cppknife_6',['cppknife',['../namespacecppknife.html',1,'']]],
-  ['created_7',['created',['../classcppknife_1_1_file_system_entity.html#a1d2c5c863ce0b29dead6d17d0d83c84f',1,'cppknife::FileSystemEntity']]],
-  ['currentdirectory_8',['currentDirectory',['../namespacecppknife.html#a0f68210cd8705ccab852480e1b6e9725',1,'cppknife']]]
+  ['clone_5',['clone',['../classcppknife_1_1_file_buffer.html#a617db8fc37c7a62c1335a8381e1cce25',1,'cppknife::FileBuffer']]],
+  ['copyfile_6',['copyFile',['../namespacecppknife.html#a0cd7dae6a0d5474df372dfe9abfe652e',1,'cppknife']]],
+  ['cppknife_7',['cppknife',['../namespacecppknife.html',1,'']]],
+  ['created_8',['created',['../classcppknife_1_1_file_system_entity.html#a1d2c5c863ce0b29dead6d17d0d83c84f',1,'cppknife::FileSystemEntity']]],
+  ['currentdirectory_9',['currentDirectory',['../namespacecppknife.html#a0f68210cd8705ccab852480e1b6e9725',1,'cppknife']]],
+  ['currentlineno_10',['currentLineNo',['../classcppknife_1_1_line_agent.html#a8c618a988b4db2a1e4c3a56618863f87',1,'cppknife::LineAgent']]]
 ];

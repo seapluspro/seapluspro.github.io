@@ -64,7 +64,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">cppknife Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -192,6 +194,11 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores a value in the Json data tree.  <a href="classcppknife_1_1_value_json.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ae41844807aa55478de963d3efefab773"><td class="memItemLeft" align="right" valign="top">typedef unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a></td></tr>
+<tr class="separator:ae41844807aa55478de963d3efefab773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ad25f9e88f2af249f34a14f1b7890fbc2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ad25f9e88f2af249f34a14f1b7890fbc2">JsonNodeType</a> { <a class="el" href="namespacecppknife.html#ad25f9e88f2af249f34a14f1b7890fbc2ae87cf2513eef51eec070c49f2350ebeb">JNT_UNDEFINED</a>
@@ -238,6 +245,13 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a9410921a481e4a88eb010f5ea89b06ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3d3a625a7ce14877ea21abdb502bd171"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a3d3a625a7ce14877ea21abdb502bd171">encodeBase64</a> (const <a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *buffer, size_t bufferLength, size_t *sizeResult, size_t lineSize)</td></tr>
+<tr class="separator:a3d3a625a7ce14877ea21abdb502bd171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a913e80649308e4398412bb40f1e97d0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a913e80649308e4398412bb40f1e97d0b">decodeBase64</a> (const char *source, size_t sourceLength, size_t *outputLength)</td></tr>
+<tr class="separator:a913e80649308e4398412bb40f1e97d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Implements a reader for configuration in Java style. Each line contains a definition like <em>name = Jonny Walker</em>. </p>
@@ -245,7 +259,22 @@ Enumerations</h2></td></tr>
 <p >Implements a manager for a list of lines: allows searching, knows positions...</p>
 <p >Implements a reader for files with a Json format.</p>
 <p >Implements a reader for CSV files. </p>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="ae41844807aa55478de963d3efefab773" name="ae41844807aa55478de963d3efefab773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae41844807aa55478de963d3efefab773">&#9670;&nbsp;</a></span>ubyte_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned char <a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">cppknife::ubyte_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a3d7a649bd0cba74a5d512cd62272d7e5" name="a3d7a649bd0cba74a5d512cd62272d7e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d7a649bd0cba74a5d512cd62272d7e5">&#9670;&nbsp;</a></span>ChangeType</h2>
 
@@ -321,6 +350,100 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a9410921a481e4a88eb010f5ea89b06baa58f59a0ad6774a6c3cf09d14edb75517" name="a9410921a481e4a88eb010f5ea89b06baa58f59a0ad6774a6c3cf09d14edb75517"></a>TT_SPECIAL_9&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9410921a481e4a88eb010f5ea89b06baa75cfad876dbcda40a60d37d58198b130" name="a9410921a481e4a88eb010f5ea89b06baa75cfad876dbcda40a60d37d58198b130"></a>TT_SPECIAL_10&#160;</td><td class="fielddoc"></td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a913e80649308e4398412bb40f1e97d0b" name="a913e80649308e4398412bb40f1e97d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a913e80649308e4398412bb40f1e97d0b">&#9670;&nbsp;</a></span>decodeBase64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> * cppknife::decodeBase64 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>sourceLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>outputLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Decodes a BASE64 string into binary data. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The base64 string to decode. </td></tr>
+    <tr><td class="paramname">sourceLength</td><td>The length of <em>source</em>. </td></tr>
+    <tr><td class="paramname">outputLength</td><td>the length of the result. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The decoded data. The caller must delete it. </dd></dl>
+
+</div>
+</div>
+<a id="a3d3a625a7ce14877ea21abdb502bd171" name="a3d3a625a7ce14877ea21abdb502bd171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d3a625a7ce14877ea21abdb502bd171">&#9670;&nbsp;</a></span>encodeBase64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char * cppknife::encodeBase64 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramname"><em>out_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>lineSize</em> = <code>80</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Encodes a binary block as Base64 string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">buffer</td><td>The binary data block to encode. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">bufferLength</td><td>The length of the block. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out_len</td><td>the length of the result (including the terminating '\0'). </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">lineSize</td><td>0: no additional newlines. Otherwise: Behind that count of output chars a newline is put. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: error Otherwise: The encoded string. The caller must delete that! </dd></dl>
 
 </div>
 </div>

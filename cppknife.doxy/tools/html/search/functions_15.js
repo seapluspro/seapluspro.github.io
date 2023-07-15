@@ -7,10 +7,11 @@ var searchData=
   ['_7eparameter_4',['~Parameter',['../classcppknife_1_1_parameter.html#a90d76861979e763fb1be2354e030fd25',1,'cppknife::Parameter']]],
   ['_7ereplacecommandhandler_5',['~ReplaceCommandHandler',['../classcppknife_1_1_replace_command_handler.html#af59e0b7acbbebfa92c80938d097a7d31',1,'cppknife::ReplaceCommandHandler']]],
   ['_7escheduler_6',['~Scheduler',['../classcppknife_1_1_scheduler.html#afc8187779b46f64039d3ffa58f0dbe51',1,'cppknife::Scheduler']]],
-  ['_7esecretconfiguration_7',['~SecretConfiguration',['../classcppknife_1_1_secret_configuration.html#aca4cbaadcefd8efe0125fe97057ab82a',1,'cppknife::SecretConfiguration']]],
-  ['_7esvgtool_8',['~SvgTool',['../classcppknife_1_1_svg_tool.html#a4d8a9fa72d57ff946ab5fb18f4f85244',1,'cppknife::SvgTool']]],
-  ['_7etaskhandler_9',['~TaskHandler',['../classcppknife_1_1_task_handler.html#a98db0ab1adcdc3f6ce31b23877f3e215',1,'cppknife::TaskHandler']]],
-  ['_7etimertask_10',['~TimerTask',['../classcppknife_1_1_timer_task.html#ae89dff301834733d97a1c67981e819a2',1,'cppknife::TimerTask']]],
-  ['_7eusercheck_11',['~UserCheck',['../classcppknife_1_1_user_check.html#a67ab36abf35207341f86f334a861e3ad',1,'cppknife::UserCheck']]],
-  ['_7eveilengine_12',['~VeilEngine',['../classcppknife_1_1_veil_engine.html#a1b67d785cdb4a10d4833e31a043e6867',1,'cppknife::VeilEngine']]]
+  ['_7esearchcommandhandler_7',['~SearchCommandHandler',['../classcppknife_1_1_search_command_handler.html#aba26d2ca713ad04f9216347e3f407f10',1,'cppknife::SearchCommandHandler']]],
+  ['_7esecretconfiguration_8',['~SecretConfiguration',['../classcppknife_1_1_secret_configuration.html#aca4cbaadcefd8efe0125fe97057ab82a',1,'cppknife::SecretConfiguration']]],
+  ['_7esvgtool_9',['~SvgTool',['../classcppknife_1_1_svg_tool.html#a4d8a9fa72d57ff946ab5fb18f4f85244',1,'cppknife::SvgTool']]],
+  ['_7etaskhandler_10',['~TaskHandler',['../classcppknife_1_1_task_handler.html#a98db0ab1adcdc3f6ce31b23877f3e215',1,'cppknife::TaskHandler']]],
+  ['_7etimertask_11',['~TimerTask',['../classcppknife_1_1_timer_task.html#ae89dff301834733d97a1c67981e819a2',1,'cppknife::TimerTask']]],
+  ['_7eusercheck_12',['~UserCheck',['../classcppknife_1_1_user_check.html#a67ab36abf35207341f86f334a861e3ad',1,'cppknife::UserCheck']]],
+  ['_7eveilengine_13',['~VeilEngine',['../classcppknife_1_1_veil_engine.html#a1b67d785cdb4a10d4833e31a043e6867',1,'cppknife::VeilEngine']]]
 ];

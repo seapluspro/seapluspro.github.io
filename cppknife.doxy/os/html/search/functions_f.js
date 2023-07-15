@@ -6,6 +6,7 @@ var searchData=
   ['readintofile_3',['readIntoFile',['../classcppknife_1_1_process.html#a13020479e7c279711f1b4d3e31c3a6de',1,'cppknife::Process']]],
   ['readintostring_4',['readIntoString',['../classcppknife_1_1_process.html#a0499242016a18b72fb8fa0a7452a681d',1,'cppknife::Process']]],
   ['replaceextension_5',['replaceExtension',['../namespacecppknife.html#a9e42b89e167ff2b88b38a7974c5a1ba9',1,'cppknife']]],
-  ['reset_6',['reset',['../classcppknife_1_1_line_agent.html#a36ef62d23b8fbc444c2f45c9ffaad1ef',1,'cppknife::LineAgent']]],
-  ['rightsasstring_7',['rightsAsString',['../classcppknife_1_1_fs_entry.html#ab7628f2ac8c6d50089766577f64997d6',1,'cppknife::FsEntry::rightsAsString()'],['../classcppknife_1_1_fs_entry_linux.html#aadd9b582932423120aa86138a4c7f369',1,'cppknife::FsEntryLinux::rightsAsString()'],['../classcppknife_1_1_fs_entry_with_stack.html#a4c5f67e8a185364d8e76636c15873859',1,'cppknife::FsEntryWithStack::rightsAsString()']]]
+  ['reset_6',['reset',['../classcppknife_1_1_file_buffer.html#a3131e8705d3928fbffe9830f1c75b44a',1,'cppknife::FileBuffer::reset()'],['../classcppknife_1_1_line_agent.html#a36ef62d23b8fbc444c2f45c9ffaad1ef',1,'cppknife::LineAgent::reset()']]],
+  ['resetnextline_7',['resetNextLine',['../classcppknife_1_1_file_buffer.html#a788e19e355dc0ea3a7e29c480ea56050',1,'cppknife::FileBuffer']]],
+  ['rightsasstring_8',['rightsAsString',['../classcppknife_1_1_fs_entry.html#ab7628f2ac8c6d50089766577f64997d6',1,'cppknife::FsEntry::rightsAsString()'],['../classcppknife_1_1_fs_entry_linux.html#aadd9b582932423120aa86138a4c7f369',1,'cppknife::FsEntryLinux::rightsAsString()'],['../classcppknife_1_1_fs_entry_with_stack.html#a4c5f67e8a185364d8e76636c15873859',1,'cppknife::FsEntryWithStack::rightsAsString()']]]
 ];

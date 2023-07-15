@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcppknife_1_1_line_agent.html" title="Allows splitting a file into lines like FILE with the possibility to detect binary data." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node1" href="$classcppknife_1_1_fs_entry.html" title="A portable interface to a file system entry like file, directory, symbol link... Offers only the prop..." alt="" coords="5,31,140,57"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_fs_entry_linux.html" title="The Linux implementation of FsEntry." alt="" coords="203,5,374,32"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_fs_entry_with_stack.html" title="An implementation using the portable struct stat." alt="" coords="188,56,389,83"/>
 </map>

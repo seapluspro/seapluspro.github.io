@@ -1,0 +1,4 @@
+<map id="cppknife::LineAgent" name="cppknife::LineAgent">
+<area shape="rect" id="node1" title="Allows splitting a file into lines like FILE: Binary data detection, unlimited line size...." alt="" coords="5,109,156,136"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_file_buffer.html" title="Manages a line oriented block of a file." alt="" coords="7,5,155,32"/>
+</map>

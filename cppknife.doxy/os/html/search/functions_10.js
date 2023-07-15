@@ -3,7 +3,7 @@ var searchData=
   ['separatorchar_0',['separatorChar',['../namespacecppknife.html#a218568892019029cfb0dd4e0cc1afe5b',1,'cppknife']]],
   ['separatorstring_1',['separatorString',['../namespacecppknife.html#ace8f5b42d3f4f8301383b77d5722cd0b',1,'cppknife']]],
   ['set_2',['set',['../classcppknife_1_1_fs_entry_linux.html#a6c69505ffdb38e5d0c470bf2175f5d03',1,'cppknife::FsEntryLinux']]],
-  ['setbuffersize_3',['setBufferSize',['../classcppknife_1_1_line_agent.html#a4e279edea60fb747e63e7cdb864a416c',1,'cppknife::LineAgent']]],
+  ['setbuffersize_3',['setBufferSize',['../classcppknife_1_1_file_buffer.html#ac6803ffeeb087a30bc26896711fb640c',1,'cppknife::FileBuffer::setBufferSize()'],['../classcppknife_1_1_line_agent.html#a4e279edea60fb747e63e7cdb864a416c',1,'cppknife::LineAgent::setBufferSize()']]],
   ['setcertainfile_4',['setCertainFile',['../classcppknife_1_1_fs_entry.html#af184f5e0f7491c491b8440bc8e79e882',1,'cppknife::FsEntry::setCertainFile()'],['../classcppknife_1_1_fs_entry_linux.html#a5b4dadc45c38a7ad962c3669bce02632',1,'cppknife::FsEntryLinux::setCertainFile()'],['../classcppknife_1_1_fs_entry_with_stack.html#ae36589c8a9cde2f8da83fecac7951226',1,'cppknife::FsEntryWithStack::setCertainFile()']]],
   ['setdepthfirst_5',['setDepthFirst',['../classcppknife_1_1_file_agent_with_stack.html#a232a2d5fc48b233e9c7901c20c81f4fa',1,'cppknife::FileAgentWithStack']]],
   ['setfiletime_6',['setFiletime',['../namespacecppknife.html#a8f643088713a92ba29c3b715391cb4bc',1,'cppknife']]],

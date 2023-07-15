@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['check_0',['check',['../classcppknife_1_1_adapt_command_handler.html#ad2982d8705e6de494e3c25afbb75293c',1,'cppknife::AdaptCommandHandler::check()'],['../classcppknife_1_1_replace_command_handler.html#a052a99cc593fe68c23d655ee99bb89b2',1,'cppknife::ReplaceCommandHandler::check()'],['../classcppknife_1_1_command_handler.html#a152664823a40a1b293fe23d91f77c51f',1,'cppknife::CommandHandler::check()']]],
+  ['check_0',['check',['../classcppknife_1_1_adapt_command_handler.html#ad2982d8705e6de494e3c25afbb75293c',1,'cppknife::AdaptCommandHandler::check()'],['../classcppknife_1_1_replace_command_handler.html#a052a99cc593fe68c23d655ee99bb89b2',1,'cppknife::ReplaceCommandHandler::check()'],['../classcppknife_1_1_search_command_handler.html#ac87127d92c1d2180c6017bc0950868c4',1,'cppknife::SearchCommandHandler::check()'],['../classcppknife_1_1_command_handler.html#a152664823a40a1b293fe23d91f77c51f',1,'cppknife::CommandHandler::check()']]],
   ['checkarguments_1',['checkArguments',['../classcppknife_1_1_argument_parser.html#a18e334a39cc9dddbdeaaf98660a72fa4',1,'cppknife::ArgumentParser']]],
   ['checkindex_2',['checkIndex',['../classcppknife_1_1_argument.html#a56be2708208a3e6602be8a9995877576',1,'cppknife::Argument']]],
   ['checklogins_3',['checkLogins',['../classcppknife_1_1_daemon.html#a37a2508a9883d97c05f72f4d1fe5acf7',1,'cppknife::Daemon']]],

@@ -1,5 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcppknife_1_1_fs_entry.html" title="A portable interface to a file system entry like file, directory, symbol link... Offers only the prop..." alt="" coords="5,31,140,57"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_fs_entry_linux.html" title="The Linux implementation of FsEntry." alt="" coords="203,5,374,32"/>
-<area shape="rect" id="node3" href="$classcppknife_1_1_fs_entry_with_stack.html" title="An implementation using the portable struct stat." alt="" coords="188,56,389,83"/>
+<area shape="rect" id="node1" href="$classcppknife_1_1_file_system_entity.html" title="Manages a file system entry, the base class of files, directories and symbolic links." alt="" coords="5,56,200,83"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_directory.html" title="Manages a directory." alt="" coords="261,5,408,32"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_file.html" title="Manages a normal file." alt="" coords="281,56,389,83"/>
+<area shape="rect" id="node4" href="$classcppknife_1_1_symbolic_link.html" title="Manages a file symbolic link." alt="" coords="248,107,421,133"/>
 </map>
