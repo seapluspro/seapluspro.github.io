@@ -1,9 +1,9 @@
 <map id="cppknife::FileAgentLinux" name="cppknife::FileAgentLinux">
-<area shape="rect" id="node1" title="The Linux implementation of FileAgent." alt="" coords="515,107,696,133"/>
-<area shape="rect" id="node2" href="$classcppknife_1_1_file_agent.html" title="An interface (abstract class) for fetching files from a file tree." alt="" coords="209,5,355,32"/>
-<area shape="rect" id="node3" href="$classcppknife_1_1_dir_entry_filter.html" title="Offers file filtering." alt="" coords="197,56,367,83"/>
-<area shape="rect" id="node4" href="$classcppknife_1_1_trace_unit.html" title="Manages trigger points. A trigger point is reached if a given amount of time or a given count of file..." alt="" coords="208,107,356,133"/>
-<area shape="rect" id="node5" href="$classcppknife_1_1_dir_tree_statistic.html" title="Stores statistic data of a directory tree." alt="" coords="189,157,375,184"/>
-<area shape="rect" id="node6" href="$classcppknife_1_1_fs_entry_linux.html" title="The Linux implementation of FsEntry." alt="" coords="197,208,367,235"/>
-<area shape="rect" id="node7" href="$classcppknife_1_1_fs_entry.html" title="A portable interface to a file system entry like file, directory, symbol link... Offers only the prop..." alt="" coords="5,208,140,235"/>
+<area shape="rect" id="node1" title="The Linux implementation of FileAgent." alt="" coords="309,81,491,108"/>
+<area shape="rect" id="node6" href="$classcppknife_1_1_fs_entry_linux.html" title="The Linux implementation of FsEntry." alt="" coords="631,51,801,77"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_file_agent.html" title="An interface (abstract class) for fetching files from a file tree." alt="" coords="25,5,171,32"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_dir_entry_filter.html" title="Offers file filtering." alt="" coords="13,56,183,83"/>
+<area shape="rect" id="node4" href="$classcppknife_1_1_trace_unit.html" title="Manages trigger points. A trigger point is reached if a given amount of time or a given count of file..." alt="" coords="24,107,172,133"/>
+<area shape="rect" id="node5" href="$classcppknife_1_1_dir_tree_statistic.html" title="Stores statistic data of a directory tree." alt="" coords="5,157,191,184"/>
+<area shape="rect" id="node7" href="$classcppknife_1_1_fs_entry.html" title="A portable interface to a file system entry like file, directory, symbol link... Offers only the prop..." alt="" coords="333,16,467,43"/>
 </map>

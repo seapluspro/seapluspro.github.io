@@ -1,0 +1,5 @@
+<map id="cppknife::CheckSumHandler" name="cppknife::CheckSumHandler">
+<area shape="rect" id="node1" title=" " alt="" coords="5,173,212,200"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_command_handler.html" title="A base class for handlers implementing a sub command." alt="" coords="7,97,211,124"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_argument_parser.html" title="Manages the parsing of the program arguments." alt="" coords="13,7,204,33"/>
+</map>

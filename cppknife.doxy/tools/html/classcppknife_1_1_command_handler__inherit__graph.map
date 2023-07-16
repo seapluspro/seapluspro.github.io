@@ -1,6 +1,7 @@
 <map id="cppknife::CommandHandler" name="cppknife::CommandHandler">
-<area shape="rect" id="node1" title="A base class for handlers implementing a sub command." alt="" coords="5,64,209,91"/>
+<area shape="rect" id="node1" title="A base class for handlers implementing a sub command." alt="" coords="5,85,209,112"/>
 <area shape="rect" id="node2" href="$classcppknife_1_1_adapt_command_handler.html" title=" " alt="" coords="260,5,503,32"/>
-<area shape="rect" id="node3" href="$classcppknife_1_1_replace_command_handler.html" title=" " alt="" coords="279,57,484,98"/>
-<area shape="rect" id="node4" href="$classcppknife_1_1_search_command_handler.html" title=" " alt="" coords="257,123,505,149"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_check_sum_handler.html" title=" " alt="" coords="278,56,485,83"/>
+<area shape="rect" id="node4" href="$classcppknife_1_1_replace_command_handler.html" title=" " alt="" coords="279,107,484,149"/>
+<area shape="rect" id="node5" href="$classcppknife_1_1_search_command_handler.html" title=" " alt="" coords="257,173,505,200"/>
 </map>

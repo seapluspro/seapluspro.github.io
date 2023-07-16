@@ -248,10 +248,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3d3a625a7ce14877ea21abdb502bd171"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a3d3a625a7ce14877ea21abdb502bd171">encodeBase64</a> (const <a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *buffer, size_t bufferLength, size_t *sizeResult, size_t lineSize)</td></tr>
-<tr class="separator:a3d3a625a7ce14877ea21abdb502bd171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a913e80649308e4398412bb40f1e97d0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a913e80649308e4398412bb40f1e97d0b">decodeBase64</a> (const char *source, size_t sourceLength, size_t *outputLength)</td></tr>
-<tr class="separator:a913e80649308e4398412bb40f1e97d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ef00e89694060ec0afc808b895fd396"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a3ef00e89694060ec0afc808b895fd396">encodeBase64</a> (const <a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *buffer, size_t bufferLength, std::string &amp;result, size_t lineSize)</td></tr>
+<tr class="separator:a3ef00e89694060ec0afc808b895fd396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1b18838cc7fea46a20c6996cbb9208"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a7f1b18838cc7fea46a20c6996cbb9208">decodeBase64</a> (const char *source, size_t sourceLength, size_t &amp;outputLength, <a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *buffer, size_t bufferSize)</td></tr>
+<tr class="separator:a7f1b18838cc7fea46a20c6996cbb9208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Implements a reader for configuration in Java style. Each line contains a definition like <em>name = Jonny Walker</em>. </p>
@@ -354,8 +354,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a913e80649308e4398412bb40f1e97d0b" name="a913e80649308e4398412bb40f1e97d0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a913e80649308e4398412bb40f1e97d0b">&#9670;&nbsp;</a></span>decodeBase64()</h2>
+<a id="a7f1b18838cc7fea46a20c6996cbb9208" name="a7f1b18838cc7fea46a20c6996cbb9208"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1b18838cc7fea46a20c6996cbb9208">&#9670;&nbsp;</a></span>decodeBase64()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,8 +375,20 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t *&#160;</td>
-          <td class="paramname"><em>outputLength</em>&#160;</td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>outputLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *&#160;</td>
+          <td class="paramname"><em>buffer</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferSize</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -387,24 +399,26 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p >Decodes a BASE64 string into binary data. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">source</td><td>The base64 string to decode. </td></tr>
-    <tr><td class="paramname">sourceLength</td><td>The length of <em>source</em>. </td></tr>
-    <tr><td class="paramname">outputLength</td><td>the length of the result. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">source</td><td>The base64 string to decode. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">sourceLength</td><td>The length of <em>source</em>. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">outputLength</td><td>the length of the result. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td><em>nullptr</em>: the result is a allocated buffer. The caller must delete it. Otherwise: the output is stored in that buffer. The result is this <em>buffer</em> </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">bufferSize</td><td>The size of <em>buffer</em>. If the buffer is too small nothing is done and the result is <em>nullptr</em>. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The decoded data. The caller must delete it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: wrong input or the buffer is too small. Otherwise: if <em>buffer</em> is not <em>nullptr</em>: the <em>buffer</em>. Otherwise: a allocated buffer that must deleted by the caller. </dd></dl>
 
 </div>
 </div>
-<a id="a3d3a625a7ce14877ea21abdb502bd171" name="a3d3a625a7ce14877ea21abdb502bd171"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d3a625a7ce14877ea21abdb502bd171">&#9670;&nbsp;</a></span>encodeBase64()</h2>
+<a id="a3ef00e89694060ec0afc808b895fd396" name="a3ef00e89694060ec0afc808b895fd396"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ef00e89694060ec0afc808b895fd396">&#9670;&nbsp;</a></span>encodeBase64()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char * cppknife::encodeBase64 </td>
+          <td class="memname">std::string &amp; cppknife::encodeBase64 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacecppknife.html#ae41844807aa55478de963d3efefab773">ubyte_t</a> *&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -418,8 +432,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t *&#160;</td>
-          <td class="paramname"><em>out_len</em>, </td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -438,12 +452,12 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">buffer</td><td>The binary data block to encode. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">bufferLength</td><td>The length of the block. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">out_len</td><td>the length of the result (including the terminating '\0'). </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">result</td><td>The base64 encoded text as string. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">lineSize</td><td>0: no additional newlines. Otherwise: Behind that count of output chars a newline is put. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: error Otherwise: The encoded string. The caller must delete that! </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The <em>result</em> (for chaining). </dd></dl>
 
 </div>
 </div>

@@ -9,5 +9,6 @@ var searchData=
   ['parseandcheck_6',['parseAndCheck',['../classcppknife_1_1_argument_parser.html#a30158a0279da6af275f85352db08f5d9',1,'cppknife::ArgumentParser']]],
   ['point_7',['point',['../classcppknife_1_1_svg_tool.html#a312ec4a9c927c478715a3ae0d0212374',1,'cppknife::SvgTool']]],
   ['populatefilter_8',['populateFilter',['../namespacecppknife.html#a9a7fdc2c987600247da15972a90b341b',1,'cppknife']]],
-  ['processscript_9',['processScript',['../namespacecppknife.html#a487f2f5317afa7a6a778ba686e2ab3e3',1,'cppknife']]]
+  ['processedfiles_9',['processedFiles',['../classcppknife_1_1_command_handler.html#a7297ff43b7b30103930b7d32e0efdb2a',1,'cppknife::CommandHandler']]],
+  ['processscript_10',['processScript',['../namespacecppknife.html#a487f2f5317afa7a6a778ba686e2ab3e3',1,'cppknife']]]
 ];

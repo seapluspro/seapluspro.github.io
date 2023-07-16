@@ -7,5 +7,6 @@ var searchData=
   ['interval_4',['interval',['../classcppknife_1_1_timer_task.html#a7cf70927dab25a2213c98c051cf7521f',1,'cppknife::TimerTask']]],
   ['isextrema_5',['isExtrema',['../classcppknife_1_1_extrema.html#aecd97d8b13c154d70c3f897245fa9fc1',1,'cppknife::Extrema']]],
   ['ismode_6',['isMode',['../classcppknife_1_1_argument_parser.html#a742c0bc1bdf9355cae2c434591b56dac',1,'cppknife::ArgumentParser']]],
-  ['isoption_7',['isOption',['../classcppknife_1_1_parameter.html#a3d5d7457c2165e9ba42bd0302eb92288',1,'cppknife::Parameter']]]
+  ['isoption_7',['isOption',['../classcppknife_1_1_parameter.html#a3d5d7457c2165e9ba42bd0302eb92288',1,'cppknife::Parameter']]],
+  ['isvalid_8',['isValid',['../classcppknife_1_1_adapt_command_handler.html#a0d716bc6e459200bf01ce3c63ab30790',1,'cppknife::AdaptCommandHandler::isValid()'],['../classcppknife_1_1_check_sum_handler.html#a147d5c14495e8837cb454580f60e06e1',1,'cppknife::CheckSumHandler::isValid()'],['../classcppknife_1_1_search_command_handler.html#ac06608a2ae5f9485172bfc829bf08176',1,'cppknife::SearchCommandHandler::isValid()'],['../classcppknife_1_1_command_handler.html#a14cd2b976ba89b14324eb76d192f4ee9',1,'cppknife::CommandHandler::isValid()']]]
 ];

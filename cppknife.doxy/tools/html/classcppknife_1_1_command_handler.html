@@ -68,6 +68,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classcppknife_1_1_command_handler-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">cppknife::CommandHandler Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
@@ -83,10 +85,11 @@ Inheritance diagram for cppknife::CommandHandler:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcppknife_1_1_command_handler__inherit__graph.png" border="0" usemap="#acppknife_1_1_command_handler_inherit__map" alt="Inheritance graph"/></div>
 <map name="acppknife_1_1_command_handler_inherit__map" id="acppknife_1_1_command_handler_inherit__map">
-<area shape="rect" title="A base class for handlers implementing a sub command." alt="" coords="5,64,209,91"/>
+<area shape="rect" title="A base class for handlers implementing a sub command." alt="" coords="5,85,209,112"/>
 <area shape="rect" href="classcppknife_1_1_adapt_command_handler.html" title=" " alt="" coords="260,5,503,32"/>
-<area shape="rect" href="classcppknife_1_1_replace_command_handler.html" title=" " alt="" coords="279,57,484,98"/>
-<area shape="rect" href="classcppknife_1_1_search_command_handler.html" title=" " alt="" coords="257,123,505,149"/>
+<area shape="rect" href="classcppknife_1_1_check_sum_handler.html" title=" " alt="" coords="278,56,485,83"/>
+<area shape="rect" href="classcppknife_1_1_replace_command_handler.html" title=" " alt="" coords="279,107,484,149"/>
+<area shape="rect" href="classcppknife_1_1_search_command_handler.html" title=" " alt="" coords="257,173,505,200"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -111,12 +114,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3ddb8f964834648a14aaddb89522ac36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79d550bc5f11a7ab2b8bbdc06cf0ac32"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#a79d550bc5f11a7ab2b8bbdc06cf0ac32">initialize</a> ()</td></tr>
 <tr class="separator:a79d550bc5f11a7ab2b8bbdc06cf0ac32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14cd2b976ba89b14324eb76d192f4ee9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#a14cd2b976ba89b14324eb76d192f4ee9">isValid</a> ()</td></tr>
+<tr class="separator:a14cd2b976ba89b14324eb76d192f4ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51cc2b728820c2d7417829dcfb9004e7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#a51cc2b728820c2d7417829dcfb9004e7">oneFile</a> ()=0</td></tr>
 <tr class="separator:a51cc2b728820c2d7417829dcfb9004e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7297ff43b7b30103930b7d32e0efdb2a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#a7297ff43b7b30103930b7d32e0efdb2a">processedFiles</a> () const</td></tr>
+<tr class="separator:a7297ff43b7b30103930b7d32e0efdb2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa66ba89223a7f5fedee85787e0e6ea4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#afa66ba89223a7f5fedee85787e0e6ea4">run</a> (const char *nameSources)</td></tr>
 <tr class="separator:afa66ba89223a7f5fedee85787e0e6ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48ee12110c0f164872da6caca7eb8df9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#a48ee12110c0f164872da6caca7eb8df9">traverse</a> (const char *nameSources)</td></tr>
 <tr class="separator:a48ee12110c0f164872da6caca7eb8df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1e962b72f3955c398770a907c81227a8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcppknife_1_1_command_handler.html">CommandHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#a1e962b72f3955c398770a907c81227a8">lastInstance</a> ()</td></tr>
+<tr class="separator:a1e962b72f3955c398770a907c81227a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a57aa15a8b541f7322ca74258fb2a181a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcppknife_1_1_command_handler.html">CommandHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#a57aa15a8b541f7322ca74258fb2a181a">_lastInstance</a> = nullptr</td></tr>
+<tr class="separator:a57aa15a8b541f7322ca74258fb2a181a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -132,6 +149,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a051f8053d347a521a42de0a9cbbed70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2a55104a28b00c1e1f78bf4a54db2bd"><td class="memItemLeft" align="right" valign="top">Traverser&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#ad2a55104a28b00c1e1f78bf4a54db2bd">_traverser</a></td></tr>
 <tr class="separator:ad2a55104a28b00c1e1f78bf4a54db2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39a14004bd9cec231a7fcde006dc93d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_command_handler.html#a39a14004bd9cec231a7fcde006dc93d0">_processedFiles</a></td></tr>
+<tr class="separator:a39a14004bd9cec231a7fcde006dc93d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A base class for handlers implementing a sub command. </p>
@@ -212,9 +231,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Checks the preconditions. </p><dl class="section return"><dt>Returns</dt><dd><em>true</em>: success </dd></dl>
+<p >Checks the preconditions before starting the traversation. </p><dl class="section return"><dt>Returns</dt><dd><em>true</em>: success </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classcppknife_1_1_adapt_command_handler.html#ad2982d8705e6de494e3c25afbb75293c">cppknife::AdaptCommandHandler</a>, <a class="el" href="classcppknife_1_1_replace_command_handler.html#a052a99cc593fe68c23d655ee99bb89b2">cppknife::ReplaceCommandHandler</a>, and <a class="el" href="classcppknife_1_1_search_command_handler.html#ac87127d92c1d2180c6017bc0950868c4">cppknife::SearchCommandHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_adapt_command_handler.html#ad2982d8705e6de494e3c25afbb75293c">cppknife::AdaptCommandHandler</a>, and <a class="el" href="classcppknife_1_1_replace_command_handler.html#a052a99cc593fe68c23d655ee99bb89b2">cppknife::ReplaceCommandHandler</a>.</p>
 
 </div>
 </div>
@@ -240,7 +259,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Does things after handling all files. </p>
+<p >Does things after processing all files. </p>
 
 </div>
 </div>
@@ -266,7 +285,61 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Does things before handling all files. </p>
+<p >Does things before processing all files. </p>
+
+</div>
+</div>
+<a id="a14cd2b976ba89b14324eb76d192f4ee9" name="a14cd2b976ba89b14324eb76d192f4ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14cd2b976ba89b14324eb76d192f4ee9">&#9670;&nbsp;</a></span>isValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::CommandHandler::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tests whether the meta data of the file allows proceessing. </p><dl class="section return"><dt>Returns</dt><dd><em>true</em>: the file should be processed. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_adapt_command_handler.html#a0d716bc6e459200bf01ce3c63ab30790">cppknife::AdaptCommandHandler</a>, <a class="el" href="classcppknife_1_1_check_sum_handler.html#a147d5c14495e8837cb454580f60e06e1">cppknife::CheckSumHandler</a>, and <a class="el" href="classcppknife_1_1_search_command_handler.html#ac06608a2ae5f9485172bfc829bf08176">cppknife::SearchCommandHandler</a>.</p>
+
+</div>
+</div>
+<a id="a1e962b72f3955c398770a907c81227a8" name="a1e962b72f3955c398770a907c81227a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e962b72f3955c398770a907c81227a8">&#9670;&nbsp;</a></span>lastInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcppknife_1_1_command_handler.html">CommandHandler</a> * cppknife::CommandHandler::lastInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the last instance of the <em><a class="el" href="classcppknife_1_1_command_handler.html" title="A base class for handlers implementing a sub command.">CommandHandler</a></em>. </p>
 
 </div>
 </div>
@@ -294,7 +367,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p >Does the things for one file. </p>
 
-<p>Implemented in <a class="el" href="classcppknife_1_1_adapt_command_handler.html#a602fb0862c32dbc9e884d6e8239a09f2">cppknife::AdaptCommandHandler</a>, <a class="el" href="classcppknife_1_1_replace_command_handler.html#a08d64c86b3d71c390175dff970fcddba">cppknife::ReplaceCommandHandler</a>, and <a class="el" href="classcppknife_1_1_search_command_handler.html#a848929fdbd5a2c680f1a4a157a9918a2">cppknife::SearchCommandHandler</a>.</p>
+<p>Implemented in <a class="el" href="classcppknife_1_1_adapt_command_handler.html#a602fb0862c32dbc9e884d6e8239a09f2">cppknife::AdaptCommandHandler</a>, <a class="el" href="classcppknife_1_1_check_sum_handler.html#a1d59aa803699a00f6be27374d797ec64">cppknife::CheckSumHandler</a>, <a class="el" href="classcppknife_1_1_replace_command_handler.html#a08d64c86b3d71c390175dff970fcddba">cppknife::ReplaceCommandHandler</a>, and <a class="el" href="classcppknife_1_1_search_command_handler.html#a848929fdbd5a2c680f1a4a157a9918a2">cppknife::SearchCommandHandler</a>.</p>
+
+</div>
+</div>
+<a id="a7297ff43b7b30103930b7d32e0efdb2a" name="a7297ff43b7b30103930b7d32e0efdb2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7297ff43b7b30103930b7d32e0efdb2a">&#9670;&nbsp;</a></span>processedFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::CommandHandler::processedFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the number of processed files. </p>
 
 </div>
 </div>
@@ -400,6 +499,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a57aa15a8b541f7322ca74258fb2a181a" name="a57aa15a8b541f7322ca74258fb2a181a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57aa15a8b541f7322ca74258fb2a181a">&#9670;&nbsp;</a></span>_lastInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcppknife_1_1_command_handler.html">CommandHandler</a> * cppknife::CommandHandler::_lastInstance = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2bc19857c7630e30e98bc667edfc2740" name="a2bc19857c7630e30e98bc667edfc2740"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2bc19857c7630e30e98bc667edfc2740">&#9670;&nbsp;</a></span>_level</h2>
 
@@ -433,6 +554,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">Logger* cppknife::CommandHandler::_logger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39a14004bd9cec231a7fcde006dc93d0" name="a39a14004bd9cec231a7fcde006dc93d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39a14004bd9cec231a7fcde006dc93d0">&#9670;&nbsp;</a></span>_processedFiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::CommandHandler::_processedFiles</td>
         </tr>
       </table>
   </td>

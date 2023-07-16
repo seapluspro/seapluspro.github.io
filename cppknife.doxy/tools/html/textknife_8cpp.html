@@ -92,6 +92,8 @@ Include dependency graph for textknife.cpp:</div>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_adapt_command_handler.html">cppknife::AdaptCommandHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_check_sum_handler.html">cppknife::CheckSumHandler</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_replace_command_handler.html">cppknife::ReplaceCommandHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_search_command_handler.html">cppknife::SearchCommandHandler</a></td></tr>
@@ -114,6 +116,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3f3dc1a770c82ebd6812469ee70efb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad381595d4b74fb9a12a097bb562616fd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="textknife_8cpp.html#ad381595d4b74fb9a12a097bb562616fd">adapt</a> (ArgumentParser &amp;parser, Logger &amp;logger)</td></tr>
 <tr class="separator:ad381595d4b74fb9a12a097bb562616fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d1ec08a073c60a61f251d90cabd1c21"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="textknife_8cpp.html#a4d1ec08a073c60a61f251d90cabd1c21">checkSum</a> (ArgumentParser &amp;parser, Logger &amp;logger)</td></tr>
+<tr class="separator:a4d1ec08a073c60a61f251d90cabd1c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dfb9fbcd16285c959a5840ffdb99797"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="textknife_8cpp.html#a5dfb9fbcd16285c959a5840ffdb99797">replace</a> (ArgumentParser &amp;parser, Logger &amp;logger)</td></tr>
 <tr class="separator:a5dfb9fbcd16285c959a5840ffdb99797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46bb3ed0d745cd4ba0cae309d2d962a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="textknife_8cpp.html#a46bb3ed0d745cd4ba0cae309d2d962a6">search</a> (ArgumentParser &amp;parser, Logger &amp;logger)</td></tr>
@@ -150,6 +154,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Manages the "adapt" sub command. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parser</td><td>Contains the program argument info. </td></tr>
+    <tr><td class="paramname">logger</td><td>Manages the output. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0: success Otherwise: the exit code. </dd></dl>
+
+</div>
+</div>
+<a id="a4d1ec08a073c60a61f251d90cabd1c21" name="a4d1ec08a073c60a61f251d90cabd1c21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d1ec08a073c60a61f251d90cabd1c21">&#9670;&nbsp;</a></span>checkSum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int checkSum </td>
+          <td>(</td>
+          <td class="paramtype">ArgumentParser &amp;&#160;</td>
+          <td class="paramname"><em>parser</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Logger &amp;&#160;</td>
+          <td class="paramname"><em>logger</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Manages the "crc32" sub command. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">parser</td><td>Contains the program argument info. </td></tr>
     <tr><td class="paramname">logger</td><td>Manages the output. </td></tr>

@@ -169,6 +169,10 @@ Functions</h2></td></tr>
 <tr class="separator:a744d82a8a70129db29765abd9a96318c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48d1d0b1600a164384e2843398cc7766"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a48d1d0b1600a164384e2843398cc7766">countCString</a> (const char *source, int sourceLength, const char *subString, int subStringLength)</td></tr>
 <tr class="separator:a48d1d0b1600a164384e2843398cc7766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834c5b0b0beaaeee33b4e1b2a3b18367"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a834c5b0b0beaaeee33b4e1b2a3b18367">crc32</a> (uint8_t *buffer, size_t bufferLength, bool lastCall)</td></tr>
+<tr class="separator:a834c5b0b0beaaeee33b4e1b2a3b18367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee79b3f8781eea4f600574fdac834757"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aee79b3f8781eea4f600574fdac834757">crc32Update</a> (uint8_t *buffer, size_t bufferLength, uint32_t &amp;checkSum, bool lastCall)</td></tr>
+<tr class="separator:aee79b3f8781eea4f600574fdac834757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69b7cde0467f96c50d5a821235c5f9c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a69b7cde0467f96c50d5a821235c5f9c6">endsWith</a> (const char *source, int sourceLength, const char *tail, int tailLength, bool ignoreCase)</td></tr>
 <tr class="separator:a69b7cde0467f96c50d5a821235c5f9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a987107d81a48289b3c31ee055b5feab4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a987107d81a48289b3c31ee055b5feab4">formatCString</a> (const char *fmt,...)</td></tr>
@@ -771,6 +775,99 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a834c5b0b0beaaeee33b4e1b2a3b18367" name="a834c5b0b0beaaeee33b4e1b2a3b18367"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a834c5b0b0beaaeee33b4e1b2a3b18367">&#9670;&nbsp;</a></span>crc32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t cppknife::crc32 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>lastCall</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Calculates the CRC-32 check sum. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>The buffer to inspect. </td></tr>
+    <tr><td class="paramname">bufferLength</td><td>The length of <em>buffer</em>. </td></tr>
+    <tr><td class="paramname">lastCall</td><td><em>true</em>The last part of the data is processed. In this case the result is inverted. Set it to <em>false</em> to process more data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The CRC-32 checksum. </dd></dl>
+
+</div>
+</div>
+<a id="aee79b3f8781eea4f600574fdac834757" name="aee79b3f8781eea4f600574fdac834757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee79b3f8781eea4f600574fdac834757">&#9670;&nbsp;</a></span>crc32Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t cppknife::crc32Update </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>checkSum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>lastCall</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Updates a CRC-32 checksum with data from a buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">buffer</td><td>The buffer to inspect. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">bufferLength</td><td>The length of <em>buffer</em>. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">checkSum</td><td>This checksum will be updated. That is usable to build a checksum over multiple data buffers. Use <em><a class="el" href="namespacecppknife.html#a834c5b0b0beaaeee33b4e1b2a3b18367">crc32()</a></em> to initialize it. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">lastCall</td><td><em>true</em>The last part of the data is processed. In this case the result is inverted. Set it to <em>false</em> to process more data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>checkSum</em> (for chaining) </dd></dl>
 
 </div>
 </div>

@@ -10,5 +10,6 @@ var searchData=
   ['tools_2ehpp_7',['tools.hpp',['../tools_8hpp.html',1,'']]],
   ['toolscommons_2ecpp_8',['ToolsCommons.cpp',['../_tools_commons_8cpp.html',1,'']]],
   ['toolscommons_2ehpp_9',['ToolsCommons.hpp',['../_tools_commons_8hpp.html',1,'']]],
-  ['traverse_10',['traverse',['../classcppknife_1_1_command_handler.html#a48ee12110c0f164872da6caca7eb8df9',1,'cppknife::CommandHandler']]]
+  ['totalchecksum_10',['totalCheckSum',['../classcppknife_1_1_check_sum_handler.html#a0f30f4b93b40a542d21a9924898cd79c',1,'cppknife::CheckSumHandler']]],
+  ['traverse_11',['traverse',['../classcppknife_1_1_command_handler.html#a48ee12110c0f164872da6caca7eb8df9',1,'cppknife::CommandHandler']]]
 ];

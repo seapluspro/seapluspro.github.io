@@ -21,6 +21,8 @@ var searchData=
   ['countcharincstring_18',['countCharInCString',['../namespacecppknife.html#a744d82a8a70129db29765abd9a96318c',1,'cppknife']]],
   ['countcstring_19',['countCString',['../namespacecppknife.html#a48d1d0b1600a164384e2843398cc7766',1,'cppknife']]],
   ['cppknife_20',['cppknife',['../namespacecppknife.html',1,'']]],
-  ['currentlevel_21',['currentLevel',['../classcppknife_1_1_logger.html#a81d6c5ec918509635e23e1001d64a4e9',1,'cppknife::Logger']]],
-  ['currentmessage_22',['currentMessage',['../classcppknife_1_1_logger.html#a70cef783553abd21dc4b7e19edc1fe4b',1,'cppknife::Logger']]]
+  ['crc32_21',['crc32',['../namespacecppknife.html#a834c5b0b0beaaeee33b4e1b2a3b18367',1,'cppknife']]],
+  ['crc32update_22',['crc32Update',['../namespacecppknife.html#aee79b3f8781eea4f600574fdac834757',1,'cppknife']]],
+  ['currentlevel_23',['currentLevel',['../classcppknife_1_1_logger.html#a81d6c5ec918509635e23e1001d64a4e9',1,'cppknife::Logger']]],
+  ['currentmessage_24',['currentMessage',['../classcppknife_1_1_logger.html#a70cef783553abd21dc4b7e19edc1fe4b',1,'cppknife::Logger']]]
 ];
