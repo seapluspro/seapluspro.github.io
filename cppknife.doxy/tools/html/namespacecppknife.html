@@ -225,8 +225,8 @@ Functions</h2></td></tr>
 <tr class="separator:afef9161b3fd13e2e4c642a97ee283165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ade74234c918783afca14c1948c2562"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a7ade74234c918783afca14c1948c2562">geoknife</a> (int argc, char **argv, Logger *loggerExtern)</td></tr>
 <tr class="separator:a7ade74234c918783afca14c1948c2562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4c52bc601ca08f271e7d7d90384809f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ae4c52bc601ca08f271e7d7d90384809f">secrets</a> (<a class="el" href="classcppknife_1_1_argument_parser.html">ArgumentParser</a> &amp;parser, Logger &amp;logger)</td></tr>
-<tr class="separator:ae4c52bc601ca08f271e7d7d90384809f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace28e7f2997a33d8cf290079550dea88"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ace28e7f2997a33d8cf290079550dea88">knife</a> (<a class="el" href="classcppknife_1_1_argument_parser.html">ArgumentParser</a> &amp;parser, Logger &amp;logger)</td></tr>
+<tr class="separator:ace28e7f2997a33d8cf290079550dea88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0101e8ed7d0c6082839b573201062e7e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a0101e8ed7d0c6082839b573201062e7e">toHex</a> (<a class="el" href="classcppknife_1_1_argument_parser.html">ArgumentParser</a> &amp;parser, Logger &amp;logger)</td></tr>
 <tr class="separator:a0101e8ed7d0c6082839b573201062e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace4ede8b0bf7ff8c2b24307beb41b190"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ace4ede8b0bf7ff8c2b24307beb41b190">netknife</a> (int argc, char **argv, Logger *loggerExtern)</td></tr>
@@ -923,6 +923,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ace28e7f2997a33d8cf290079550dea88" name="ace28e7f2997a33d8cf290079550dea88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace28e7f2997a33d8cf290079550dea88">&#9670;&nbsp;</a></span>knife()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::knife </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcppknife_1_1_argument_parser.html">ArgumentParser</a> &amp;&#160;</td>
+          <td class="paramname"><em>parser</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Logger &amp;&#160;</td>
+          <td class="paramname"><em>logger</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Manages the "secrets" sub command. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parser</td><td>Contains the program argument info. </td></tr>
+    <tr><td class="paramname">logger</td><td>Manages the output. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0: success Otherwise: the exit code. </dd></dl>
+
+</div>
+</div>
 <a id="ad88fcdf85d1a8c09248dec48bd07e3d0" name="ad88fcdf85d1a8c09248dec48bd07e3d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad88fcdf85d1a8c09248dec48bd07e3d0">&#9670;&nbsp;</a></span>license()</h2>
 
@@ -1249,42 +1285,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae4c52bc601ca08f271e7d7d90384809f" name="ae4c52bc601ca08f271e7d7d90384809f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4c52bc601ca08f271e7d7d90384809f">&#9670;&nbsp;</a></span>secrets()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int cppknife::secrets </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classcppknife_1_1_argument_parser.html">ArgumentParser</a> &amp;&#160;</td>
-          <td class="paramname"><em>parser</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Logger &amp;&#160;</td>
-          <td class="paramname"><em>logger</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Manages the "secrets" sub command. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">parser</td><td>Contains the program argument info. </td></tr>
-    <tr><td class="paramname">logger</td><td>Manages the output. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>0: success Otherwise: the exit code. </dd></dl>
-
-</div>
-</div>
 <a id="a17dd70cb27cff381160b264782838e01" name="a17dd70cb27cff381160b264782838e01"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17dd70cb27cff381160b264782838e01">&#9670;&nbsp;</a></span>textKnife()</h2>
 
@@ -1380,7 +1380,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Manages the "secrets" sub command. </p><dl class="params"><dt>Parameters</dt><dd>
+<p >Manages the "knife" sub command. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">parser</td><td>Contains the program argument info. </td></tr>
     <tr><td class="paramname">logger</td><td>Manages the output. </td></tr>

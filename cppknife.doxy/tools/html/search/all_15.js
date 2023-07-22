@@ -1,18 +1,7 @@
 var searchData=
 [
-  ['_7eadaptcommandhandler_0',['~AdaptCommandHandler',['../classcppknife_1_1_adapt_command_handler.html#a95c3f2a35105e756386f1691e7397e0e',1,'cppknife::AdaptCommandHandler']]],
-  ['_7eargumentparser_1',['~ArgumentParser',['../classcppknife_1_1_argument_parser.html#ab1cb4eee1511b99d653909bbaa43fddf',1,'cppknife::ArgumentParser']]],
-  ['_7echecksumhandler_2',['~CheckSumHandler',['../classcppknife_1_1_check_sum_handler.html#a6917d0b985301bee7919b9fc012b4294',1,'cppknife::CheckSumHandler']]],
-  ['_7ecommandhandler_3',['~CommandHandler',['../classcppknife_1_1_command_handler.html#aa92a9a15867dcf9125341725acca7ff9',1,'cppknife::CommandHandler']]],
-  ['_7edaemon_4',['~Daemon',['../classcppknife_1_1_daemon.html#a272d7c85cdbe75a588cd36b400e65b62',1,'cppknife::Daemon']]],
-  ['_7eparameter_5',['~Parameter',['../classcppknife_1_1_parameter.html#a90d76861979e763fb1be2354e030fd25',1,'cppknife::Parameter']]],
-  ['_7ereplacecommandhandler_6',['~ReplaceCommandHandler',['../classcppknife_1_1_replace_command_handler.html#af59e0b7acbbebfa92c80938d097a7d31',1,'cppknife::ReplaceCommandHandler']]],
-  ['_7escheduler_7',['~Scheduler',['../classcppknife_1_1_scheduler.html#afc8187779b46f64039d3ffa58f0dbe51',1,'cppknife::Scheduler']]],
-  ['_7esearchcommandhandler_8',['~SearchCommandHandler',['../classcppknife_1_1_search_command_handler.html#aba26d2ca713ad04f9216347e3f407f10',1,'cppknife::SearchCommandHandler']]],
-  ['_7esecretconfiguration_9',['~SecretConfiguration',['../classcppknife_1_1_secret_configuration.html#aca4cbaadcefd8efe0125fe97057ab82a',1,'cppknife::SecretConfiguration']]],
-  ['_7esvgtool_10',['~SvgTool',['../classcppknife_1_1_svg_tool.html#a4d8a9fa72d57ff946ab5fb18f4f85244',1,'cppknife::SvgTool']]],
-  ['_7etaskhandler_11',['~TaskHandler',['../classcppknife_1_1_task_handler.html#a98db0ab1adcdc3f6ce31b23877f3e215',1,'cppknife::TaskHandler']]],
-  ['_7etimertask_12',['~TimerTask',['../classcppknife_1_1_timer_task.html#ae89dff301834733d97a1c67981e819a2',1,'cppknife::TimerTask']]],
-  ['_7eusercheck_13',['~UserCheck',['../classcppknife_1_1_user_check.html#a67ab36abf35207341f86f334a861e3ad',1,'cppknife::UserCheck']]],
-  ['_7eveilengine_14',['~VeilEngine',['../classcppknife_1_1_veil_engine.html#a1b67d785cdb4a10d4833e31a043e6867',1,'cppknife::VeilEngine']]]
+  ['wc_0',['wc',['../namespacecppknife.html#a623798360ba874e936fc8878e0da99d7',1,'cppknife']]],
+  ['wcoutput_1',['wcOutput',['../namespacecppknife.html#a179d99ba1e17fa89f2e029c440d13210',1,'cppknife']]],
+  ['widthpixel_2',['widthPixel',['../structcppknife_1_1_sheet_data.html#a467328f0a0629253b32ce3feb6584d76',1,'cppknife::SheetData']]],
+  ['write_3',['write',['../classcppknife_1_1_svg_tool.html#a34f328003fb6990067bca35c52b32ecc',1,'cppknife::SvgTool::write()'],['../textknife_8cpp.html#a3f3dc1a770c82ebd6812469ee70efb6f',1,'write():&#160;textknife.cpp']]]
 ];
