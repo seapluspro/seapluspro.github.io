@@ -8,10 +8,11 @@ var searchData=
   ['indexofwords_5',['indexOfWords',['../classcppknife_1_1_parser.html#af732eb4c91fa1a2fb72626c44db0c090',1,'cppknife::Parser']]],
   ['input_6',['input',['../classcppknife_1_1_parser.html#a3cc500cc0ada6071e0ba92b33c8ed96f',1,'cppknife::Parser']]],
   ['inputdata_7',['InputData',['../classcppknife_1_1_input_data.html#a85743086d7a3e0a0c47deef7fac54629',1,'cppknife::InputData']]],
-  ['insert_8',['insert',['../classcppknife_1_1_line_list.html#a515e0c2725b9fedc7a6ce3bd0ce0a844',1,'cppknife::LineList::insert(const BufferPosition &amp;position, const std::vector&lt; std::string &gt; &amp;lines, bool addNewline=true)'],['../classcppknife_1_1_line_list.html#a9d22b4ee302a0979860c4bb76deb7ff2',1,'cppknife::LineList::insert(const BufferPosition &amp;position, const char *text)'],['../classcppknife_1_1_script.html#a6b9cb90f2f8fb4e8053a020618583478',1,'cppknife::Script::insert(bool testOnly)']]],
+  ['insert_8',['insert',['../classcppknife_1_1_line_list.html#a515e0c2725b9fedc7a6ce3bd0ce0a844',1,'cppknife::LineList::insert()'],['../classcppknife_1_1_script.html#a6b9cb90f2f8fb4e8053a020618583478',1,'cppknife::Script::insert()'],['../classcppknife_1_1_line_list.html#a9d22b4ee302a0979860c4bb76deb7ff2',1,'cppknife::LineList::insert()']]],
   ['interpolate_9',['interpolate',['../classcppknife_1_1_script.html#a47e3253ee6581f89b2c449862218b5fa',1,'cppknife::Script']]],
   ['isdefined_10',['isDefined',['../classcppknife_1_1_search_expression.html#a2249658cd50eda25cc7017ef874cf722',1,'cppknife::SearchExpression']]],
   ['isnotpattern_11',['isNotPattern',['../classcppknife_1_1_matcher.html#a548305925baaafed135a0fdcd428d9eb',1,'cppknife::Matcher']]],
-  ['isoperator_12',['isOperator',['../classcppknife_1_1_parser.html#ae785f537532108a2fbe9fc2c5c0bb09e',1,'cppknife::Parser']]],
-  ['isword_13',['isWord',['../classcppknife_1_1_parser.html#a9704dda3b0a15c0d1d84b6f57a93efc4',1,'cppknife::Parser']]]
+  ['isnull_12',['isNull',['../classcppknife_1_1_node_json.html#a54f7aaad276b6f0f157ecf907a02c160',1,'cppknife::NodeJson::isNull()'],['../classcppknife_1_1_value_json.html#a6fd69267ca0aeae2c6fb7c473009733f',1,'cppknife::ValueJson::isNull()']]],
+  ['isoperator_13',['isOperator',['../classcppknife_1_1_parser.html#ae785f537532108a2fbe9fc2c5c0bb09e',1,'cppknife::Parser']]],
+  ['isword_14',['isWord',['../classcppknife_1_1_parser.html#a9704dda3b0a15c0d1d84b6f57a93efc4',1,'cppknife::Parser']]]
 ];

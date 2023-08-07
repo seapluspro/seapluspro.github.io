@@ -70,17 +70,16 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classcppknife_1_1_node_json-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">cppknife::NodeJson Class Reference</div></div>
+  <div class="headertitle"><div class="title">cppknife::NodeJson Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>The base class for an node in the Json data tree.  
  <a href="classcppknife_1_1_node_json.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_json_reader_8hpp_source.html">JsonReader.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_node_json_8hpp_source.html">NodeJson.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for cppknife::NodeJson:</div>
 <div class="dyncontent">
@@ -99,8 +98,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4dba4621c34c2bacbbc0a3d446d157d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0115750354ec2e18227349d1e004d905"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a0115750354ec2e18227349d1e004d905">~NodeJson</a> ()</td></tr>
 <tr class="separator:a0115750354ec2e18227349d1e004d905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d41b602b9497d82c42a5fd7fe921777"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classcppknife_1_1_array_json.html">ArrayJson</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a0d41b602b9497d82c42a5fd7fe921777">array</a> ()</td></tr>
-<tr class="separator:a0d41b602b9497d82c42a5fd7fe921777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91fbe097850cae4376de4fed5118328"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#ad91fbe097850cae4376de4fed5118328">operator[]</a> (size_t index)</td></tr>
+<tr class="separator:ad91fbe097850cae4376de4fed5118328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75123bf76022fbe83a15ce84b2a00422"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a75123bf76022fbe83a15ce84b2a00422">operator[]</a> (const char *attribute)</td></tr>
+<tr class="separator:a75123bf76022fbe83a15ce84b2a00422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a667458bbe730160802af6de38bfa2f50"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a667458bbe730160802af6de38bfa2f50">addAsString</a> (std::string &amp;jsonString, int indent, int level, bool needsPrefix=true) const =0</td></tr>
+<tr class="separator:a667458bbe730160802af6de38bfa2f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b3d55db3682ec325d104566bb809455"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a6b3d55db3682ec325d104566bb809455">addNeededBytes</a> (size_t &amp;needed, int indent, int level, bool needsPrefix=true) const =0</td></tr>
+<tr class="separator:a6b3d55db3682ec325d104566bb809455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e0b5cf63034dccf7dd80c0894b2b7e1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a0e0b5cf63034dccf7dd80c0894b2b7e1">asBool</a> () const</td></tr>
 <tr class="separator:a0e0b5cf63034dccf7dd80c0894b2b7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42030677d7f543a5addf67963b7ed0e7"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a42030677d7f543a5addf67963b7ed0e7">asDouble</a> (double defaultValue=<a class="el" href="classcppknife_1_1_node_json.html#a14fc285972ff3a825b0511906862ef89">UNDEF_DOUBLE</a>) const</td></tr>
@@ -109,13 +114,43 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8f0e3aa1e36d19eb67ff28d8eb40d474"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fec910723920d3f6b866f6b6569ca60"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a4fec910723920d3f6b866f6b6569ca60">asString</a> () const</td></tr>
 <tr class="separator:a4fec910723920d3f6b866f6b6569ca60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a372e74b5c470a1033ef01fa871d48046"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a372e74b5c470a1033ef01fa871d48046">map</a> (const char *label)</td></tr>
-<tr class="separator:a372e74b5c470a1033ef01fa871d48046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e6009a049b1a04eed82314c260fe10"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a72e6009a049b1a04eed82314c260fe10">byAttribute</a> (const char *attribute, bool throwException=false)</td></tr>
+<tr class="separator:a72e6009a049b1a04eed82314c260fe10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46e70fc51f6b23c5e77c8d223c400678"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a46e70fc51f6b23c5e77c8d223c400678">byAttributeConst</a> (const char *attribute, bool throwException=false) const</td></tr>
+<tr class="separator:a46e70fc51f6b23c5e77c8d223c400678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13d1e7a0922ca2dbd7a74b1aa387e43"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#ac13d1e7a0922ca2dbd7a74b1aa387e43">byIndex</a> (int index, bool throwException=false)</td></tr>
+<tr class="separator:ac13d1e7a0922ca2dbd7a74b1aa387e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7214cb62fcec06e9b8189d1cec912b0"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#aa7214cb62fcec06e9b8189d1cec912b0">byIndexConst</a> (int index, bool throwException=false) const</td></tr>
+<tr class="separator:aa7214cb62fcec06e9b8189d1cec912b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc2d2a268e366ac4a9da43acdc6d3702"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#afc2d2a268e366ac4a9da43acdc6d3702">checkStructure</a> (<a class="el" href="classcppknife_1_1_name_and_type.html">NameAndType</a> mandatory[], <a class="el" href="classcppknife_1_1_name_and_type.html">NameAndType</a> optional[]=nullptr, bool mustComplete=false) const</td></tr>
+<tr class="separator:afc2d2a268e366ac4a9da43acdc6d3702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d867a5356ca8c314f2653b1a1130a0f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a6d867a5356ca8c314f2653b1a1130a0f">dataType</a> () const =0</td></tr>
+<tr class="separator:a6d867a5356ca8c314f2653b1a1130a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f7aaad276b6f0f157ecf907a02c160"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a54f7aaad276b6f0f157ecf907a02c160">isNull</a> () const</td></tr>
+<tr class="separator:a54f7aaad276b6f0f157ecf907a02c160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af53499197f5f4e1b816077111be8fd13"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#af53499197f5f4e1b816077111be8fd13">hasAttribute</a> (const char *attribute) const</td></tr>
+<tr class="separator:af53499197f5f4e1b816077111be8fd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eed47ae63d4b6330b564a8eac13b1ad"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a9eed47ae63d4b6330b564a8eac13b1ad">nodeByPath</a> (const char *path[], <a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a> expectedType=<a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559fa1c1f368cf365a6a3cc48d2041414a6c9">JDT_UNDEFINED</a>, bool throwException=false) const</td></tr>
+<tr class="separator:a9eed47ae63d4b6330b564a8eac13b1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b61c33a6606aaf5804266baea2f02af"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a4b61c33a6606aaf5804266baea2f02af">toString</a> (int maxLength=40) const =0</td></tr>
+<tr class="separator:a4b61c33a6606aaf5804266baea2f02af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f42b26d7df2d9ef7882f7084db7e2c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacecppknife.html#ad25f9e88f2af249f34a14f1b7890fbc2">JsonNodeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a1f42b26d7df2d9ef7882f7084db7e2c0">type</a> () const</td></tr>
 <tr class="separator:a1f42b26d7df2d9ef7882f7084db7e2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8b0fea9cf888f005ba094951b0cfef03"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a8b0fea9cf888f005ba094951b0cfef03">addBlanks</a> (int count, std::string &amp;item)</td></tr>
+<tr class="separator:a8b0fea9cf888f005ba094951b0cfef03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b592d52883cc9c6c6e481c54f4e96b1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a9b592d52883cc9c6c6e481c54f4e96b1">addBlanks2</a> (int count, std::string &amp;item)</td></tr>
+<tr class="separator:a9b592d52883cc9c6c6e481c54f4e96b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c6c120aed85c3d609668e08454696db"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a1c6c120aed85c3d609668e08454696db">decode</a> (const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *tree, int indent=0)</td></tr>
+<tr class="separator:a1c6c120aed85c3d609668e08454696db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0689dadb81a513896b0f82dd20984bb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#ae0689dadb81a513896b0f82dd20984bb">encode</a> (const char *jsonString, std::string &amp;error, Logger &amp;logger)</td></tr>
+<tr class="separator:ae0689dadb81a513896b0f82dd20984bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60591841c0fe3e0e8264db1d936379e2"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a60591841c0fe3e0e8264db1d936379e2">encodeFromFile</a> (const char *filename, std::string &amp;error, Logger &amp;logger)</td></tr>
+<tr class="separator:a60591841c0fe3e0e8264db1d936379e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf03df49f0d2a232e881b7237d647ae6"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#aaf03df49f0d2a232e881b7237d647ae6">dataTypeToString</a> (<a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a> <a class="el" href="classcppknife_1_1_node_json.html#a1f42b26d7df2d9ef7882f7084db7e2c0">type</a>)</td></tr>
+<tr class="separator:aaf03df49f0d2a232e881b7237d647ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae14a3a6d2ff355f22b921f0bd227f50"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#aae14a3a6d2ff355f22b921f0bd227f50">typeToString</a> (<a class="el" href="namespacecppknife.html#ad25f9e88f2af249f34a14f1b7890fbc2">JsonNodeType</a> <a class="el" href="classcppknife_1_1_node_json.html#a1f42b26d7df2d9ef7882f7084db7e2c0">type</a>)</td></tr>
 <tr class="separator:aae14a3a6d2ff355f22b921f0bd227f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -125,11 +160,10 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a14fc285972ff3a825b0511906862ef89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae280882e0e93c52a0fc4bb450b78617e"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#ae280882e0e93c52a0fc4bb450b78617e">UNDEF_INT</a> = 0x80000000</td></tr>
 <tr class="separator:ae280882e0e93c52a0fc4bb450b78617e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:ad91fbe097850cae4376de4fed5118328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#ad91fbe097850cae4376de4fed5118328">operator[]</a> (size_t index)</td></tr>
-<tr class="separator:ad91fbe097850cae4376de4fed5118328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88fa1152c61fdafbeba46c7e84103db0"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a88fa1152c61fdafbeba46c7e84103db0">_blanks</a></td></tr>
+<tr class="separator:a88fa1152c61fdafbeba46c7e84103db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2fffcadf03e5e91429986c428c7fed8"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#ad2fffcadf03e5e91429986c428c7fed8">_blankCount</a> = 132</td></tr>
+<tr class="separator:ad2fffcadf03e5e91429986c428c7fed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -183,8 +217,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0d41b602b9497d82c42a5fd7fe921777" name="a0d41b602b9497d82c42a5fd7fe921777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d41b602b9497d82c42a5fd7fe921777">&#9670;&nbsp;</a></span>array()</h2>
+<a id="a667458bbe730160802af6de38bfa2f50" name="a667458bbe730160802af6de38bfa2f50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a667458bbe730160802af6de38bfa2f50">&#9670;&nbsp;</a></span>addAsString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,20 +227,197 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classcppknife_1_1_array_json.html">ArrayJson</a> &amp; cppknife::NodeJson::array </td>
+          <td class="memname">virtual void cppknife::NodeJson::addAsString </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>jsonString</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>needsPrefix</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Adds the instance to the Json string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">jsonString</td><td>The text representation of the instance will be append here. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">indent</td><td>0: compact notation (no additional blanks and newlines). Otherwise: the number of blank for one indention level </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">level</td><td>The indention level of the instance. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">needsPrefix</td><td><em>false</em>: the text representation of the instance should not indent. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Reimplemented in <a class="el" href="classcppknife_1_1_array_json.html#adf1c763b616fabb644702834fb3ebe06">cppknife::ArrayJson</a>.</p>
+<p>Implemented in <a class="el" href="classcppknife_1_1_map_json.html#ac867090517271b82a4186b91acbbede7">cppknife::MapJson</a>, <a class="el" href="classcppknife_1_1_value_json.html#ad7eba5914bf614f0978b473e7f578aab">cppknife::ValueJson</a>, and <a class="el" href="classcppknife_1_1_array_json.html#ac2db664a521f8ce09e0907fd9cd119de">cppknife::ArrayJson</a>.</p>
+
+</div>
+</div>
+<a id="a8b0fea9cf888f005ba094951b0cfef03" name="a8b0fea9cf888f005ba094951b0cfef03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b0fea9cf888f005ba094951b0cfef03">&#9670;&nbsp;</a></span>addBlanks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void cppknife::NodeJson::addBlanks </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Appends a given amount of blanks to a string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">count</td><td>The number of blanks to add. </td></tr>
+    <tr><td class="paramname">item</td><td>The string to change. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9b592d52883cc9c6c6e481c54f4e96b1" name="a9b592d52883cc9c6c6e481c54f4e96b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b592d52883cc9c6c6e481c54f4e96b1">&#9670;&nbsp;</a></span>addBlanks2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cppknife::NodeJson::addBlanks2 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Appends a given amount of blanks to a string. This method can operate of each count. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">count</td><td>The number of blanks to add. </td></tr>
+    <tr><td class="paramname">item</td><td>The string to change. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6b3d55db3682ec325d104566bb809455" name="a6b3d55db3682ec325d104566bb809455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b3d55db3682ec325d104566bb809455">&#9670;&nbsp;</a></span>addNeededBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t cppknife::NodeJson::addNeededBytes </td>
+          <td>(</td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>needed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>needsPrefix</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Calculates the length of the text representation of the instance and add it to a variable. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">needed</td><td>IN: the length of the Json string before handling the instance. OUT: the text representation of the instance has been added. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">indent</td><td>0: compact notation (no additional blanks and newlines). Otherwise: the number of blank for one indention level </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">level</td><td>The indention level of the instance. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">needsPrefix</td><td><em>false</em>: the text representation of the instance should not indent. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classcppknife_1_1_array_json.html#a647c8d9af08cce6f66ab29ceb079be02">cppknife::ArrayJson</a>, <a class="el" href="classcppknife_1_1_map_json.html#a248199656079c8b716a76e794b1dc74a">cppknife::MapJson</a>, and <a class="el" href="classcppknife_1_1_value_json.html#ad9e7f5e53be1a28d35c393d1fdd59356">cppknife::ValueJson</a>.</p>
 
 </div>
 </div>
@@ -232,6 +443,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Returns the bool value of the instance. Throws an exception if the instance is not a value node with bool type. </p>
 
 <p>Reimplemented in <a class="el" href="classcppknife_1_1_value_json.html#a150c2af0b0469ede06a612945da81492">cppknife::ValueJson</a>.</p>
 
@@ -260,6 +472,12 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Returns the double value of the instance. Throws an exception if the instance is not a value node with double type. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">defaultValue</td><td>The result if the instance is not a double value. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classcppknife_1_1_value_json.html#a6364bd1a37a586b829808d3343b7e332">cppknife::ValueJson</a>.</p>
 
@@ -288,6 +506,12 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Returns the int value of the instance. Throws an exception if the instance is not a value node with int type. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">defaultValue</td><td>The result if the instance is not an int value. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classcppknife_1_1_value_json.html#afa36a2560781d75fabe5736fb38dbdcb">cppknife::ValueJson</a>.</p>
 
@@ -315,13 +539,14 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Returns the string value of the instance. Throws an exception if the instance is not a value node with bool type. </p>
 
 <p>Reimplemented in <a class="el" href="classcppknife_1_1_value_json.html#a9c6283ce9aa75818d3e8c0ecd7194f0e">cppknife::ValueJson</a>.</p>
 
 </div>
 </div>
-<a id="a372e74b5c470a1033ef01fa871d48046" name="a372e74b5c470a1033ef01fa871d48046"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a372e74b5c470a1033ef01fa871d48046">&#9670;&nbsp;</a></span>map()</h2>
+<a id="a72e6009a049b1a04eed82314c260fe10" name="a72e6009a049b1a04eed82314c260fe10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e6009a049b1a04eed82314c260fe10">&#9670;&nbsp;</a></span>byAttribute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,10 +555,549 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> &amp; cppknife::NodeJson::map </td>
+          <td class="memname"><a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * cppknife::NodeJson::byAttribute </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>label</em></td><td>)</td>
+          <td class="paramname"><em>attribute</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>throwException</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the value of a given attribute of the instance. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attribute</td><td>The name of the attribute. </td></tr>
+    <tr><td class="paramname">throwException</td><td><em>true</em>: returns an exception instead of returning <em>nullptr</em> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: the instance is not a map node or the attribute does not exist. Otherwise: the related node of the attribute. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_map_json.html#a82971a3078df95b849dea75d5fbf305e">cppknife::MapJson</a>.</p>
+
+</div>
+</div>
+<a id="a46e70fc51f6b23c5e77c8d223c400678" name="a46e70fc51f6b23c5e77c8d223c400678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46e70fc51f6b23c5e77c8d223c400678">&#9670;&nbsp;</a></span>byAttributeConst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * cppknife::NodeJson::byAttributeConst </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>attribute</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>throwException</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the value of a given attribute of the instance as constant item. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attribute</td><td>The name of the attribute. </td></tr>
+    <tr><td class="paramname">throwException</td><td><em>true</em>: returns an exception instead of returning <em>nullptr</em> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: the instance is not a map node or the attribute does not exist. Otherwise: the related node of the attribute. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_map_json.html#a593162b26c8c377c1ae2e1f7232a2685">cppknife::MapJson</a>.</p>
+
+</div>
+</div>
+<a id="ac13d1e7a0922ca2dbd7a74b1aa387e43" name="ac13d1e7a0922ca2dbd7a74b1aa387e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac13d1e7a0922ca2dbd7a74b1aa387e43">&#9670;&nbsp;</a></span>byIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * cppknife::NodeJson::byIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>throwException</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the value of a given index of the instance. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the item to return. </td></tr>
+    <tr><td class="paramname">throwException</td><td><em>true</em>: returns an exception instead of returning <em>nullptr</em> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: the instance is not an array node or the index is invalid. Otherwise: the the related node of the index. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_array_json.html#aea2573fb1498d4a81a1f871babd82425">cppknife::ArrayJson</a>.</p>
+
+</div>
+</div>
+<a id="aa7214cb62fcec06e9b8189d1cec912b0" name="aa7214cb62fcec06e9b8189d1cec912b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7214cb62fcec06e9b8189d1cec912b0">&#9670;&nbsp;</a></span>byIndexConst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * cppknife::NodeJson::byIndexConst </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>throwException</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the value of a given index of the instance as constant item. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the item to return. </td></tr>
+    <tr><td class="paramname">throwException</td><td><em>true</em>: returns an exception instead of returning <em>nullptr</em> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: the instance is not an array node or the index is invalid. Otherwise: the the related node of the index. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_array_json.html#a4ef55c65171a28e556b145978597bc58">cppknife::ArrayJson</a>.</p>
+
+</div>
+</div>
+<a id="afc2d2a268e366ac4a9da43acdc6d3702" name="afc2d2a268e366ac4a9da43acdc6d3702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc2d2a268e366ac4a9da43acdc6d3702">&#9670;&nbsp;</a></span>checkStructure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::NodeJson::checkStructure </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcppknife_1_1_name_and_type.html">NameAndType</a>&#160;</td>
+          <td class="paramname"><em>mandatory</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcppknife_1_1_name_and_type.html">NameAndType</a>&#160;</td>
+          <td class="paramname"><em>optional</em>[] = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mustComplete</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_map_json.html#a39d14a22235818c839843364dad0d458">cppknife::MapJson</a>.</p>
+
+</div>
+</div>
+<a id="a6d867a5356ca8c314f2653b1a1130a0f" name="a6d867a5356ca8c314f2653b1a1130a0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d867a5356ca8c314f2653b1a1130a0f">&#9670;&nbsp;</a></span>dataType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a> cppknife::NodeJson::dataType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the data type of the instance. </p>
+
+<p>Implemented in <a class="el" href="classcppknife_1_1_array_json.html#a3a5807e098a8732c46a642ec3276f5d8">cppknife::ArrayJson</a>, <a class="el" href="classcppknife_1_1_map_json.html#af5c28bd5c4debba385b59a5af0a25e5c">cppknife::MapJson</a>, and <a class="el" href="classcppknife_1_1_value_json.html#ae8fb103c17ee12d602a5f638ea840dbb">cppknife::ValueJson</a>.</p>
+
+</div>
+</div>
+<a id="aaf03df49f0d2a232e881b7237d647ae6" name="aaf03df49f0d2a232e881b7237d647ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf03df49f0d2a232e881b7237d647ae6">&#9670;&nbsp;</a></span>dataTypeToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * cppknife::NodeJson::dataTypeToString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the text representation of a data type. </p>
+
+</div>
+</div>
+<a id="a1c6c120aed85c3d609668e08454696db" name="a1c6c120aed85c3d609668e08454696db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c6c120aed85c3d609668e08454696db">&#9670;&nbsp;</a></span>decode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string cppknife::NodeJson::decode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indent</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Converts a Json tree into a string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tree</td><td>The Json tree to convert. </td></tr>
+    <tr><td class="paramname">indent</td><td>0: The result is a compact string. Otherwise: the result is a pretty printed string with that indent step. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae0689dadb81a513896b0f82dd20984bb" name="ae0689dadb81a513896b0f82dd20984bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0689dadb81a513896b0f82dd20984bb">&#9670;&nbsp;</a></span>encode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * cppknife::NodeJson::encode </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>jsonString</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>error</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Logger &amp;&#160;</td>
+          <td class="paramname"><em>logger</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Converts a string into a Json tree. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">jsonString</td><td>The textual representation of the Json tree. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error</td><td>"": no error occurred. Otherwise: the error message. @logger The logger. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: an error has occurred. Otherwise: the Json tree. </dd></dl>
+
+</div>
+</div>
+<a id="a60591841c0fe3e0e8264db1d936379e2" name="a60591841c0fe3e0e8264db1d936379e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60591841c0fe3e0e8264db1d936379e2">&#9670;&nbsp;</a></span>encodeFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * cppknife::NodeJson::encodeFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>error</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Logger &amp;&#160;</td>
+          <td class="paramname"><em>logger</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Converts a Json formatted file into a Json tree. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">filename</td><td>The file containing the Json formatted data. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error</td><td>"": no error occurred. Otherwise: the error message. @logger The logger. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: an error has occurred. Otherwise: the Json tree. </dd></dl>
+
+</div>
+</div>
+<a id="af53499197f5f4e1b816077111be8fd13" name="af53499197f5f4e1b816077111be8fd13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af53499197f5f4e1b816077111be8fd13">&#9670;&nbsp;</a></span>hasAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::NodeJson::hasAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>attribute</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tests whether the instance is a map and has the given attribute. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attribute</td><td>the attribute to search. </td></tr>
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_map_json.html#af4ddf1a0da0ca0389c65e04260d8b825">cppknife::MapJson</a>.</p>
+
+</div>
+</div>
+<a id="a54f7aaad276b6f0f157ecf907a02c160" name="a54f7aaad276b6f0f157ecf907a02c160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54f7aaad276b6f0f157ecf907a02c160">&#9670;&nbsp;</a></span>isNull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cppknife::NodeJson::isNull </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns whether the Json value is null. </p>
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_value_json.html#a6fd69267ca0aeae2c6fb7c473009733f">cppknife::ValueJson</a>.</p>
+
+</div>
+</div>
+<a id="a9eed47ae63d4b6330b564a8eac13b1ad" name="a9eed47ae63d4b6330b564a8eac13b1ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eed47ae63d4b6330b564a8eac13b1ad">&#9670;&nbsp;</a></span>nodeByPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * cppknife::NodeJson::nodeByPath </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a>&#160;</td>
+          <td class="paramname"><em>expectedType</em> = <code><a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559fa1c1f368cf365a6a3cc48d2041414a6c9">JDT_UNDEFINED</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>throwException</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Tests whether a given path exists in the Json tree. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>A list of attributes, ending with a <em>nullptr</em>. Each entry may be an attribute name or a index notation, e.g. "[1]" for the second index. Example: { "person", "list", "[3]", "name", nullptr } </td></tr>
+    <tr><td class="paramname">expectedType</td><td>If not JDT_UNDEFINED the found node must have the given type. If not <em>nullptr</em> is returned. </td></tr>
+    <tr><td class="paramname">throwException</td><td><em>true</em>: instead of returning <em>nullptr</em> an exception is thrown. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a75123bf76022fbe83a15ce84b2a00422" name="a75123bf76022fbe83a15ce84b2a00422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75123bf76022fbe83a15ce84b2a00422">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> &amp; cppknife::NodeJson::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>attribute</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -344,12 +1108,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classcppknife_1_1_map_json.html#a64e6535fb170e16c0f601b69622eb3c3">cppknife::MapJson</a>.</p>
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_map_json.html#aadf81d6cb1ba9818e6be7cf52dc11329">cppknife::MapJson</a>.</p>
 
 </div>
 </div>
 <a id="ad91fbe097850cae4376de4fed5118328" name="ad91fbe097850cae4376de4fed5118328"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad91fbe097850cae4376de4fed5118328">&#9670;&nbsp;</a></span>operator[]()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad91fbe097850cae4376de4fed5118328">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,10 +1131,47 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_array_json.html#a0b69e3499f9b7c70f9581bc7a00f1c1a">cppknife::ArrayJson</a>.</p>
+
+</div>
+</div>
+<a id="a4b61c33a6606aaf5804266baea2f02af" name="a4b61c33a6606aaf5804266baea2f02af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b61c33a6606aaf5804266baea2f02af">&#9670;&nbsp;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string cppknife::NodeJson::toString </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxLength</em> = <code>40</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns a textual representation of the instance. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxLength</td><td>The maximum length of the result. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: the textual representation of the instance. May be cut to the given maximum length. </dd></dl>
+
+<p>Implemented in <a class="el" href="classcppknife_1_1_array_json.html#ae53f72e3f5a23f21f7394000825d2c11">cppknife::ArrayJson</a>, <a class="el" href="classcppknife_1_1_map_json.html#a1ef32a55038e89f840c3b04c90aaf6ed">cppknife::MapJson</a>, and <a class="el" href="classcppknife_1_1_value_json.html#a5d22d2d93bfeaa1fed98137a395f3033">cppknife::ValueJson</a>.</p>
 
 </div>
 </div>
@@ -396,6 +1197,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Returns the node type of the instance. </p>
 
 </div>
 </div>
@@ -422,10 +1224,57 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >Returns the text representation of a node type. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad2fffcadf03e5e91429986c428c7fed8" name="ad2fffcadf03e5e91429986c428c7fed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2fffcadf03e5e91429986c428c7fed8">&#9670;&nbsp;</a></span>_blankCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int cppknife::NodeJson::_blankCount = 132</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88fa1152c61fdafbeba46c7e84103db0" name="a88fa1152c61fdafbeba46c7e84103db0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88fa1152c61fdafbeba46c7e84103db0">&#9670;&nbsp;</a></span>_blanks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * cppknife::NodeJson::_blanks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    <span class="stringliteral">&quot;                                                                                                                                    &quot;</span></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="afc87a5393961eab61af9a37663caa833" name="afc87a5393961eab61af9a37663caa833"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc87a5393961eab61af9a37663caa833">&#9670;&nbsp;</a></span>_type</h2>
 
@@ -493,8 +1342,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/ws/cpp/cppknife/text/<a class="el" href="_json_reader_8hpp_source.html">JsonReader.hpp</a></li>
-<li>/home/ws/cpp/cppknife/text/<a class="el" href="_json_reader_8cpp.html">JsonReader.cpp</a></li>
+<li>/home/ws/cpp/cppknife/text/<a class="el" href="_node_json_8hpp_source.html">NodeJson.hpp</a></li>
+<li>/home/ws/cpp/cppknife/text/<a class="el" href="_node_json_8cpp.html">NodeJson.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

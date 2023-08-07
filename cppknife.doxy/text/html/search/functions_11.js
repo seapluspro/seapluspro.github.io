@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['script_0',['script',['../classcppknife_1_1_script.html#a6e95d3de62bdcf43d0a60b10059f7e89',1,'cppknife::Script']]],
-  ['script_1',['Script',['../classcppknife_1_1_script.html#ab2d015f3d64ed1c25c60ce2c2ca6596a',1,'cppknife::Script']]],
+  ['script_0',['Script',['../classcppknife_1_1_script.html#ab2d015f3d64ed1c25c60ce2c2ca6596a',1,'cppknife::Script']]],
+  ['script_1',['script',['../classcppknife_1_1_script.html#a6e95d3de62bdcf43d0a60b10059f7e89',1,'cppknife::Script']]],
   ['scriptbyname_2',['scriptByName',['../classcppknife_1_1_search_engine.html#aefe61c406bafff64c047cd4ddffbb7ff',1,'cppknife::SearchEngine']]],
   ['search_3',['search',['../classcppknife_1_1_search_expression.html#a21a3652d7eac3eaff5152e8050bb9a06',1,'cppknife::SearchExpression::search()'],['../classcppknife_1_1_pattern_list.html#acc6e1ff2933c0183b23b7eeb77642f0b',1,'cppknife::PatternList::search()'],['../classcppknife_1_1_simple_matcher.html#a3ff3f4ad3914a2c7788d47af2cacfea2',1,'cppknife::SimpleMatcher::search()'],['../classcppknife_1_1_matcher.html#a96036ef3c3df71abc95dc13591eb67a7',1,'cppknife::Matcher::search(const std::string &amp;toTest, Hit *hit=NULL, bool greedy=false)'],['../classcppknife_1_1_matcher.html#a76577d1c87074c6fcbcaa3cb4465b4dd',1,'cppknife::Matcher::search(const char *toTest, int toTestLength=-1, Hit *hit=NULL, bool greedy=false) const =0'],['../classcppknife_1_1_line_list.html#a945f0d4a98f4fc10a0dfe83f9b54f588',1,'cppknife::LineList::search()'],['../classcppknife_1_1_search_expression.html#aaaec720fb5193bab96bfed53db12c16d',1,'cppknife::SearchExpression::search()']]],
   ['searchbackwardsoneline_4',['searchBackwardsOneLine',['../classcppknife_1_1_line_list.html#a7e3daa3d9ba10479b12a1917fa4b84f2',1,'cppknife::LineList']]],

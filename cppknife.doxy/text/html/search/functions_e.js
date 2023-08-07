@@ -4,7 +4,7 @@ var searchData=
   ['opencsv_1',['openCsv',['../classcppknife_1_1_csv_file.html#a43f39dc8ba23b4eabace5f10d9ec33df',1,'cppknife::CsvFile']]],
   ['openfile_2',['openFile',['../classcppknife_1_1_line_reader.html#a1be36c921f96c1d6f0e8f8c327a2de32',1,'cppknife::LineReader']]],
   ['operator_3d_3',['operator=',['../classcppknife_1_1_line_list.html#a57175a8ce92e49c4dca1b64a941cf4cb',1,'cppknife::LineList::operator=()'],['../classcppknife_1_1_string_list.html#ac499b696e1cad18f20dce4360d1fe5dd',1,'cppknife::StringList::operator=()']]],
-  ['operator_5b_5d_4',['operator[]',['../classcppknife_1_1_node_json.html#ad91fbe097850cae4376de4fed5118328',1,'cppknife::NodeJson::operator[]()'],['../classcppknife_1_1_array_json.html#a0b69e3499f9b7c70f9581bc7a00f1c1a',1,'cppknife::ArrayJson::operator[]()']]],
+  ['operator_5b_5d_4',['operator[]',['../classcppknife_1_1_node_json.html#ad91fbe097850cae4376de4fed5118328',1,'cppknife::NodeJson::operator[](size_t index)'],['../classcppknife_1_1_node_json.html#a75123bf76022fbe83a15ce84b2a00422',1,'cppknife::NodeJson::operator[](const char *attribute)'],['../classcppknife_1_1_array_json.html#a0b69e3499f9b7c70f9581bc7a00f1c1a',1,'cppknife::ArrayJson::operator[]()'],['../classcppknife_1_1_map_json.html#aadf81d6cb1ba9818e6be7cf52dc11329',1,'cppknife::MapJson::operator[]()']]],
   ['osbasename_5',['osBasename',['../classcppknife_1_1_function_engine.html#a421bfb28213188bb132355c518e0d3a6',1,'cppknife::FunctionEngine']]],
   ['oscd_6',['osCd',['../classcppknife_1_1_function_engine.html#a8826ce1c238fa85d084ce21b0725cb44',1,'cppknife::FunctionEngine']]],
   ['oschangeextension_7',['osChangeextension',['../classcppknife_1_1_function_engine.html#aaec9859b28cb3add1ed2fd7424a583c4',1,'cppknife::FunctionEngine']]],

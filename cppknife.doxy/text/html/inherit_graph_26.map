@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcppknife_1_1_token_info.html" title="Stores a syntactical element (&quot;token&quot;) of the Json data stream." alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" href="$classcppknife_1_1_json_error.html" title="This exception is used for any errors found in this module." alt="" coords="156,5,300,32"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_json_format_error.html" title="This exception is used for Json format errors." alt="" coords="348,5,539,32"/>
 </map>

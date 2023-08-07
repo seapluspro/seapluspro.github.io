@@ -1,0 +1,5 @@
+<map id="cppknife::JsonError" name="cppknife::JsonError">
+<area shape="rect" id="node1" title="This exception is used for any errors found in this module." alt="" coords="29,80,173,107"/>
+<area shape="rect" id="node3" href="$classcppknife_1_1_json_format_error.html" title="This exception is used for Json format errors." alt="" coords="5,155,196,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="49,5,152,32"/>
+</map>
