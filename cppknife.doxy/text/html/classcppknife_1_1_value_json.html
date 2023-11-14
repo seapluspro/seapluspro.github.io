@@ -99,8 +99,8 @@ Collaboration diagram for cppknife::ValueJson:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a26685cdb6e5be1b7208de83e9b2f51ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_value_json.html#a26685cdb6e5be1b7208de83e9b2f51ec">ValueJson</a> (const char *value)</td></tr>
-<tr class="separator:a26685cdb6e5be1b7208de83e9b2f51ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e4f08e31c842fe1eceaf52cc262982c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_value_json.html#a2e4f08e31c842fe1eceaf52cc262982c">ValueJson</a> (<a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a>, const char *value)</td></tr>
+<tr class="separator:a2e4f08e31c842fe1eceaf52cc262982c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5216624c25c115703d7ad1c999bccb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_value_json.html#aa5216624c25c115703d7ad1c999bccb3">~ValueJson</a> ()</td></tr>
 <tr class="separator:aa5216624c25c115703d7ad1c999bccb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7eba5914bf614f0978b473e7f578aab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_value_json.html#ad7eba5914bf614f0978b473e7f578aab">addAsString</a> (std::string &amp;jsonString, int indent, int level, bool needsPrefix=true) const</td></tr>
@@ -115,6 +115,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afa36a2560781d75fabe5736fb38dbdcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c6283ce9aa75818d3e8c0ecd7194f0e"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_value_json.html#a9c6283ce9aa75818d3e8c0ecd7194f0e">asString</a> () const</td></tr>
 <tr class="separator:a9c6283ce9aa75818d3e8c0ecd7194f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aa7163984c43bf2cc60d809cc438e39"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_value_json.html#a1aa7163984c43bf2cc60d809cc438e39">change</a> (const char *value)</td></tr>
+<tr class="separator:a1aa7163984c43bf2cc60d809cc438e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8fb103c17ee12d602a5f638ea840dbb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_value_json.html#ae8fb103c17ee12d602a5f638ea840dbb">dataType</a> () const</td></tr>
 <tr class="separator:ae8fb103c17ee12d602a5f638ea840dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fd69267ca0aeae2c6fb7c473009733f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_value_json.html#a6fd69267ca0aeae2c6fb7c473009733f">isNull</a> () const</td></tr>
@@ -134,6 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a667458bbe730160802af6de38bfa2f50 inherit pub_methods_classcppknife_1_1_node_json"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b3d55db3682ec325d104566bb809455 inherit pub_methods_classcppknife_1_1_node_json"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a6b3d55db3682ec325d104566bb809455">addNeededBytes</a> (size_t &amp;needed, int indent, int level, bool needsPrefix=true) const =0</td></tr>
 <tr class="separator:a6b3d55db3682ec325d104566bb809455 inherit pub_methods_classcppknife_1_1_node_json"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b503bf6013ba9746950926d4f78601e inherit pub_methods_classcppknife_1_1_node_json"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a6b503bf6013ba9746950926d4f78601e">array</a> (bool throwException=true)</td></tr>
+<tr class="separator:a6b503bf6013ba9746950926d4f78601e inherit pub_methods_classcppknife_1_1_node_json"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e0b5cf63034dccf7dd80c0894b2b7e1 inherit pub_methods_classcppknife_1_1_node_json"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a0e0b5cf63034dccf7dd80c0894b2b7e1">asBool</a> () const</td></tr>
 <tr class="separator:a0e0b5cf63034dccf7dd80c0894b2b7e1 inherit pub_methods_classcppknife_1_1_node_json"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42030677d7f543a5addf67963b7ed0e7 inherit pub_methods_classcppknife_1_1_node_json"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a42030677d7f543a5addf67963b7ed0e7">asDouble</a> (double defaultValue=<a class="el" href="classcppknife_1_1_node_json.html#a14fc285972ff3a825b0511906862ef89">UNDEF_DOUBLE</a>) const</td></tr>
@@ -158,6 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a54f7aaad276b6f0f157ecf907a02c160 inherit pub_methods_classcppknife_1_1_node_json"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af53499197f5f4e1b816077111be8fd13 inherit pub_methods_classcppknife_1_1_node_json"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#af53499197f5f4e1b816077111be8fd13">hasAttribute</a> (const char *attribute) const</td></tr>
 <tr class="separator:af53499197f5f4e1b816077111be8fd13 inherit pub_methods_classcppknife_1_1_node_json"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa691d74cb9d6e0743fac03dc8f793727 inherit pub_methods_classcppknife_1_1_node_json"><td class="memItemLeft" align="right" valign="top">virtual std::map&lt; std::string, <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#aa691d74cb9d6e0743fac03dc8f793727">map</a> (bool throwException=true)</td></tr>
+<tr class="separator:aa691d74cb9d6e0743fac03dc8f793727 inherit pub_methods_classcppknife_1_1_node_json"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eed47ae63d4b6330b564a8eac13b1ad inherit pub_methods_classcppknife_1_1_node_json"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a9eed47ae63d4b6330b564a8eac13b1ad">nodeByPath</a> (const char *path[], <a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a> expectedType=<a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559fa1c1f368cf365a6a3cc48d2041414a6c9">JDT_UNDEFINED</a>, bool throwException=false) const</td></tr>
 <tr class="separator:a9eed47ae63d4b6330b564a8eac13b1ad inherit pub_methods_classcppknife_1_1_node_json"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b61c33a6606aaf5804266baea2f02af inherit pub_methods_classcppknife_1_1_node_json"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a4b61c33a6606aaf5804266baea2f02af">toString</a> (int maxLength=40) const =0</td></tr>
@@ -205,8 +211,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Stores a value in the Json data tree. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a26685cdb6e5be1b7208de83e9b2f51ec" name="a26685cdb6e5be1b7208de83e9b2f51ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26685cdb6e5be1b7208de83e9b2f51ec">&#9670;&nbsp;</a></span>ValueJson()</h2>
+<a id="a2e4f08e31c842fe1eceaf52cc262982c" name="a2e4f08e31c842fe1eceaf52cc262982c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e4f08e31c842fe1eceaf52cc262982c">&#9670;&nbsp;</a></span>ValueJson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,9 +220,19 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">cppknife::ValueJson::ValueJson </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a>&#160;</td>
+          <td class="paramname"><em>dataType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -381,7 +397,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the bool value of the instance. Throws an exception if the instance is not a value node with bool type. </p>
+<p >Returns the bool value of the instance. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">throwException</td><td><em>true</em>: throws an exception if null is returned. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: no array is available. Otherwise: the internal list of the <em><a class="el" href="classcppknife_1_1_array_json.html" title="Stores an array in the Json data tree.">ArrayJson</a></em> instance. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classcppknife_1_1_node_json.html#a0e0b5cf63034dccf7dd80c0894b2b7e1">cppknife::NodeJson</a>.</p>
 
@@ -480,6 +502,32 @@ Additional Inherited Members</h2></td></tr>
 <p >Returns the string value of the instance. Throws an exception if the instance is not a value node with bool type. </p>
 
 <p>Reimplemented from <a class="el" href="classcppknife_1_1_node_json.html#a4fec910723920d3f6b866f6b6569ca60">cppknife::NodeJson</a>.</p>
+
+</div>
+</div>
+<a id="a1aa7163984c43bf2cc60d809cc438e39" name="a1aa7163984c43bf2cc60d809cc438e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aa7163984c43bf2cc60d809cc438e39">&#9670;&nbsp;</a></span>change()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cppknife::ValueJson::change </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

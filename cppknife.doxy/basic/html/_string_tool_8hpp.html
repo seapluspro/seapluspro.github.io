@@ -127,12 +127,20 @@ Functions</h2></td></tr>
 <tr class="separator:aee79b3f8781eea4f600574fdac834757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69b7cde0467f96c50d5a821235c5f9c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a69b7cde0467f96c50d5a821235c5f9c6">cppknife::endsWith</a> (const char *source, int sourceLength, const char *tail, int tailLength, bool ignoreCase)</td></tr>
 <tr class="separator:a69b7cde0467f96c50d5a821235c5f9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfd3749d29336a26408fece7f98be581"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#adfd3749d29336a26408fece7f98be581">cppknife::escapeMetaCharacters</a> (const char *string)</td></tr>
+<tr class="separator:adfd3749d29336a26408fece7f98be581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f636c1de59c0e8fdb1c5af8740d2bed"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a5f636c1de59c0e8fdb1c5af8740d2bed">cppknife::escapeMetaCharacters</a> (std::string &amp;string)</td></tr>
+<tr class="separator:a5f636c1de59c0e8fdb1c5af8740d2bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae28674296ca3d7bb4ea5c225d42b43ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#ae28674296ca3d7bb4ea5c225d42b43ce">cppknife::escapeMetaCharactersCount</a> (const char *string)</td></tr>
+<tr class="separator:ae28674296ca3d7bb4ea5c225d42b43ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a987107d81a48289b3c31ee055b5feab4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a987107d81a48289b3c31ee055b5feab4">cppknife::formatCString</a> (const char *fmt,...)</td></tr>
 <tr class="separator:a987107d81a48289b3c31ee055b5feab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8b701adc2788dce7c2bc98c00155142"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#af8b701adc2788dce7c2bc98c00155142">cppknife::formatOnBuffer</a> (char *buffer, size_t bufferSize, const char *fmt,...)</td></tr>
 <tr class="separator:af8b701adc2788dce7c2bc98c00155142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51527173b488affd9231b87c20b96822"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a51527173b488affd9231b87c20b96822">cppknife::globToRegularExpression</a> (const char *globPattern, int length)</td></tr>
 <tr class="separator:a51527173b488affd9231b87c20b96822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf1db1cf62ed5a17722626da908c163"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#aadf1db1cf62ed5a17722626da908c163">cppknife::hexToInt</a> (char cc)</td></tr>
+<tr class="separator:aadf1db1cf62ed5a17722626da908c163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d8eb2c32170e4a8b4aa86e9649f4e4a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a7d8eb2c32170e4a8b4aa86e9649f4e4a">cppknife::indexOf</a> (const char *source, int sourceLength, const char *part, int lengthPart, int start, bool ignoreCase)</td></tr>
 <tr class="separator:a7d8eb2c32170e4a8b4aa86e9649f4e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b6826179c14bdd38a18d283a4667b22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a4b6826179c14bdd38a18d283a4667b22">cppknife::indexOf</a> (const std::vector&lt; std::string &gt; &amp;list, const char *element, int elementLength, bool isSorted)</td></tr>
@@ -188,6 +196,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3cdd638859e977f91c480a01f85b6e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ea3025737af8089f990d1869445f3f8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a0ea3025737af8089f990d1869445f3f8">cppknife::truncateCString</a> (const char *text, size_t length)</td></tr>
 <tr class="separator:a0ea3025737af8089f990d1869445f3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a198d5985b40500316066fee548383163"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecppknife.html#a198d5985b40500316066fee548383163">cppknife::unEscapeMetaCharacters</a> (std::string &amp;string)</td></tr>
+<tr class="separator:a198d5985b40500316066fee548383163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>

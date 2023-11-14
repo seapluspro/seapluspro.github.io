@@ -17,9 +17,10 @@ var searchData=
   ['_5fshapeid_14',['_shapeId',['../classcppknife_1_1_shape.html#aac93469ce91cff671d6fc90221f7964f',1,'cppknife::Shape']]],
   ['_5fshapetype_15',['_shapeType',['../classcppknife_1_1_shape.html#a291d956478a1529caa2b58f7d9195123',1,'cppknife::Shape']]],
   ['_5ftolerancefactor_16',['_toleranceFactor',['../classcppknife_1_1_poly_geo_configuration.html#a402c79f473f4e98eae7cf406914de3c1',1,'cppknife::PolyGeoConfiguration']]],
-  ['_5ftransformfromgps_17',['_transformFromGps',['../classcppknife_1_1_gps_translator.html#ae66325930a848090a03780642f3d4b12',1,'cppknife::GpsTranslator']]],
-  ['_5ftransformtogps_18',['_transformToGps',['../classcppknife_1_1_gps_translator.html#ad7d3ee80b048a126e1a22d93fa0600a1',1,'cppknife::GpsTranslator']]],
-  ['_5fwidth_19',['_width',['../classcppknife_1_1_rectangle.html#a32ba74d7ccb2a2859e3ce2af4f9fe609',1,'cppknife::Rectangle']]],
-  ['_5fx_20',['_x',['../classcppknife_1_1_point2_d.html#a651904bdcca9b025475b761ee3415de2',1,'cppknife::Point2D']]],
-  ['_5fy_21',['_y',['../classcppknife_1_1_point2_d.html#ad65178c4b1b53764b98a4d8953c93961',1,'cppknife::Point2D']]]
+  ['_5ftransformations_17',['_transformations',['../classcppknife_1_1_gps_translator.html#a95adf8d5318e411b175a3f0a2f5ff323',1,'cppknife::GpsTranslator']]],
+  ['_5ftransformfromgps_18',['_transformFromGps',['../classcppknife_1_1_gps_translator.html#ae66325930a848090a03780642f3d4b12',1,'cppknife::GpsTranslator']]],
+  ['_5ftransformtogps_19',['_transformToGps',['../classcppknife_1_1_gps_translator.html#ad7d3ee80b048a126e1a22d93fa0600a1',1,'cppknife::GpsTranslator']]],
+  ['_5fwidth_20',['_width',['../classcppknife_1_1_rectangle.html#a32ba74d7ccb2a2859e3ce2af4f9fe609',1,'cppknife::Rectangle']]],
+  ['_5fx_21',['_x',['../classcppknife_1_1_point2_d.html#a651904bdcca9b025475b761ee3415de2',1,'cppknife::Point2D']]],
+  ['_5fy_22',['_y',['../classcppknife_1_1_point2_d.html#ad65178c4b1b53764b98a4d8953c93961',1,'cppknife::Point2D']]]
 ];

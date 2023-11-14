@@ -92,7 +92,7 @@ Inheritance diagram for cppknife::LineReader:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a644ddda5de60d72535fc5063cb62712b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a644ddda5de60d72535fc5063cb62712b">LineReader</a> (const char *filename, Logger &amp;logger, bool removeNewline=true, size_t bufferSize=0x10000)</td></tr>
+<tr class="memitem:a644ddda5de60d72535fc5063cb62712b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a644ddda5de60d72535fc5063cb62712b">LineReader</a> (const char *<a class="el" href="classcppknife_1_1_line_reader.html#ac30897c94225832abd4c4099caf35500">filename</a>, Logger &amp;logger, bool removeNewline=true, size_t bufferSize=0x10000)</td></tr>
 <tr class="separator:a644ddda5de60d72535fc5063cb62712b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9db91a82301e293ec79161a9beb8dd37"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a9db91a82301e293ec79161a9beb8dd37">~LineReader</a> ()</td></tr>
 <tr class="separator:a9db91a82301e293ec79161a9beb8dd37"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -100,13 +100,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abc3e24a4cc78a4e23d46203fdadda36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbc40574f3fc87d19b3cf0e8219ef061"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#acbc40574f3fc87d19b3cf0e8219ef061">estimateLineCount</a> (double factor=1.05)</td></tr>
 <tr class="separator:acbc40574f3fc87d19b3cf0e8219ef061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30897c94225832abd4c4099caf35500"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#ac30897c94225832abd4c4099caf35500">filename</a> () const</td></tr>
+<tr class="separator:ac30897c94225832abd4c4099caf35500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb261e28fedfa5baf4c8fc122f85bc77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#aeb261e28fedfa5baf4c8fc122f85bc77">hasBinaryData</a> (bool localOnly=true)</td></tr>
 <tr class="separator:aeb261e28fedfa5baf4c8fc122f85bc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a9f8396532375ad8bbff103fc1e5338"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a3a9f8396532375ad8bbff103fc1e5338">lookahead</a> (int countLines)</td></tr>
 <tr class="separator:a3a9f8396532375ad8bbff103fc1e5338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae77c2ce7f181c610e862cdc962d45ab0"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#ae77c2ce7f181c610e862cdc962d45ab0">nextLine</a> ()</td></tr>
 <tr class="separator:ae77c2ce7f181c610e862cdc962d45ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1be36c921f96c1d6f0e8f8c327a2de32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a1be36c921f96c1d6f0e8f8c327a2de32">openFile</a> (const char *filename)</td></tr>
+<tr class="memitem:a1be36c921f96c1d6f0e8f8c327a2de32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a1be36c921f96c1d6f0e8f8c327a2de32">openFile</a> (const char *<a class="el" href="classcppknife_1_1_line_reader.html#ac30897c94225832abd4c4099caf35500">filename</a>)</td></tr>
 <tr class="separator:a1be36c921f96c1d6f0e8f8c327a2de32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61db52cfa468e6430a5fd6a30efe34b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_line_reader.html#a61db52cfa468e6430a5fd6a30efe34b9">readLine</a> ()</td></tr>
 <tr class="separator:a61db52cfa468e6430a5fd6a30efe34b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,6 +267,32 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the estimation of the line count </dd></dl>
+
+</div>
+</div>
+<a id="ac30897c94225832abd4c4099caf35500" name="ac30897c94225832abd4c4099caf35500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30897c94225832abd4c4099caf35500">&#9670;&nbsp;</a></span>filename()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * cppknife::LineReader::filename </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the filename. </p><dl class="section return"><dt>Returns</dt><dd>the filename </dd></dl>
 
 </div>
 </div>

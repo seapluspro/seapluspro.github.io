@@ -106,6 +106,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a667458bbe730160802af6de38bfa2f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b3d55db3682ec325d104566bb809455"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a6b3d55db3682ec325d104566bb809455">addNeededBytes</a> (size_t &amp;needed, int indent, int level, bool needsPrefix=true) const =0</td></tr>
 <tr class="separator:a6b3d55db3682ec325d104566bb809455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b503bf6013ba9746950926d4f78601e"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a6b503bf6013ba9746950926d4f78601e">array</a> (bool throwException=true)</td></tr>
+<tr class="separator:a6b503bf6013ba9746950926d4f78601e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e0b5cf63034dccf7dd80c0894b2b7e1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a0e0b5cf63034dccf7dd80c0894b2b7e1">asBool</a> () const</td></tr>
 <tr class="separator:a0e0b5cf63034dccf7dd80c0894b2b7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42030677d7f543a5addf67963b7ed0e7"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a42030677d7f543a5addf67963b7ed0e7">asDouble</a> (double defaultValue=<a class="el" href="classcppknife_1_1_node_json.html#a14fc285972ff3a825b0511906862ef89">UNDEF_DOUBLE</a>) const</td></tr>
@@ -130,6 +132,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a54f7aaad276b6f0f157ecf907a02c160"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af53499197f5f4e1b816077111be8fd13"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#af53499197f5f4e1b816077111be8fd13">hasAttribute</a> (const char *attribute) const</td></tr>
 <tr class="separator:af53499197f5f4e1b816077111be8fd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa691d74cb9d6e0743fac03dc8f793727"><td class="memItemLeft" align="right" valign="top">virtual std::map&lt; std::string, <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#aa691d74cb9d6e0743fac03dc8f793727">map</a> (bool throwException=true)</td></tr>
+<tr class="separator:aa691d74cb9d6e0743fac03dc8f793727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eed47ae63d4b6330b564a8eac13b1ad"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a9eed47ae63d4b6330b564a8eac13b1ad">nodeByPath</a> (const char *path[], <a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559f">JsonDataType</a> expectedType=<a class="el" href="namespacecppknife.html#a1cfbffc375c9dc15f20fc8736125559fa1c1f368cf365a6a3cc48d2041414a6c9">JDT_UNDEFINED</a>, bool throwException=false) const</td></tr>
 <tr class="separator:a9eed47ae63d4b6330b564a8eac13b1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b61c33a6606aaf5804266baea2f02af"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_node_json.html#a4b61c33a6606aaf5804266baea2f02af">toString</a> (int maxLength=40) const =0</td></tr>
@@ -421,6 +425,35 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6b503bf6013ba9746950926d4f78601e" name="a6b503bf6013ba9746950926d4f78601e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b503bf6013ba9746950926d4f78601e">&#9670;&nbsp;</a></span>array()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * &gt; * cppknife::NodeJson::array </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>throwException</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the internal array of a <em><a class="el" href="classcppknife_1_1_array_json.html" title="Stores an array in the Json data tree.">ArrayJson</a></em> instance or <em>nullptr</em>. @ </p>
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_array_json.html#aa0c1b8cdbfabbbd228c3a535ca5c3837">cppknife::ArrayJson</a>.</p>
+
+</div>
+</div>
 <a id="a0e0b5cf63034dccf7dd80c0894b2b7e1" name="a0e0b5cf63034dccf7dd80c0894b2b7e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e0b5cf63034dccf7dd80c0894b2b7e1">&#9670;&nbsp;</a></span>asBool()</h2>
 
@@ -443,7 +476,13 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the bool value of the instance. Throws an exception if the instance is not a value node with bool type. </p>
+<p >Returns the bool value of the instance. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">throwException</td><td><em>true</em>: throws an exception if null is returned. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: no array is available. Otherwise: the internal list of the <em><a class="el" href="classcppknife_1_1_array_json.html" title="Stores an array in the Json data tree.">ArrayJson</a></em> instance. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classcppknife_1_1_value_json.html#a150c2af0b0469ede06a612945da81492">cppknife::ValueJson</a>.</p>
 
@@ -1031,6 +1070,41 @@ Protected Attributes</h2></td></tr>
 <p >Returns whether the Json value is null. </p>
 
 <p>Reimplemented in <a class="el" href="classcppknife_1_1_value_json.html#a6fd69267ca0aeae2c6fb7c473009733f">cppknife::ValueJson</a>.</p>
+
+</div>
+</div>
+<a id="aa691d74cb9d6e0743fac03dc8f793727" name="aa691d74cb9d6e0743fac03dc8f793727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa691d74cb9d6e0743fac03dc8f793727">&#9670;&nbsp;</a></span>map()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; std::string, <a class="el" href="classcppknife_1_1_node_json.html">NodeJson</a> * &gt; * cppknife::NodeJson::map </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>throwException</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the internal map of a <em><a class="el" href="classcppknife_1_1_node_json.html" title="The base class for an node in the Json data tree.">NodeJson</a></em> instance of null for other nodes. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">throwException</td><td><em>true</em>: throws an exception if null is returned. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><em>nullptr</em>: no map available. Otherwise: the map of the <em><a class="el" href="classcppknife_1_1_node_json.html" title="The base class for an node in the Json data tree.">NodeJson</a></em> instance. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classcppknife_1_1_map_json.html#aa6b26c773eff8adddecd0a6a9d0dbefa">cppknife::MapJson</a>.</p>
 
 </div>
 </div>

@@ -85,10 +85,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a701427ead39d5d8b608318e70d3f1c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d735d2b41463eac2f2ffa4e8f9b16b8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_gps_translator.html#a6d735d2b41463eac2f2ffa4e8f9b16b8">~GpsTranslator</a> ()</td></tr>
 <tr class="separator:a6d735d2b41463eac2f2ffa4e8f9b16b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8590b2f93de94503cdfcdff49c1573"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_gps_translator.html#aeb8590b2f93de94503cdfcdff49c1573">fromGpsRaw</a> (const <a class="el" href="classcppknife_1_1_gps_coordinates.html">GpsCoordinates</a> &amp;input, <a class="el" href="classcppknife_1_1_east_north_coordinates.html">EastNorthCoordinates</a> &amp;output) const</td></tr>
-<tr class="separator:aeb8590b2f93de94503cdfcdff49c1573"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b8e2a617fe02442b836a550ffb49e3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_gps_translator.html#a6b8e2a617fe02442b836a550ffb49e3a">toGpsRaw</a> (const <a class="el" href="classcppknife_1_1_east_north_coordinates.html">EastNorthCoordinates</a> &amp;input, <a class="el" href="classcppknife_1_1_gps_coordinates.html">GpsCoordinates</a> &amp;output) const</td></tr>
-<tr class="separator:a6b8e2a617fe02442b836a550ffb49e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa36b30acfcfa1fbb2337fb71cc18fb09"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_gps_translator.html#aa36b30acfcfa1fbb2337fb71cc18fb09">transformations</a> () const</td></tr>
+<tr class="separator:aa36b30acfcfa1fbb2337fb71cc18fb09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76badb2587a62f1d4e13c2b868e2a82b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_gps_translator.html#a76badb2587a62f1d4e13c2b868e2a82b">fromGpsRaw</a> (const <a class="el" href="classcppknife_1_1_gps_coordinates.html">GpsCoordinates</a> &amp;input, <a class="el" href="classcppknife_1_1_east_north_coordinates.html">EastNorthCoordinates</a> &amp;output)</td></tr>
+<tr class="separator:a76badb2587a62f1d4e13c2b868e2a82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc0d955a570f732401bbf42dc475df9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_gps_translator.html#acc0d955a570f732401bbf42dc475df9d">toGpsRaw</a> (const <a class="el" href="classcppknife_1_1_east_north_coordinates.html">EastNorthCoordinates</a> &amp;input, <a class="el" href="classcppknife_1_1_gps_coordinates.html">GpsCoordinates</a> &amp;output)</td></tr>
+<tr class="separator:acc0d955a570f732401bbf42dc475df9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -106,6 +108,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ae66325930a848090a03780642f3d4b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d3ee80b048a126e1a22d93fa0600a1"><td class="memItemLeft" align="right" valign="top">OGRCoordinateTransformation *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_gps_translator.html#ad7d3ee80b048a126e1a22d93fa0600a1">_transformToGps</a></td></tr>
 <tr class="separator:ad7d3ee80b048a126e1a22d93fa0600a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95adf8d5318e411b175a3f0a2f5ff323"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcppknife_1_1_gps_translator.html#a95adf8d5318e411b175a3f0a2f5ff323">_transformations</a></td></tr>
+<tr class="separator:a95adf8d5318e411b175a3f0a2f5ff323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Implements a translator from GPS to some EPSG/ESDI coordinates systems and vice versa. </p>
@@ -164,8 +168,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aeb8590b2f93de94503cdfcdff49c1573" name="aeb8590b2f93de94503cdfcdff49c1573"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8590b2f93de94503cdfcdff49c1573">&#9670;&nbsp;</a></span>fromGpsRaw()</h2>
+<a id="a76badb2587a62f1d4e13c2b868e2a82b" name="a76badb2587a62f1d4e13c2b868e2a82b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76badb2587a62f1d4e13c2b868e2a82b">&#9670;&nbsp;</a></span>fromGpsRaw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,15 +189,15 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6b8e2a617fe02442b836a550ffb49e3a" name="a6b8e2a617fe02442b836a550ffb49e3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b8e2a617fe02442b836a550ffb49e3a">&#9670;&nbsp;</a></span>toGpsRaw()</h2>
+<a id="acc0d955a570f732401bbf42dc475df9d" name="acc0d955a570f732401bbf42dc475df9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc0d955a570f732401bbf42dc475df9d">&#9670;&nbsp;</a></span>toGpsRaw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,10 +217,36 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa36b30acfcfa1fbb2337fb71cc18fb09" name="aa36b30acfcfa1fbb2337fb71cc18fb09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa36b30acfcfa1fbb2337fb71cc18fb09">&#9670;&nbsp;</a></span>transformations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::GpsTranslator::transformations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the number of transformations (calls of <a class="el" href="classcppknife_1_1_gps_translator.html#acc0d955a570f732401bbf42dc475df9d">toGpsRaw()</a> or <a class="el" href="classcppknife_1_1_gps_translator.html#a76badb2587a62f1d4e13c2b868e2a82b">fromGpsRaw()</a>. </p><dl class="section return"><dt>Returns</dt><dd>the number of translations </dd></dl>
 
 </div>
 </div>
@@ -320,6 +350,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">OGRSpatialReference cppknife::GpsTranslator::_other</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95adf8d5318e411b175a3f0a2f5ff323" name="a95adf8d5318e411b175a3f0a2f5ff323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95adf8d5318e411b175a3f0a2f5ff323">&#9670;&nbsp;</a></span>_transformations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cppknife::GpsTranslator::_transformations</td>
         </tr>
       </table>
   </td>
